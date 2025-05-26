@@ -8,12 +8,12 @@
     * To create a maskable icon: https://maskable.app/editor
 
 # AUTHOR
-![Prasanth Logo](readme/author.png)<br />
+![Prasanth Logo](public/readme/author.png)<br />
 [S.Prasanth](www.linkedin.com/in/prasanthse1996)
 <br />
-Co-Founder & CEO
-Senior Game Developer
-Techserw Labs (PVT) Ltd 
-B.Sc. (Hons) in Software Engineering (First Class)
+Co-Founder & CEO<br />
+Senior Game Developer<br />
+Techserw Labs (PVT) Ltd<br />
+B.Sc. (Hons) in Software Engineering (First Class)<br />
 University of Kelaniya 
 
