@@ -6,24 +6,22 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 2. [Author](#AUTHOR)
 3. [Support](#SUPPORT)
 
-### PERSONALIZATION
+## PERSONALIZATION
 1. Find the index.html inside the public folder and modify,
     * Meta description
     * Meta keywords
     * Title
-2. Replace the logo.png, logo192.png, logo512.png, favicon.ico and maskable.png files with your preferences
+2. Replace the logo.png, logo192.png, logo512.png, favicon.ico and maskable.png files inside the public folder with your preferences
     * To create a favicon: https://favicon.io/favicon-converter
     * To create a maskable icon: https://maskable.app/editor
 
-### AUTHOR
+## AUTHOR
 ![Prasanth Logo](public/readme/author.png)<br />
-[S.Prasanth](www.linkedin.com/in/prasanthse1996)
-<br />
-Co-Founder & CEO<br />
+[Sivakumar Prasanth](www.linkedin.com/in/prasanthse1996)<br />
+Co-Founder & CEO of [Techserw Labs (PVT) Ltd](https://techserw.com)<br />
 Senior Game Developer<br />
-Techserw Labs (PVT) Ltd<br />
 B.Sc. (Hons) in Software Engineering (First Class)<br />
 University of Kelaniya
 
-### SUPPORT
+## SUPPORT
 Make sure you show some love by giving ⭐ to my repository
