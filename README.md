@@ -1,0 +1,8 @@
+# AREAS TO PERSONALIZE
+1. Find the index.html inside the public folder and modify,
+    * Meta description
+    * Meta keywords
+    * Title
+2. Replace the logo.png, logo192.png, logo512.png, favicon.ico and maskable.png files with your preferences
+    * To create a favicon: https://favicon.io/favicon-converter
+    * To create a maskable icon: https://maskable.app/editor
