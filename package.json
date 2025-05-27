@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "cra-template-pwa": "2.0.0",
+    "i18next": "^25.2.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-i18next": "^15.5.2",
     "react-scripts": "5.0.1"
   },
   "scripts": {
