@@ -18,10 +18,12 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 ## AUTHOR
 ![Prasanth Logo](public/readme/author.png)<br />
 [Sivakumar Prasanth](www.linkedin.com/in/prasanthse1996)<br />
-Co-Founder & CEO of [Techserw Labs (PVT) Ltd](https://techserw.com)<br />
+Co-Founder & CEO<br /> 
+[Techserw Labs (PVT) Ltd](https://techserw.com)<br />
 Senior Game Developer<br />
 B.Sc. (Hons) in Software Engineering (First Class)<br />
 University of Kelaniya
 
 ## SUPPORT
-Make sure you show some love by giving ⭐ to my repository
+* Make sure you show some love by giving ⭐ to my repository
+* Support my project? [Buy me a coffee](https://github.com/sponsors/prasanthse?frequency=recurring&sponsor=prasanthse)
