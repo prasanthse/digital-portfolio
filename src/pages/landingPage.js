@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import TopNavigationLayout from "../sections/topNavigation/topNavigationLayout";
+import HeroLayout from "../sections/hero/heroLayout";
 
 const LandingPage = () => {
     <Helmet>
@@ -9,6 +10,8 @@ const LandingPage = () => {
     return(
         <>
             <TopNavigationLayout />
+
+            <HeroLayout />
         </>
     );
 }

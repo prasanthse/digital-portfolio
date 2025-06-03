@@ -165,6 +165,16 @@ const TopNavigationBar = () => {
                                     </ListItem>
                                 })
                             }
+
+                            <ButtonComponent 
+                                label={t(`${topNavigationLocale}.contact`)}
+                                onClick={contactMe}
+                                sx={{
+                                    mt: 1,
+                                    py: 2,
+                                    width: '100%'
+                                }}
+                            />
                         </List>
                     </Drawer>
                 </Stack>

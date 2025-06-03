@@ -4,5 +4,11 @@
         "about": "About Me",
         "projects": "Projects",
         "contact": "Contact Me"
+    },
+    "hero": {
+        "welcome": "Hy! I Am",
+        "name": "Brunao Dev",
+        "description": "Product designer and digital creative director working in design field for 7 years so far, specialize user interface design.",
+        "hireMe": "Hire Me"
     }
 }
