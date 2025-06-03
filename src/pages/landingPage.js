@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import TopNavigationLayout from "../sections/topNavigation/topNavigationLayout";
 
 const LandingPage = () => {
     <Helmet>
@@ -7,7 +8,7 @@ const LandingPage = () => {
 
     return(
         <>
-            <h1>Home page</h1>
+            <TopNavigationLayout />
         </>
     );
 }
