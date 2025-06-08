@@ -1,0 +1,15 @@
+@keyframes rotateAnimation {
+    50% {rotate: -30deg;}
+    100% {rotate: 30deg;}
+}
+
+@keyframes bounceAnimation {
+    50% {scale: 1.1}
+    100% {scale: 1}
+}
+
+@keyframes translateAnimation {
+    100% {
+        transform: translate(-200px, 100px) rotate(360deg);
+    }
+}
