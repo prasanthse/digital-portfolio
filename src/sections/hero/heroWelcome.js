@@ -19,7 +19,7 @@ const HeroWelcome = () => {
                 textAlign='left'
                 justifyContent='center'
                 className='layoutMarginX'
-                pt={5}
+                pt={{xs: 10, md: 5}}
                 pl={5}
             >
                 {/* Welcome */}

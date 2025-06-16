@@ -11,7 +11,7 @@ const HeroCard = ({
             <Card
                 elevation={10}
                 sx={{
-                    borderRadius: 4,
+                    borderRadius: {xs: 4, md: 2, lg: 4},
                     position: 'absolute',
                     display: 'inline-block',
                     width: 'fit-content',
@@ -19,13 +19,20 @@ const HeroCard = ({
                 }}
             >
                 <Stack
-                    p={2}
+                    p={{xs: 2, md: 1, lg: 2}}
                     direction='row'
                     justifyContent='center'
                     alignItems='center'
                     bgcolor='white'
                 >
-                    <Avatar alt="country" src={logo} />
+                    <Avatar 
+                        alt="country" 
+                        src={logo}
+                        sx={{
+                            width: {xs: 40, md: 20, lg: 40},
+                            height: {xs: 40, md: 20, lg: 40}
+                        }}
+                    />
 
                     <Stack
                         direction='column'
@@ -33,12 +40,15 @@ const HeroCard = ({
                         alignItems='start'
                         px={1}
                     >
-                        <Typography fontWeight={600}>
+                        <Typography 
+                            fontWeight={600}
+                            fontSize={{xs: 16, md: 12, lg: 16}}
+                        >
                             {label}
                         </Typography>
 
                         <Typography 
-                            fontSize={10} 
+                            fontSize={{xs: 10, md: 8, lg: 10}}
                             mt={-0.5}
                             color="#222222"
                         >
