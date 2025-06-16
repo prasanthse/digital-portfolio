@@ -1,28 +1,60 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .techStackOne {
-        width: 18%;
+        width: 20%;
+    }
+
+    .techStackTwo {
+        width: 10%;
+    }
+
+    .techStackThree {
+        width: 12%;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .techStackOne {
-        width: 18%;
+        width: 20%;
+    }
+
+    .techStackTwo {
+        width: 10%;
+    }
+
+    .techStackThree {
+        width: 12%;
     }
 }
 
 /* Large devices (laptops/desktops, 900px and up) */
 @media only screen and (min-width: 900px) {
     .techStackOne {
-        width: 7%;
+        width: 17%;
+    }
+
+    .techStackTwo {
+        width: 10%;
+    }
+
+    .techStackThree {
+        width: 12%;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .techStackOne {
-        width: 8%;
+        width: 20%;
+    }
+
+    .techStackTwo {
+        width: 10%;
+    }
+
+    .techStackThree {
+        width: 12%;
     }
 }
 
@@ -32,12 +64,12 @@
 }
 
 @keyframes bounceAnimation {
-    50% {scale: 1.1}
+    50% {scale: 1.25}
     100% {scale: 1}
 }
 
 @keyframes translateAnimation {
     100% {
-        transform: translate(-200px, 100px) rotate(360deg);
+        transform: rotate(360deg);
     }
 }

@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import { Stack } from "@mui/material";
 import './heroGallery.css';
 import HeroCard from "./heroCard";
@@ -12,7 +13,7 @@ const HeroGallery = () => {
             <Stack
                 className='layoutMarginX'
                 pt={5}
-                bgcolor='red'
+                position='relative'
             >
                 {/* Tech stack 01 */}
                 <img 
@@ -21,7 +22,8 @@ const HeroGallery = () => {
                     className="techStackOne"
                     style={{
                         position: 'absolute',
-                        transform: 'translate(10px, 0px)',
+                        left: '7.5%',
+                        top: '10%',
                         rotate: '30deg',
                         animation: 'rotateAnimation 2s infinite'
                     }}
@@ -31,12 +33,11 @@ const HeroGallery = () => {
                 <img 
                     src="/images/hero icons/tech-stack-02.png" 
                     alt="Tech stack"
+                    className="techStackTwo"
                     style={{
-                        width: '50px',
                         position: 'absolute',
-                        right: 0,
-                        transform: 'translate(-200px, 100px)',
-                        transformOrigin: 'center',
+                        top: '30%',
+                        right: '25%',
                         animation: 'translateAnimation 3s infinite linear'
                     }}
                 />
@@ -45,18 +46,19 @@ const HeroGallery = () => {
                 <img 
                     src="/images/hero icons/tech-stack-03.png" 
                     alt="Tech stack"
+                    className="techStackThree"
                     style={{
-                        width: '75px',
                         position: 'absolute',
-                        transform: 'translate(75px, 150px)',
-                        animation: 'bounceAnimation 3s infinite'
+                        top: '45%',
+                        left: '20%',
+                        animation: 'bounceAnimation 1s infinite'
                     }}
                 />
 
                 {/* My Image */}
                 <img 
                     src="/images/my photos/hero.png" 
-                    alt="My photo"
+                    alt="My image"
                     style={{
                         width: '100%'
                     }}
@@ -68,7 +70,9 @@ const HeroGallery = () => {
                     label={t(`${heroLocale}.dob`)}
                     value="1996/03/15"
                     cardSX={{
-                        transform: 'translate(375px, 175px)',
+                        position: 'absolute',
+                        right: '10%',
+                        top: '50%'
                     }}
                 />
 
@@ -78,7 +82,9 @@ const HeroGallery = () => {
                     label={t(`${heroLocale}.country`)}
                     value="Sri Lanka"
                     cardSX={{
-                        transform: 'translate(-50px, 370px)',
+                        position: 'absolute',
+                        bottom: -35,
+                        left: '10%',
                     }}
                 />
             </Stack>
