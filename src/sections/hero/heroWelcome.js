@@ -2,6 +2,7 @@ import { Stack, Typography } from "@mui/material";
 import { useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import ButtonComponent from "../../components/buttonComponent";
+import content from '../../data/profile.json';
 
 const HeroWelcome = () => {
     const { t } = useTranslation();
@@ -39,7 +40,7 @@ const HeroWelcome = () => {
                     lineHeight={0.75}
                     pb={{xs: 3, md: 2, lg: 3}}
                 >
-                   {t(`${heroLocale}.name`)}
+                   {content.hero.name}
                 </Typography>
 
                 {/* Description */}
@@ -49,7 +50,7 @@ const HeroWelcome = () => {
                     fontSize={{xs: 16, md: 12, lg: 16}}
                     lineHeight={1.5}
                 >
-                    {t(`${heroLocale}.description`)}
+                    {content.hero.about}
                 </Typography>
 
                 {/* Hire Me */}

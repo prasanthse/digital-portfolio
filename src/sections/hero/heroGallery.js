@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from "react";
 import { Stack } from "@mui/material";
 import './heroGallery.css';
 import HeroCard from "./heroCard";
 import { useTranslation } from "react-i18next";
+import content from '../../data/profile.json';
 
 const HeroGallery = () => {
     const { t } = useTranslation();
@@ -68,7 +68,7 @@ const HeroGallery = () => {
                 <HeroCard 
                     logo="/images/hero icons/birthday.png"
                     label={t(`${heroLocale}.dob`)}
-                    value="1996/03/15"
+                    value={content.hero.dob}
                     cardSX={{
                         position: 'absolute',
                         right: '10%',
@@ -80,7 +80,7 @@ const HeroGallery = () => {
                 <HeroCard 
                     logo="/images/hero icons/country.png"
                     label={t(`${heroLocale}.country`)}
-                    value="Sri Lanka"
+                    value={content.hero.country}
                     cardSX={{
                         position: 'absolute',
                         bottom: -35,
