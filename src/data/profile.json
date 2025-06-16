@@ -4,5 +4,12 @@
         "about": "Product designer and digital creative director working in design field for 7 years so far, specialize user interface design.",
         "country": "Sri Lanka",
         "dob": "1990/01/01"
+    },
+    "connect_me": {
+        "email": "mailto:abc@gmail.com",
+        "github": "https://github.com",
+        "medium": "https://medium.com",
+        "linkedIn": "https://linkedin.com",
+        "other": "https://upwork.com"
     }
 }
