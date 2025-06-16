@@ -12,24 +12,39 @@ const HeroGallery = () => {
             <Stack
                 className='layoutMarginX'
                 pt={5}
+                bgcolor='red'
             >
                 {/* Tech stack 01 */}
                 <img 
                     src="/images/hero icons/tech-stack-01.png" 
-                    alt="My photo"
+                    alt="Tech stack"
+                    className="techStackOne"
                     style={{
-                        width: '100px',
                         position: 'absolute',
-                        transform: 'translate(0px, 0px)',
+                        transform: 'translate(10px, 0px)',
                         rotate: '30deg',
                         animation: 'rotateAnimation 2s infinite'
+                    }}
+                />
+
+                {/* Tech stack 02 */}
+                <img 
+                    src="/images/hero icons/tech-stack-02.png" 
+                    alt="Tech stack"
+                    style={{
+                        width: '50px',
+                        position: 'absolute',
+                        right: 0,
+                        transform: 'translate(-200px, 100px)',
+                        transformOrigin: 'center',
+                        animation: 'translateAnimation 3s infinite linear'
                     }}
                 />
 
                 {/* Tech stack 03 */}
                 <img 
                     src="/images/hero icons/tech-stack-03.png" 
-                    alt="My photo"
+                    alt="Tech stack"
                     style={{
                         width: '75px',
                         position: 'absolute',
@@ -44,20 +59,6 @@ const HeroGallery = () => {
                     alt="My photo"
                     style={{
                         width: '100%'
-                    }}
-                />
-
-                {/* Tech stack 02 */}
-                <img 
-                    src="/images/hero icons/tech-stack-02.png" 
-                    alt="My photo"
-                    style={{
-                        width: '50px',
-                        position: 'absolute',
-                        right: 0,
-                        transform: 'translate(-200px, 100px)',
-                        transformOrigin: 'center',
-                        animation: 'translateAnimation 3s infinite linear'
                     }}
                 />
 
