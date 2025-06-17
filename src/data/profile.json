@@ -5,11 +5,31 @@
         "country": "Sri Lanka",
         "dob": "1990/01/01"
     },
-    "connect_me": {
-        "email": "mailto:abc@gmail.com",
-        "github": "https://github.com",
-        "medium": "https://medium.com",
-        "linkedIn": "https://linkedin.com",
-        "other": "https://upwork.com"
-    }
+    "connect_me": [
+        {
+            "label": "Email",
+            "link": "mailto:abc@gmail.com",
+            "path": "/images/connect me/gmail.png"
+        },
+        {
+            "label": "Upwork",
+            "link": "https://upwork.com",
+            "path": "/images/connect me/upwork.png"
+        },
+        {
+            "label": "Github",
+            "link": "https://github.com",
+            "path": "/images/connect me/github.png"
+        },
+        {
+            "label": "Medium",
+            "link": "https://medium.com",
+            "path": "/images/connect me/medium.png"
+        },
+        {
+            "label": "Linkedin",
+            "link": "https://linkedin.com",
+            "path": "/images/connect me/linkedin.png"
+        }
+    ]
 }

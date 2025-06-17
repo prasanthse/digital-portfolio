@@ -1,7 +1,19 @@
-import { Avatar, IconButton, Stack } from "@mui/material";
+import { useEffect, useRef, useState } from "react";
+import { Avatar, IconButton, Stack, Tooltip } from "@mui/material";
 import content from '../../data/profile.json';
 
+const minLogoSize = 20;
+const maxLogoSize = 70;
+
 const ConnectWithMeLogos = () => {
+    const [logoSizeOffset, setLogoSizeOffset] = useState(0);
+
+    useEffect(() => {
+        if(content){
+            setLogoSizeOffset((maxLogoSize - minLogoSize) / content.connect_me.length);
+        }
+    }, [content]);
+
     const getLogos = (label, src, width, link) => 
     <IconButton 
         aria-label={label}
@@ -9,18 +21,18 @@ const ConnectWithMeLogos = () => {
             window.open(link, '_blank');
         }}
         className="onMouseOver"
-        sx={{
-            boxShadow: '0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);'
-        }}
     >
-        <Avatar 
-            alt={label} 
-            src={src} 
-            sx={{
-                width: width,
-                height: width
-            }}
-        />
+        <Tooltip title={label}>
+            <Avatar 
+                alt={label} 
+                src={src} 
+                sx={{
+                    width: width,
+                    height: width,
+                    boxShadow: '0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);'
+                }}
+            />
+        </Tooltip>
     </IconButton>
 
     return (
@@ -29,16 +41,18 @@ const ConnectWithMeLogos = () => {
                 direction='row'
                 justifyContent='start'
                 alignItems='center'
-                spacing={1}
+                spacing={0.75}
                 className="layoutMarginX"
                 pl={5}
                 pb={2}
             >
-                {getLogos("Email", "/images/connect me/gmail.png", 20, content.connect_me.email)}
-                {getLogos("Upwork", "/images/connect me/upwork.png", 30, content.connect_me.other)}
-                {getLogos("Github", "/images/connect me/github.png", 40, content.connect_me.github)}
-                {getLogos("Medium", "/images/connect me/medium.png", 50, content.connect_me.medium)}
-                {getLogos("Linkedin", "/images/connect me/linkedin.png", 60, content.connect_me.linkedIn)}
+                {
+                    content.connect_me.map((item, index) => {
+                        return <div key={index}>
+                            {getLogos(item.label, item.path, 20 + (index * logoSizeOffset), item.link)}
+                        </div>
+                    })
+                }
             </Stack>
         </>
     );
