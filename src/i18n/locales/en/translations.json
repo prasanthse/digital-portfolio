@@ -11,5 +11,9 @@
         "job_role": "Profession",
         "degree": "Academic"
     },
-    "connect_with_me": "My Professional Presence"
+    "connect_with_me": "My Online Footprint",
+    "about_me": {
+        "prefix": "My Professional",
+        "suffix": "Summary"
+    }
 }

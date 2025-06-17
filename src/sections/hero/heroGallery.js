@@ -12,7 +12,6 @@ const HeroGallery = () => {
         <>
             <Stack
                 className='layoutMarginX'
-                pt={5}
                 position='relative'
             >
                 {/* Tech stack 01 */}

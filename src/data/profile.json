@@ -12,6 +12,11 @@
             "path": "/images/connect me/gmail.png"
         },
         {
+            "label": "Phone",
+            "link": "https://wa.link/ateauh",
+            "path": "/images/connect me/phone-call.png"
+        },
+        {
             "label": "Upwork",
             "link": "https://upwork.com",
             "path": "/images/connect me/upwork.png"
@@ -31,5 +36,25 @@
             "link": "https://linkedin.com",
             "path": "/images/connect me/linkedin.png"
         }
-    ]
+    ],
+    "about_me": {
+        "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+        "info": [
+            {
+                "label": "Gender",
+                "value": "Male",
+                "path": "/images/icons/gender.png"
+            },
+            {
+                "label": "Date of Birth",
+                "value": "1990/01/01",
+                "path": "/images/icons/birthday.png"
+            },
+            {
+                "label": "Address",
+                "value": "22/50, Main Street, Negombo, Sri Lanka",
+                "path": "/images/icons/address.png"
+            }
+        ]
+    }
 }

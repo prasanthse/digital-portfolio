@@ -19,16 +19,15 @@ const HeroWelcome = () => {
                 alignItems='start'
                 textAlign='left'
                 justifyContent='center'
-                className='layoutMarginX'
+                className='layoutMarginX layoutPaddingLeft'
                 pt={{xs: 10, md: 5}}
-                pl={5}
             >
                 {/* Welcome */}
                 <Typography
                     fontWeight={800}
-                    fontSize={{xs: 60, md: 30, lg: 60}}
+                    fontSize={{xs: 30, md: 30, lg: 60}}
                     lineHeight={0.75}
-                    pb={{xs: 3, md: 1, lg: 3}}
+                    pb={{xs: 1.5, md: 1, lg: 3}}
                 >
                     {t(`${heroLocale}.welcome`)}
                 </Typography>
@@ -36,9 +35,9 @@ const HeroWelcome = () => {
                 {/* Name */}
                 <Typography
                     fontWeight={800}
-                    fontSize={{xs: 60, md: 30, lg: 60}}
+                    fontSize={{xs: 30, md: 30, lg: 60}}
                     lineHeight={0.75}
-                    pb={{xs: 3, md: 2, lg: 3}}
+                    pb={{xs: 2, md: 2, lg: 3}}
                 >
                    {content.hero.name}
                 </Typography>
@@ -58,7 +57,7 @@ const HeroWelcome = () => {
                     label={t(`${heroLocale}.hireMe`)}
                     onClick={hireMe}
                     sx={{
-                        mt: {xs: 5, md: 2, lg: 5},
+                        mt: {xs: 2, md: 2, lg: 5},
                         mb: {xs: 5, md: 5, lg: 0}
                     }}
                 />

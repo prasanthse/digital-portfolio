@@ -16,6 +16,31 @@ body {
   }
 }
 
+@media only screen and (max-width: 900px){
+  .layoutPaddingLeft{
+    padding-left: 0px;
+  }
+
+  .layoutPaddingTop{
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 900px){
+  .layoutPaddingLeft{
+    padding-left: 40px;
+  }
+  
+  .layoutPaddingTop{
+    padding-top: 75px;
+  }
+}
+
 .onMouseOver:hover{
   transform: scale(1.1);
+}
+
+.hideScrollBar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }

@@ -17,6 +17,7 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 3. Replace the existing images and the three main tech stack logos inside the public/images folder. Ensure that the new images have the same names, extensions, and dimensions as the originals to prevent any scaling issues.
 4. Enter all your personal information in the profile.json file located in the src/data folder. This file controls the content displayed on your portfolio site, so updating it will dynamically reflect your personal details on the site.
 5. To change section titles or labels, edit the translations.json file found in src/i18n/locales/en. This file handles the textual content of your site and supports localization.
+6. To change your theme color, modify the theme.js file inside src/theme folder.
 
 ## AUTHOR
 ![Prasanth Logo](public/readme/author.png)<br />

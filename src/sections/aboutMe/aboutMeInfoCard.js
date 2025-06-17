@@ -1,36 +1,41 @@
-import { Avatar, Card, Stack, Typography } from "@mui/material";
+import { BorderStyle } from "@mui/icons-material";
+import { Avatar, Card, Stack, Typography, useTheme } from "@mui/material";
 
-const HeroCard = ({
+const AboutMeInfoCard = ({
     label,
     value,
     logo,
-    cardSX
+    cardSX,
+    index
 }) => {
+    const theme = useTheme();
+
     return (
         <>
             <Card
-                elevation={10}
+                elevation={0}
                 sx={{
-                    borderRadius: {xs: 2, md: 2, lg: 4},
-                    position: 'absolute',
-                    display: 'inline-block',
-                    width: 'fit-content',
+                    borderRadius: {xs: 4, md: 2, lg: 4},
                     ...cardSX
                 }}
             >
                 <Stack
-                    p={{xs: 1, md: 1, lg: 2}}
+                    p={{xs: 2, md: 1, lg: 2}}
                     direction='row'
-                    justifyContent='center'
+                    justifyContent='start'
                     alignItems='center'
                     bgcolor='white'
+                    sx={{
+                        border: index === 0 ? `12px solid` : 0,
+                        borderImage: index === 0 ? `linear-gradient(to right, rgb(255, 255, 255) 0%, ${theme.palette.primary.main}) 1` : 'transparent',
+                    }}
                 >
                     <Avatar 
                         alt="country" 
                         src={logo}
                         sx={{
-                            width: {xs: 20, md: 20, lg: 40},
-                            height: {xs: 20, md: 20, lg: 40}
+                            width: {xs: 40, md: 40, lg: 60},
+                            height: {xs: 40, md: 40, lg: 60}
                         }}
                     />
 
@@ -39,18 +44,20 @@ const HeroCard = ({
                         justifyContent='space-between'
                         alignItems='start'
                         px={1}
+                        ml={2.5}
                     >
                         <Typography 
                             fontWeight={600}
-                            fontSize={{xs: 12, md: 12, lg: 16}}
+                            fontSize={{xs: 16, md: 12, lg: 18}}
                         >
                             {label}
                         </Typography>
 
                         <Typography 
-                            fontSize={{xs: 8, md: 8, lg: 10}}
+                            fontSize={{xs: 10, md: 8, lg: 12}}
                             mt={-0.1}
                             color="#222222"
+                            width='100%'
                             style={{ 
                                 wordWrap: "break-word",
                                 lineHeight: 1.25
@@ -65,4 +72,4 @@ const HeroCard = ({
     );
 }
 
-export default HeroCard;
+export default AboutMeInfoCard;

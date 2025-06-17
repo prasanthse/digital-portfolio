@@ -23,8 +23,8 @@ const ConnectWithMeLayout = () => {
                     <Typography
                         fontWeight={600}
                         fontSize={{xs: 16, md: 12, lg: 16}}
-                        pl={5}
                         pb={1}
+                        className="layoutPaddingLeft"
                     >
                         {t(`connect_with_me`)}
                     </Typography>

@@ -29,7 +29,8 @@ const ConnectWithMeLogos = () => {
                 sx={{
                     width: width,
                     height: width,
-                    boxShadow: '0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);'
+                    boxShadow: '0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);',
+                    bgcolor: 'white'
                 }}
             />
         </Tooltip>
@@ -42,9 +43,12 @@ const ConnectWithMeLogos = () => {
                 justifyContent='start'
                 alignItems='center'
                 spacing={0.75}
-                className="layoutMarginX"
-                pl={5}
+                className="layoutMarginX layoutPaddingLeft hideScrollBar"
                 pb={2}
+                sx={{
+                    overflowX: 'scroll',
+                    width: '85%'
+                }}
             >
                 {
                     content.connect_me.map((item, index) => {
