@@ -8,8 +8,8 @@
     "hero": {
         "welcome": "Hy! I Am",
         "hireMe": "Hire Me",
-        "country": "Country",
-        "dob": "Date of Birth"
+        "job_role": "Profession",
+        "degree": "Academic"
     },
     "connect_with_me": "My Professional Presence"
 }

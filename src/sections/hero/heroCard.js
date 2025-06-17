@@ -4,7 +4,8 @@ const HeroCard = ({
     label,
     value,
     logo,
-    cardSX
+    cardSX,
+    width=100
 }) => {
     return (
         <>
@@ -51,6 +52,8 @@ const HeroCard = ({
                             fontSize={{xs: 10, md: 8, lg: 10}}
                             mt={-0.5}
                             color="#222222"
+                            width={width}
+                            style={{ wordWrap: "break-word" }}
                         >
                             {value}
                         </Typography>

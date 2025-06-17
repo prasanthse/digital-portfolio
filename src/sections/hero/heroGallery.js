@@ -17,7 +17,7 @@ const HeroGallery = () => {
             >
                 {/* Tech stack 01 */}
                 <img 
-                    src="/images/hero icons/tech-stack-01.png" 
+                    src="/images/icons/tech-stack-01.png" 
                     alt="Tech stack"
                     className="techStackOne"
                     style={{
@@ -31,7 +31,7 @@ const HeroGallery = () => {
 
                 {/* Tech stack 02 */}
                 <img 
-                    src="/images/hero icons/tech-stack-02.png" 
+                    src="/images/icons/tech-stack-02.png" 
                     alt="Tech stack"
                     className="techStackTwo"
                     style={{
@@ -44,7 +44,7 @@ const HeroGallery = () => {
 
                 {/* Tech stack 03 */}
                 <img 
-                    src="/images/hero icons/tech-stack-03.png" 
+                    src="/images/icons/tech-stack-03.png" 
                     alt="Tech stack"
                     className="techStackThree"
                     style={{
@@ -64,11 +64,11 @@ const HeroGallery = () => {
                     }}
                 />
 
-                {/* Date of birth */}
+                {/* Degree */}
                 <HeroCard 
-                    logo="/images/hero icons/birthday.png"
-                    label={t(`${heroLocale}.dob`)}
-                    value={content.hero.dob}
+                    logo="/images/icons/graduation.png"
+                    label={t(`${heroLocale}.degree`)}
+                    value={content.hero.degree}
                     cardSX={{
                         position: 'absolute',
                         right: '10%',
@@ -76,11 +76,11 @@ const HeroGallery = () => {
                     }}
                 />
 
-                {/* Country */}
+                {/* Job Role */}
                 <HeroCard 
-                    logo="/images/hero icons/country.png"
-                    label={t(`${heroLocale}.country`)}
-                    value={content.hero.country}
+                    logo="/images/icons/role-model.png"
+                    label={t(`${heroLocale}.job_role`)}
+                    value={content.hero.job_role}
                     cardSX={{
                         position: 'absolute',
                         bottom: -35,
