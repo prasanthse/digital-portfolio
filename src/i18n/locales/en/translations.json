@@ -12,8 +12,6 @@
         "degree": "Academic"
     },
     "connect_with_me": "My Online Footprint",
-    "about_me": {
-        "prefix": "My Professional",
-        "suffix": "Summary"
-    }
+    "about_me": "My Professional Summary",
+    "academic": "My Academic Career"
 }
