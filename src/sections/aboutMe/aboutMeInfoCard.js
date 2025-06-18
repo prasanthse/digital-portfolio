@@ -1,5 +1,5 @@
 import { BorderStyle } from "@mui/icons-material";
-import { Avatar, Card, Stack, Typography, useTheme } from "@mui/material";
+import { Avatar, Box, Card, Stack, Typography, useTheme } from "@mui/material";
 
 const AboutMeInfoCard = ({
     label,
@@ -26,8 +26,7 @@ const AboutMeInfoCard = ({
                     alignItems='center'
                     bgcolor='white'
                     sx={{
-                        border: index === 0 ? `12px solid` : 0,
-                        borderImage: index === 0 ? `linear-gradient(to right, rgb(255, 255, 255) 0%, ${theme.palette.primary.main}) 1` : 'transparent',
+                        borderRadius: '8px'
                     }}
                 >
                     <Avatar 
