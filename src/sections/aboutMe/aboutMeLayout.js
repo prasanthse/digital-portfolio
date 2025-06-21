@@ -16,11 +16,11 @@ const AboutMeLayout = () => {
                         alignItems='center'
                         container
                     >
-                        <Grid size={{xs: 12, md: 6}} className="layoutPaddingLeft">
+                        <Grid size={{xs: 12, md: 6, lg: 5}}>
                             <AboutMeInfo />
                         </Grid>
 
-                        <Grid size={{xs: 12, md: 6}}>
+                        <Grid size={{xs: 12, md: 6, lg: 7}}>
                             <AboutMeDescription />
                         </Grid>
                     </Grid>

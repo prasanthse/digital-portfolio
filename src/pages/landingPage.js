@@ -4,6 +4,7 @@ import HeroLayout from "../sections/hero/heroLayout";
 import ConnectWithMeLayout from "../sections/connectWithMe/connectWithMeLayout";
 import AboutMeLayout from "../sections/aboutMe/aboutMeLayout";
 import AcademicLayout from "../sections/academic/academicLayout";
+import ExpertiseLayout from "../sections/expertise/expertiseLayout";
 
 const LandingPage = () => {
     <Helmet>
@@ -21,6 +22,8 @@ const LandingPage = () => {
             <AboutMeLayout />
 
             <AcademicLayout />
+
+            <ExpertiseLayout />
         </>
     );
 }

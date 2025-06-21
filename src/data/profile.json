@@ -76,5 +76,17 @@
             "date": "2020/09/14",
             "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus"
         }   
+    ],
+    "expertise": [
+        {"label": "Unity", "path": "/images/tech-stacks/unity.png"},
+        {"label": "C#", "path": "/images/tech-stacks/c-sharp.png"},
+        {"label": "CSS", "path": "/images/tech-stacks/css.png"},
+        {"label": "Flutter", "path": "/images/tech-stacks/flutter.png"},
+        {"label": "HTML", "path": "/images/tech-stacks/html.png"},
+        {"label": "Java", "path": "/images/tech-stacks/java.png"},
+        {"label": "Javascript", "path": "/images/tech-stacks/javascript.png"},
+        {"label": "PixiJS", "path": "/images/tech-stacks/pixijs.png"},
+        {"label": "ReactJS", "path": "/images/tech-stacks/reactjs.png"},
+        {"label": "C++", "path": "/images/tech-stacks/c++.png"}
     ]
 }

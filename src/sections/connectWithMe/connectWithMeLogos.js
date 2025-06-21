@@ -43,7 +43,7 @@ const ConnectWithMeLogos = () => {
                 justifyContent='start'
                 alignItems='center'
                 spacing={0.75}
-                className="layoutMarginX layoutPaddingLeft hideScrollBar"
+                className="layoutMarginX layoutLeft hideScrollBar"
                 pb={2}
                 sx={{
                     overflowX: 'scroll',

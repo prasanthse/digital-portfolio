@@ -26,7 +26,9 @@ const AcademicTimelineElement = ({
                 contentStyle={{ 
                     background: 'transparent', 
                     color: 'black',
-                    boxShadow: 'none'
+                    boxShadow: 'none',
+                    paddingTop: 0,
+                    paddingBottom: 0
                 }}
                 contentArrowStyle={{ 
                     borderRight: `10px solid ${theme.palette.primary.main}` 
