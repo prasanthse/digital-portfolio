@@ -15,11 +15,13 @@ const ExpertiseLogo = ({
                 <img 
                     src={logo} 
                     alt={label} 
-                    width={100}
+                    width={80}
                 />
 
                 <Typography
                     fontWeight={600}
+                    fontSize={14}
+                    lineHeight={1.25}
                     pt={2}
                     color="#888888"
                 >

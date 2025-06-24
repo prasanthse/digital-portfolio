@@ -44,10 +44,11 @@ const HeroWelcome = () => {
 
                 {/* Description */}
                 <Typography
-                    color="gray"
-                    fontWeight={400}
-                    fontSize={{xs: 16, md: 12, lg: 16}}
-                    lineHeight={1.5}
+                    color="#222222"
+                    fontWeight={300}
+                    fontSize={{xs: 14, md: 12, lg: 14}}
+                    lineHeight={2}
+                    textAlign='justify'
                 >
                     {content.hero.about}
                 </Typography>

@@ -5,6 +5,7 @@ import ConnectWithMeLayout from "../sections/connectWithMe/connectWithMeLayout";
 import AboutMeLayout from "../sections/aboutMe/aboutMeLayout";
 import AcademicLayout from "../sections/academic/academicLayout";
 import ExpertiseLayout from "../sections/expertise/expertiseLayout";
+import WorkExperienceLayout from "../sections/workExperience/workExperienceLayout";
 
 const LandingPage = () => {
     <Helmet>
@@ -24,6 +25,8 @@ const LandingPage = () => {
             <AcademicLayout />
 
             <ExpertiseLayout />
+
+            <WorkExperienceLayout />
         </>
     );
 }

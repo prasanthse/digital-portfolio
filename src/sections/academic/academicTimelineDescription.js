@@ -47,6 +47,7 @@ const AcademicTimelineDescription = ({
                             fontFamily: theme.typography.fontFamily,
                             fontWeight: 300,
                             color:"#222222",
+                            textAlign: 'justify',
                             fontSize: 14,
                             lineHeight: 2,
                             marginTop: 1

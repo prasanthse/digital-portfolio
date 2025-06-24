@@ -1,7 +1,7 @@
 {
     "hero": {
         "name": "Peter Parker",
-        "about": "Product designer and digital creative director working in design field for 7 years so far, specialize user interface design.",
+        "about": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet.",
         "job_role": "Senior Game Developer",
         "degree": "B.Sc in Software Engineering"
     },
@@ -88,5 +88,63 @@
         {"label": "PixiJS", "path": "/images/tech-stacks/pixijs.png"},
         {"label": "ReactJS", "path": "/images/tech-stacks/reactjs.png"},
         {"label": "C++", "path": "/images/tech-stacks/c++.png"}
+    ],
+    "work_experience": [
+        {
+            "role": "Senior Software Engineer",
+            "duration": "February 2024 - Present",
+            "company": {
+                "name": "Creative Minds. New York. USA",
+                "images": [
+                    "/images/work/1.png",
+                    "/images/work/2.png",
+                    "/images/work/3.png"
+                ],
+                "link": "https://techserw.com"
+            },
+            "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "teck_stacks": [
+                {"label": "Unity", "path": "/images/tech-stacks/unity.png"},
+                {"label": "C#", "path": "/images/tech-stacks/c-sharp.png"},
+                {"label": "CSS", "path": "/images/tech-stacks/css.png"},
+                {"label": "Flutter", "path": "/images/tech-stacks/flutter.png"},
+                {"label": "HTML", "path": "/images/tech-stacks/html.png"},
+                {"label": "Java", "path": "/images/tech-stacks/java.png"},
+                {"label": "Javascript", "path": "/images/tech-stacks/javascript.png"},
+                {"label": "PixiJS", "path": "/images/tech-stacks/pixijs.png"},
+                {"label": "ReactJS", "path": "/images/tech-stacks/reactjs.png"},
+                {"label": "C++", "path": "/images/tech-stacks/c++.png"}
+            ]
+        },
+        {
+            "role": "Associate Software Engineer",
+            "duration": "September 2022 - February 2024",
+            "company": {
+                "name": "Creative Minds. New York. USA",
+                "images": [],
+                "link": "https://techserw.com"
+            },
+            "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "teck_stacks": [
+                {"label": "HTML", "path": "/images/tech-stacks/html.png"},
+                {"label": "Java", "path": "/images/tech-stacks/java.png"},
+                {"label": "C++", "path": "/images/tech-stacks/c++.png"}
+            ]
+        },
+        {
+            "role": "Intern Software Engineer",
+            "duration": "February 2022 - August 2022",
+            "company": {
+                "name": "Creative Minds. New York. USA",
+                "images": [
+                    "/images/work/1.png"
+                ],
+                "link": ""
+            },
+            "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "teck_stacks": [
+                {"label": "Javascript", "path": "/images/tech-stacks/javascript.png"}
+            ]
+        }
     ]
 }

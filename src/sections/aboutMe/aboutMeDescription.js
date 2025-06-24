@@ -31,7 +31,7 @@ const AboutMeDescription = () => {
                     fontWeight={300}
                     fontSize={{xs: 14, md: 12, lg: 14}}
                     lineHeight={2}
-                    textAlign='left'
+                    textAlign='justify'
                     color="#222222"
                     mt={{xs: 1, md: 2}}
                     mb={{xs: 2, md: 4}}

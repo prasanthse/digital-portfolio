@@ -48,7 +48,7 @@ const HeroGallery = () => {
                     className="techStackThree"
                     style={{
                         position: 'absolute',
-                        top: '45%',
+                        top: '38%',
                         left: '20%',
                         animation: 'bounceAnimation 1s infinite'
                     }}
