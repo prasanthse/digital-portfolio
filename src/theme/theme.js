@@ -14,6 +14,15 @@ const theme = createTheme({
       'Poppins'
     ].join(','),
   },
+  components: {
+    MuiContainer: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#f5f5f5'
+        }
+      }
+    }
+  }
 });
 
 export default theme;

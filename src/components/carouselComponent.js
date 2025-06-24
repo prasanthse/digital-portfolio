@@ -45,13 +45,13 @@ const CarouselComponent = ({
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 4
+          slidesToShow: 5
         }
       },
       {
         breakpoint: 1536,
         settings: {
-          slidesToShow: 5
+          slidesToShow: 6
         }
       }
     ]

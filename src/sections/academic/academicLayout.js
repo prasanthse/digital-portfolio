@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Stack, useTheme } from "@mui/material";
 import { VerticalTimeline }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import TitleComponent from "../../components/titleComponent";
@@ -9,16 +9,20 @@ import content from '../../data/profile.json';
 const AcademicLayout = () => {
     const {t} = useTranslation();
 
+    const theme = useTheme();
+
     return (
         <>
             <div className="layoutPaddingTop"></div>
 
             <Stack
-                bgcolor="#f5f5f5"
                 pt={{xs: 5, md: 10}}
                 pb={5}
                 className="layoutMarginX"
                 borderRadius={8}
+                sx={{
+                    backgroundColor: theme.components.MuiContainer.styleOverrides.root.backgroundColor
+                }}
             >
                 <TitleComponent 
                     title={t('academic')}
