@@ -30,7 +30,7 @@ const ExpertiseLayout = () => {
             <TitleComponent 
                 title={t('expertise')}
                 px={1}
-                pb={5}
+                pb={2}
             />
 
             <CarouselComponent 

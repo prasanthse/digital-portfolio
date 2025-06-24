@@ -146,5 +146,28 @@
                 {"label": "Javascript", "path": "/images/tech-stacks/javascript.png"}
             ]
         }
+    ],
+    "projects": [
+        {
+            "thumbnail": "/images/projects/project-01/thumbnail.png"
+        },
+        {
+            "thumbnail": "/images/projects/project-02/thumbnail.png"
+        },
+        {
+            "thumbnail": "/images/projects/project-03/thumbnail.png"
+        },
+        {
+            "thumbnail": "/images/projects/project-04/thumbnail.png"
+        },
+        {
+            "thumbnail": "/images/projects/project-05/thumbnail.png"
+        },
+        {
+            "thumbnail": "/images/projects/project-06/thumbnail.png"
+        },
+        {
+            "thumbnail": "/images/projects/project-07/thumbnail.png"
+        }
     ]
 }

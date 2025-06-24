@@ -15,5 +15,9 @@
     "about_me": "My Professional Summary",
     "academic": "My Academic Career",
     "expertise": "My Expertise",
-    "work_experience": "My Work Experience"
+    "work_experience": "My Work Experience",
+    "projects": {
+        "latest_projects": "My Latest Projects",
+        "see_all": "See All Projects"
+    }
 }

@@ -14,7 +14,11 @@ const WorkExperienceListView = () => {
             >
                 {
                     content.work_experience.map((item, index) => {
-                        return <WorkExperienceListRow key={index} item={item}/>
+                        return <WorkExperienceListRow 
+                            key={index} 
+                            item={item}
+                            lastItem={index === content.work_experience.length - 1}
+                        />
                     })
                 }
             </Stack>

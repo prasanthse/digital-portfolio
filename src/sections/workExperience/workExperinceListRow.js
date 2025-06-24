@@ -22,7 +22,7 @@ const carouselSettings = {
     className: "slider variable-width"
 };
 
-const WorkExperienceListRow = ({item}) => {
+const WorkExperienceListRow = ({item, lastItem}) => {
     const theme = useTheme();
 
     const groupRef = useRef(null);
@@ -256,7 +256,13 @@ const WorkExperienceListRow = ({item}) => {
                     }
                 </Stack>
 
-                <Divider sx={{width: '100%', mt: 2}}/>
+                {
+                    lastItem
+                    ?
+                    <></>
+                    :
+                    <Divider sx={{width: '100%', mt: 2}}/>
+                }
             </Stack>
 
             {/* Tech Stacks List */}
