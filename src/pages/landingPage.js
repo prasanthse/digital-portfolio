@@ -10,6 +10,7 @@ import LatestProjectsLayout from "../sections/projects/latestProjectsLayout";
 import SoftSkillsNLanguagesLayout from "../sections/softSkillsNLanguages/softSkillsNLanguagesLayout";
 import ReviewsNPublicationsLayout from "../sections/reviewsNPublications/reviewsNPublicationsLayout";
 import TheEnd from "../sections/theEnd/theEndLayout";
+import FooterLayout from "../sections/footer/footerLayout";
 
 const LandingPage = () => {
     <Helmet>
@@ -39,6 +40,8 @@ const LandingPage = () => {
             <ReviewsNPublicationsLayout />
 
             <TheEnd />
+
+            <FooterLayout />
         </>
     );
 }
