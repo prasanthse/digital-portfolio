@@ -215,5 +215,31 @@
             "review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "rating": 5
         }
+    ],
+    "publications": [
+        {
+            "title": "How to Connect to an API in Unity 3D",
+            "type": "Blog",
+            "date": "May 25, 2025",
+            "link": "https://sivakumar-prasanth.medium.com/how-to-connect-to-an-api-in-unity-3d-f3f626482507"
+        },
+        {
+            "title": "Kafka: The Distributed System",
+            "type": "Article",
+            "date": "February 01, 2025",
+            "link": "https://sivakumar-prasanth.medium.com/kafka-the-distributed-system-a68bf24b43e9"
+        },
+        {
+            "title": "External Data Representation and Marshalling",
+            "type": "Blog",
+            "date": "January 12, 2025",
+            "link": "https://sivakumar-prasanth.medium.com/external-data-representation-and-marshalling-adad85a0789f"
+        },
+        {
+            "title": "JAVA RPC (Remote Procedure Call)",
+            "type": "Blog",
+            "date": "December 30, 2024",
+            "link": "https://sivakumar-prasanth.medium.com/java-rpc-remote-procedure-call-99cfaca34c36"
+        }
     ]
 }

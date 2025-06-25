@@ -17,7 +17,9 @@ const ReviewsNPublicationsLayout = () => {
                     <ReviewsList />
                 </Grid>
 
-                <Grid size={{ xs: 12, md: 6 }}>
+                <Grid size={{ xs: 12, md: 1 }}></Grid>
+
+                <Grid size={{ xs: 12, md: 5 }}>
                     <PublicationsList />
                 </Grid>
             </Grid>
