@@ -192,5 +192,28 @@
             "Problem solving skills",
             "Decision making"
         ]
-    }
+    },
+    "reviews": [
+        {
+            "icon": "/images/reviewers/reviewer-01.png",
+            "reviewer_name": "Don Bradman",
+            "source": "LinkedIn",
+            "review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+            "rating": 0
+        },
+        {
+            "icon": "/images/connect me/linkedin.png",
+            "reviewer_name": "Sivalingam",
+            "source": "Upwork",
+            "review": "Lorem ipsum dummy text are usually use print and website industry.",
+            "rating": 4.5
+        },
+        {
+            "icon": "/images/reviewers/reviewer-02.png",
+            "reviewer_name": "Sara",
+            "source": "LinkedIn",
+            "review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "rating": 5
+        }
+    ]
 }

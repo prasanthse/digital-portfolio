@@ -6,20 +6,27 @@ const CarouselComponent = ({
   list,
   autoplay=true,
   vertical=false,
-  speed=500
+  centerMode=true,
+  speed=500,
+  slidesToShow=5,
+  breakpointXsBreakpoint=2,
+  breakpointSmBreakpoint=2,
+  breakpointMdBreakpoint=2,
+  breakpointLgBreakpoint=5,
+  breakpointXlBreakpoint=6
 }) => {
   const settings = {
     dots: false,
     infinite: true,
     arrows: true,
-    centerMode: true,
+    centerMode: centerMode,
     pauseOnHover: true,
     swipeToSlide: true,
     vertical: vertical,
     speed: speed,
     autoplay: autoplay,
     className: "center",
-    slidesToShow: 5,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
     rows: 1,
     className: "slider variable-width",
@@ -27,31 +34,31 @@ const CarouselComponent = ({
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2
+          slidesToShow: breakpointXsBreakpoint
         }
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2
+          slidesToShow: breakpointSmBreakpoint
         }
       },
       {
         breakpoint: 900,
         settings: {
-          slidesToShow: 3
+          slidesToShow: breakpointMdBreakpoint
         }
       },
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 5
+          slidesToShow: breakpointLgBreakpoint
         }
       },
       {
         breakpoint: 1536,
         settings: {
-          slidesToShow: 6
+          slidesToShow: breakpointXlBreakpoint
         }
       }
     ]
