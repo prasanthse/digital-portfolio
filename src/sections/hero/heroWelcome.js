@@ -36,7 +36,7 @@ const HeroWelcome = () => {
                 <Typography
                     fontWeight={800}
                     fontSize={{xs: 30, md: 30, lg: 60}}
-                    lineHeight={0.75}
+                    lineHeight={1}
                     pb={{xs: 2, md: 2, lg: 3}}
                 >
                    {content.hero.name}

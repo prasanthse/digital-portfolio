@@ -298,7 +298,6 @@ const WorkExperienceListRow = ({item, lastItem}) => {
                     width='100%'
                     px={2}
                     spacing={2}
-                    className="hideScrollBar"
                 >
                     {
                         item.teck_stacks.map((logoItem, index) => {

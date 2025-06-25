@@ -29,7 +29,7 @@ const FooterLayout = () => {
                         textAlign={{xs: 'center', md: 'right'}}
                         color="white"
                     >
-                        Developed By
+                        Credits to the developer
                     </Typography>
 
                     <Link

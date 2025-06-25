@@ -33,7 +33,8 @@ const ReviewCard = ({item}) => {
                         pt: 8,
                         pb: 2,
                         borderRadius: 4,
-                        height: 250
+                        height: 250,
+                        mb: 2
                     }}
                 >
                     <Stack
