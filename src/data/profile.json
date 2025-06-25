@@ -169,5 +169,28 @@
         {
             "thumbnail": "/images/projects/project-07/thumbnail.png"
         }
-    ]
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Fluent"
+        },
+        {
+            "language": "Tamil",
+            "proficiency": "Native"
+        },
+        {
+            "language": "Sinhala",
+            "proficiency": "Fluent"
+        }
+    ],
+    "soft_skills": {
+        "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+        "list": [
+            "Commitments",
+            "Time management",
+            "Problem solving skills",
+            "Decision making"
+        ]
+    }
 }

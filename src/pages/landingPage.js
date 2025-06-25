@@ -7,6 +7,7 @@ import AcademicLayout from "../sections/academic/academicLayout";
 import ExpertiseLayout from "../sections/expertise/expertiseLayout";
 import WorkExperienceLayout from "../sections/workExperience/workExperienceLayout";
 import LatestProjectsLayout from "../sections/projects/latestProjectsLayout";
+import SoftSkillsNLanguagesLayout from "../sections/softSkillsNLanguages/softSkillsNLanguagesLayout";
 
 const LandingPage = () => {
     <Helmet>
@@ -30,6 +31,8 @@ const LandingPage = () => {
             <WorkExperienceLayout />
 
             <LatestProjectsLayout />
+
+            <SoftSkillsNLanguagesLayout />
         </>
     );
 }

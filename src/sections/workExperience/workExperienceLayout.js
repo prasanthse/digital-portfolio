@@ -15,7 +15,7 @@ const WorkExperienceLayout = () => {
             <Stack sx={{backgroundColor: theme.components.MuiContainer.styleOverrides.root.backgroundColor}}>
                 <Stack
                     direction='column'
-                    alignItems='start'
+                    alignItems='center'
                     justifyContent='center'
                     className="layoutMarginX"
                     pt={{xs: 5, md: 10}}
@@ -24,7 +24,7 @@ const WorkExperienceLayout = () => {
                     <TitleComponent 
                         title={t('work_experience')}
                         pb={5}
-                        textAlign="left"
+                        textAlign="center"
                         richText={false}
                     />
 

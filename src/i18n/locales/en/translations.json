@@ -19,5 +19,7 @@
     "projects": {
         "latest_projects": "My Latest Projects",
         "see_all": "See All Projects"
-    }
+    },
+    "languages": "Languages",
+    "soft_skills": "My Soft Skills"
 }
