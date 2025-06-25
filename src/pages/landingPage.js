@@ -9,6 +9,7 @@ import WorkExperienceLayout from "../sections/workExperience/workExperienceLayou
 import LatestProjectsLayout from "../sections/projects/latestProjectsLayout";
 import SoftSkillsNLanguagesLayout from "../sections/softSkillsNLanguages/softSkillsNLanguagesLayout";
 import ReviewsNPublicationsLayout from "../sections/reviewsNPublications/reviewsNPublicationsLayout";
+import TheEnd from "../sections/theEnd/theEndLayout";
 
 const LandingPage = () => {
     <Helmet>
@@ -36,6 +37,8 @@ const LandingPage = () => {
             <SoftSkillsNLanguagesLayout />
 
             <ReviewsNPublicationsLayout />
+
+            <TheEnd />
         </>
     );
 }
