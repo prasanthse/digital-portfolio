@@ -5,7 +5,7 @@ import { ThemeProvider } from "@emotion/react";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/digital-portfolio">
       <ThemeProvider theme={theme}>
         <Router />
       </ThemeProvider>
