@@ -1,12 +1,18 @@
 import { Stack, Typography } from "@mui/material";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import ButtonComponent from "../../components/buttonComponent";
 import content from '../../data/profile.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const HeroWelcome = () => {
     const { t } = useTranslation();
     const heroLocale = "hero";
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
 
     const hireMe = useCallback(() => {
         window.location.href = content.hire_me;
@@ -28,6 +34,7 @@ const HeroWelcome = () => {
                     fontSize={{xs: 30, md: 30, lg: 60}}
                     lineHeight={0.75}
                     pb={{xs: 1.5, md: 1, lg: 3}}
+                    data-aos="fade-up"
                 >
                     {t(`${heroLocale}.welcome`)}
                 </Typography>
@@ -38,6 +45,7 @@ const HeroWelcome = () => {
                     fontSize={{xs: 30, md: 30, lg: 60}}
                     lineHeight={1}
                     pb={{xs: 2, md: 2, lg: 3}}
+                    data-aos="slide-right"
                 >
                    {content.hero.name}
                 </Typography>

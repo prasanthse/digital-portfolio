@@ -1,0 +1,4 @@
+@keyframes endCircleAnimation {
+    50% {scale: 0.75}
+    100% {scale: 1}
+}

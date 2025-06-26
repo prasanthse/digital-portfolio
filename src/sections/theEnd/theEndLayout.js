@@ -1,6 +1,7 @@
 import { Stack, Typography } from "@mui/material";
 import content from '../../data/profile.json';
 import CircleIcon from '@mui/icons-material/Circle';
+import './theEnd.css';
 
 const TheEnd = () => {
     return (
@@ -19,7 +20,8 @@ const TheEnd = () => {
                         position: 'absolute',
                         zIndex: -1,
                         width: 200,
-                        height: 200
+                        height: 200,
+                        animation: 'endCircleAnimation 1s infinite'
                     }}
                 />
 

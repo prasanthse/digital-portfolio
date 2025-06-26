@@ -1,12 +1,18 @@
 import { useEffect, useRef, useState } from "react";
 import { Avatar, IconButton, Stack, Tooltip } from "@mui/material";
 import content from '../../data/profile.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const minLogoSize = 20;
 const maxLogoSize = 70;
 
 const ConnectWithMeLogos = () => {
     const [logoSizeOffset, setLogoSizeOffset] = useState(0);
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
 
     useEffect(() => {
         if(content){
@@ -21,6 +27,7 @@ const ConnectWithMeLogos = () => {
             window.open(link, '_blank');
         }}
         className="onMouseOver"
+        data-aos="flip-right"
     >
         <Tooltip title={label}>
             <Avatar 

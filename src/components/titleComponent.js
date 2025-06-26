@@ -1,5 +1,7 @@
 import { Typography, useTheme } from "@mui/material";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const TitleComponent = ({
     title,
@@ -8,6 +10,10 @@ const TitleComponent = ({
     ...other
 }) => {
     const theme = useTheme();
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
 
     const getTitlePrefix = useCallback(() => {
         const lastWordIndex = title.lastIndexOf(' ');
@@ -27,6 +33,7 @@ const TitleComponent = ({
                 lineHeight={1.25}
                 textAlign={textAlign}
                 {...other}
+                data-aos="zoom-in"
             >
                 {getTitlePrefix()} <span style={{color: richText ? theme.palette.primary.main : 'black'}}>{getTitleSuffix()}</span>
             </Typography>
