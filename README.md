@@ -62,7 +62,7 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 5. Deploy to GitHub Pages
     * ```npm run deploy```
 6. Access Your Portfolio
-    * After successful deployment, your site will be live at: [https://<your-username>.github.io/<your-repo>]
+    * After successful deployment, your site will be live at: ```https://<your-username>.github.io/<your-repo>```.
 
 ## AUTHOR
 ![Prasanth Logo](public/readme/author.png)<br />
