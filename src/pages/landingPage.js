@@ -11,6 +11,7 @@ import SoftSkillsNLanguagesLayout from "../sections/softSkillsNLanguages/softSki
 import ReviewsNPublicationsLayout from "../sections/reviewsNPublications/reviewsNPublicationsLayout";
 import TheEnd from "../sections/theEnd/theEndLayout";
 import FooterLayout from "../sections/footer/footerLayout";
+import content from '../data/profile.json';
 
 const LandingPage = () => {
     <Helmet>
@@ -23,21 +24,63 @@ const LandingPage = () => {
 
             <HeroLayout />
 
-            <ConnectWithMeLayout />
+            {
+                content.connect_me.length > 0
+                ?
+                <ConnectWithMeLayout />
+                :
+                <></>
+            }
 
             <AboutMeLayout />
 
-            <AcademicLayout />
+            {
+                content.academic.length > 0
+                ?
+                <AcademicLayout />
+                :
+                <></>
+            }
 
-            <ExpertiseLayout />
+            {
+                content.expertise.length > 0
+                ?
+                <ExpertiseLayout />
+                :
+                <></>
+            }
+            
+            {
+                content.work_experience.length > 0
+                ?
+                <WorkExperienceLayout />
+                :
+                <></>
+            }
 
-            <WorkExperienceLayout id="work-experience"/>
+            {
+                content.projects.length > 0
+                ?
+                <LatestProjectsLayout />
+                :
+                <></>
+            }
 
-            <LatestProjectsLayout />
+            {
+                content.languages.length > 0 || content.soft_skills.list.length > 0
+                ?
+                <SoftSkillsNLanguagesLayout />
+                :
+                <></>
+            }
 
-            <SoftSkillsNLanguagesLayout />
-
-            <ReviewsNPublicationsLayout />
+            {
+                content.reviews.length > 0 || content.publications.length > 0
+                ?
+                <ReviewsNPublicationsLayout />
+                :
+                <></>
+            }
 
             <TheEnd />
 
