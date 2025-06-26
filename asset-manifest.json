@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/prasanthse/digital-portfolio.git/static/css/main.d5431a53.css",
+    "main.js": "/prasanthse/digital-portfolio.git/static/js/main.323aaa51.js",
+    "static/js/488.46d34ebe.chunk.js": "/prasanthse/digital-portfolio.git/static/js/488.46d34ebe.chunk.js",
+    "service-worker.js": "/prasanthse/digital-portfolio.git/service-worker.js",
+    "static/media/slick.svg": "/prasanthse/digital-portfolio.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/prasanthse/digital-portfolio.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/prasanthse/digital-portfolio.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/prasanthse/digital-portfolio.git/index.html",
+    "static/media/slick.woff": "/prasanthse/digital-portfolio.git/static/media/slick.295183786cd8a1389865.woff",
+    "main.d5431a53.css.map": "/prasanthse/digital-portfolio.git/static/css/main.d5431a53.css.map",
+    "main.323aaa51.js.map": "/prasanthse/digital-portfolio.git/static/js/main.323aaa51.js.map",
+    "488.46d34ebe.chunk.js.map": "/prasanthse/digital-portfolio.git/static/js/488.46d34ebe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5431a53.css",
+    "static/js/main.323aaa51.js"
+  ]
+}
