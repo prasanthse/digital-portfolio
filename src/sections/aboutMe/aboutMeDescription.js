@@ -1,4 +1,4 @@
-import { Stack, Typography, useTheme } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import content from '../../data/profile.json'
 import ButtonComponent from "../../components/buttonComponent";
@@ -8,10 +8,8 @@ import TitleComponent from "../../components/titleComponent";
 const AboutMeDescription = () => {
     const {t} = useTranslation();
 
-    const theme = useTheme();
-
     const hireMe = useCallback(() => {
-        
+        window.location.href = content.hire_me;
     }, []);
 
     return (

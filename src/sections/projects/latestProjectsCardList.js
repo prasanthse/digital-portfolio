@@ -11,7 +11,6 @@ const LatestProjectsCardList = () => {
                 alignItems='center'
                 spacing={{xs: 1, md: 1.5, lg: 2}}
                 width='100%'
-                xs
                 container
             >
                 {
@@ -22,6 +21,7 @@ const LatestProjectsCardList = () => {
                         >
                             <LatestProjectCard 
                                 item={item}
+                                index={index}
                             />
                         </Grid>
                     })

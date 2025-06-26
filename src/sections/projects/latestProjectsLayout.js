@@ -4,12 +4,15 @@ import TitleComponent from "../../components/titleComponent";
 import LatestProjectsCardList from "./latestProjectsCardList";
 import ButtonComponent from '../../components/buttonComponent';
 import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 
 const LatestProjectsLayout = () => {
     const {t} = useTranslation();
 
-    const seeAllProjects = useCallback(() => {
+    const navigate = useNavigate();
 
+    const seeAllProjects = useCallback(() => {
+        navigate('/project');
     }, []);
 
     return(

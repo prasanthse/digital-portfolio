@@ -48,7 +48,7 @@ const SoftSkills = () => {
                 >
                     {
                         content.soft_skills.list.map((item, index) => {
-                            return <ListItem dense={true}>
+                            return <ListItem key={index} dense={true}>
                                 <ListItemIcon>
                                     <Avatar
                                         sx={{

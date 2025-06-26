@@ -9,7 +9,7 @@ const HeroWelcome = () => {
     const heroLocale = "hero";
 
     const hireMe = useCallback(() => {
-    
+        window.location.href = content.hire_me;
     }, []);
 
     return (

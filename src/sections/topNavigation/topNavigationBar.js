@@ -1,9 +1,10 @@
 import { Box, Drawer, IconButton, List, ListItem, ListItemButton, Stack, Typography } from "@mui/material";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ButtonComponent from "../../components/buttonComponent";
 import { useTranslation } from "react-i18next";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
+import content from '../../data/profile.json';
 
 const TopNavigationBar = () => {
     const { t } = useTranslation();
@@ -11,37 +12,19 @@ const TopNavigationBar = () => {
 
     const navOptions = [
         {label: 'home', to: '/'},
-        {label: 'about', to: '#about'},
-        {label: 'projects', to: '#projects'}
+        {label: 'projects', to: '/project'}
     ];
 
     const [drawerState, setDrawerState] = useState(false);
 
     const [activeHash, setActiveHash] = useState('/');
 
-    const navigate = useNavigate();
-
-    useEffect(() => {
-        const handleHashChange = () => {
-            setActiveHash(window.location.hash || '/');
-        };
-
-        window.addEventListener('hashchange', handleHashChange);
-
-        handleHashChange();
-
-        return () => {
-            window.removeEventListener('hashchange', handleHashChange);
-        };
-    }, []);
-
-    const clickNavigate = useCallback((hash) => {
-        setActiveHash(hash);
-        navigate(hash);
+    const clickNavigate = useCallback((redirect) => {
+        setActiveHash(redirect);
     }, []);
 
     const contactMe = useCallback(() => {
-
+        window.location.href = content.contact_me;
     }, []);
 
     const toggleDrawer = useCallback((status) => {
@@ -96,6 +79,7 @@ const TopNavigationBar = () => {
                                     return <Link 
                                         key={index}
                                         onClick={() => clickNavigate(item.to)}
+                                        to={item.to}
                                         style={{
                                             textDecoration: 'none',
                                             color: 'black'
@@ -155,6 +139,7 @@ const TopNavigationBar = () => {
                                                 px={5}
                                                 className="onMouseOver"
                                                 fontWeight={activeHash == item.to ? 600 : 300}
+                                                textAlign='center'
                                                 style={{
                                                     cursor: 'pointer'
                                                 }}

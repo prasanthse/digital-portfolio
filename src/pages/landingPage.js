@@ -31,7 +31,7 @@ const LandingPage = () => {
 
             <ExpertiseLayout />
 
-            <WorkExperienceLayout />
+            <WorkExperienceLayout id="work-experience"/>
 
             <LatestProjectsLayout />
 

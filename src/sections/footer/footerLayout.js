@@ -24,12 +24,13 @@ const FooterLayout = () => {
                     pr={{xs: 0, md: 10}}
                 >
                     <Typography
-                        fontWeight={600}
+                        fontWeight={900}
                         fontSize={14}
                         textAlign={{xs: 'center', md: 'right'}}
                         color="white"
+                        textTransform='uppercase'
                     >
-                        Credits to the developer
+                        Credits to
                     </Typography>
 
                     <Link
@@ -39,7 +40,7 @@ const FooterLayout = () => {
                         }}
                     >
                         <Typography
-                            fontWeight={400}
+                            fontWeight={600}
                             fontSize={14}
                             textAlign={{xs: 'center', md: 'right'}}
                             color="white"
@@ -49,9 +50,18 @@ const FooterLayout = () => {
                                 }
                             }}
                         >
-                            Prasanth
+                            Sivakumar Prasanth
                         </Typography>
                     </Link>
+
+                    <Typography
+                        fontWeight={400}
+                        fontSize={10}
+                        textAlign={{xs: 'center', md: 'right'}}
+                        color="white"
+                    >
+                        Developer
+                    </Typography>
                 </Stack>
             </Stack>
         </>

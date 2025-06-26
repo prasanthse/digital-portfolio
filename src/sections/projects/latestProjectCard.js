@@ -1,10 +1,10 @@
 import { Box } from "@mui/material";
 import { Link } from "react-router-dom";
 
-const LatestProjectCard = ({item}) => {
+const LatestProjectCard = ({item, index}) => {
     return(
         <>
-            <Link to="/">
+            <Link to={`/project/${index + 1}`}>
                 <Box 
                     sx={{
                         backgroundImage:`url(${item.thumbnail})`,
