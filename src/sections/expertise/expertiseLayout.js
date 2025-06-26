@@ -4,6 +4,7 @@ import CarouselComponent from "../../components/carouselComponent";
 import TitleComponent from "../../components/titleComponent";
 import { useCallback } from "react";
 import { useTranslation } from "react-i18next";
+import { Box, Stack } from "@mui/material";
 
 const ExpertiseLayout = () => {
     const {t} = useTranslation();
@@ -33,9 +34,19 @@ const ExpertiseLayout = () => {
                 pb={2}
             />
 
-            <CarouselComponent 
-                list={getLogoArray()}
-            />
+            <Stack
+                direction='row'
+                justifyContent='center'
+                alignItems='center'
+                margin='auto'
+                sx={{
+                    width: {xs: '90%', md: '100%'}
+                }}
+            >
+                <CarouselComponent 
+                    list={getLogoArray()}
+                />
+            </Stack>
         </>
     );
 }

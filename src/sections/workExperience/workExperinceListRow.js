@@ -284,26 +284,26 @@ const WorkExperienceListRow = ({item, lastItem}) => {
                             marginRight: 10,
                             zIndex: 1
                         }
-                    }
+                    },
                 }}
-                sx={{
-                    overflowX: 'scroll'
-                }}
-                className="hideScrollBar"
             >
                 <Stack
                     direction='row'
-                    justifyContent='center'
+                    justifyContent={{xs: 'start', md: 'center'}}
                     alignItems='center'
                     width='100%'
                     px={2}
                     spacing={2}
+                    sx={{
+                        overflowX: 'scroll'
+                    }}
+                    className="hideScrollBar"
                 >
                     {
                         item.teck_stacks.map((logoItem, index) => {
                             return <Tooltip key={index} title={logoItem.label}>
                                 <Avatar 
-                                    sx={{ 
+                                    sx={{
                                         backgroundColor: 'white',
                                         width: {xs: 50, md: 70, lg: 100}, 
                                         height: {xs: 50, md: 70, lg: 100}, 
