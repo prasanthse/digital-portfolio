@@ -1,6 +1,7 @@
 # DIGITAL RESUME
 This project is a fully responsive digital CV built with ReactJS, designed to showcase the professional journey, skills, experience, and projects in a clean and interactive format. The main purpose of this project is not only to present the resume online but also to serve as an open-source template that others can clone, customize, and use to build their own professional portfolios.
 
+
 ## TABLE OF CONTENTS
 1. [Setup](#SETUP)
 2. [Personalization](#PERSONALIZATION)
@@ -9,11 +10,12 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 4. [Author](#AUTHOR)
 5. [Support](#SUPPORT)
 
+
 ## SETUP
 1. Clone or Download the Repository
     * Start by cloning this repository (```git clone https://github.com/prasanthse/digital-portfolio.git```) to your local machine using Git, or download the ZIP file and extract it.
 2. Remove Existing Git History
-    * After downloading or cloning, delete the hidden folders named .git and .github from the root of the project. This removes the original version control and GitHub configurations so you can initialize your own.
+    * After downloading or cloning, delete the hidden folders named ```.git``` and ```.github``` from the root of the project. This removes the original version control and GitHub configurations so you can initialize your own.
 3. Use a Code Editor (Recommended: VS Code)
     * Open the project in a code editor of your choice. If you don’t have one, it’s recommended to install [Visual Studio Code](https://code.visualstudio.com/download).
 4. Ensure Node.js and npm are Installed
@@ -33,24 +35,27 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 10. You're All Set🎉!
     * The project should now be run in your browser.
 
+
 ## PERSONALIZATION
-1. Find the index.html inside the public folder and modify,
+1. Find the ```index.html``` inside the public folder and modify,
     * Meta description
     * Meta keywords
     * Title
-2. Replace the logo.png, logo192.png, logo512.png, favicon.ico and maskable.png files inside the public folder with your preferences
+2. Replace the ```logo.png```, ```logo192.png```, ```logo512.png```, ```favicon.ico``` and ```maskable.png``` files inside the public folder with your preferences
     * To create a favicon [click here](https://favicon.io/favicon-converter)
     * To create a maskable icon [click here](https://maskable.app/editor)
-3. Replace the existing images inside the public/images/icons folder if you want, But ensure that the new images have the same names, extensions (.png) when you replace, and dimensions (512x512) as the originals to prevent any scaling issues.
+3. Replace the existing images inside the ```public/images/icons``` folder if you want, But ensure that the new images have the same names, extensions ```(.png)``` when you replace, and dimensions ```(512x512)``` as the originals to prevent any scaling issues.
     * You can find more Icons in [Flaticon](https://www.flaticon.com) site
-4. Add all the necessary images inside public/images folder with your preferred hierarchy and remove the existing images except public/images/icons folder
-5. Enter all your personal information in the profile.json file located in the src/data folder with your correct images path. This file controls the content displayed on your portfolio site, so updating it will dynamically reflect your personal details on the site.
-6. To change sections' titles or labels, edit the translations.json file found in src/i18n/locales/en. This file handles the textual content of your site and supports localization.
-7. To change your theme color, modify the theme.js file inside src/theme folder.
+4. Add all the necessary images inside ```public/images``` folder with your preferred hierarchy and remove the existing images except ```public/images/icons``` folder
+5. Enter all your personal information in the ```profile.json``` file located in the ```src/data``` folder with your correct images path. This file controls the content displayed on your portfolio site, so updating it will dynamically reflect your personal details on the site.
+6. To change sections' titles or labels, edit the ```translations.json``` file found in ```src/i18n/locales/en```. This file handles the textual content of your site and supports localization.
+7. To change your theme color, modify the theme.js file inside ```src/theme``` folder.
+
 
 ## TIPS
 1. Optimize Your Images
     * Before adding custom images to the project, make sure to compress them using tools like [TinyPNG](https://tinypng.com) or any other online image compressor. This helps reduce file sizes significantly without sacrificing quality, resulting in faster load times and better performance.
+
 
 ## DEPLOY
 1. Create a new repository in your github account (Only for the first time)
@@ -66,8 +71,9 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
     * ```npm run deploy```
 7. Access Your Portfolio
     * After successful deployment, your site will be live at: ```https://<your-username>.github.io/<your-repo>```.
-    * You can find you site URL in your github repository -> Settings -> Pages -> Under GitHub Pages section (Top section) 
+    * You can find you site URL in your ```github repository -> Settings -> Pages -> Under GitHub Pages section (Top section)```
 NOTE: It may take few minutes to reflect your new changes in the live site
+
 
 ## AUTHOR
 ![Prasanth Logo](public/readme/author.png)<br />
@@ -77,6 +83,7 @@ Co-Founder & CEO<br />
 Senior Game Developer<br />
 B.Sc. (Hons) in Software Engineering (First Class)<br />
 University of Kelaniya
+
 
 ## SUPPORT
 * Make sure you show some love by giving ⭐ to my repository
