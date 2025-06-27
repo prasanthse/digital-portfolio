@@ -72,6 +72,7 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 7. Access Your Portfolio
     * After successful deployment, your site will be live at: ```https://<your-username>.github.io/<your-repo>```.
     * You can find you site URL in your ```github repository -> Settings -> Pages -> Under GitHub Pages section (Top section)```
+<br />
 NOTE: It may take few minutes to reflect your new changes in the live site
 
 
