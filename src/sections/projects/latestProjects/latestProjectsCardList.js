@@ -1,5 +1,5 @@
 import { Grid, Stack } from "@mui/material";
-import content from '../../data/profile.json';
+import content from '../../../data/profile.json';
 import LatestProjectCard from "./latestProjectCard";
 
 const LatestProjectsCardList = () => {
@@ -14,7 +14,7 @@ const LatestProjectsCardList = () => {
                 container
             >
                 {
-                    content.projects.slice(0, 3).map((item, index) => {
+                    content.projects.latest.slice(0, 3).map((item, index) => {
                         return <Grid
                             key={index}
                             size={{ xs: 12, md: 4 }}

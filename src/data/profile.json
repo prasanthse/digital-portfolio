@@ -16,6 +16,7 @@
     },
     "hire_me": "mailto:abc@gmail.com",
     "contact_me": "https://wa.link/ateauh",
+    "lets_start_a_project": "https://wa.link/ateauh",
     "connect_me": [
         {
             "label": "Email",
@@ -158,27 +159,99 @@
             ]
         }
     ],
+    "projects_overview": {
+        "title": "Things I’ve Built",
+        "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+        "insights": [
+            {
+                "label": "Years of experience",
+                "value": "05+"
+            },
+            {
+                "label": "Industry projects",
+                "value": "20+"
+            },
+            {
+                "label": "Freelancing projects",
+                "value": "05+"
+            }
+        ]
+    },
     "projects": [
         {
-            "thumbnail": "images/projects/project-01/thumbnail.png"
+            "area": "Mobile Game Development",
+            "list": [
+                {
+                    "thumbnail": "images/projects/project-01/thumbnail.png",
+                    "title": "Minecraft",
+                    "tag_line": "3D game"
+                },
+                {
+                    "thumbnail": "images/projects/project-02/thumbnail.png",
+                    "title": "Dragon BallZ",
+                    "tag_line": "Puzzle game"
+                },
+                {
+                    "thumbnail": "images/projects/project-03/thumbnail.png",
+                    "title": "Fortnite Cauchemars",
+                    "tag_line": "Multiplayer game"
+                },
+                {
+                    "thumbnail": "images/projects/project-04/thumbnail.png",
+                    "title": "Call of Duty",
+                    "tag_line": "Shooting game"
+                },
+                {
+                    "thumbnail": "images/projects/project-05/thumbnail.png",
+                    "title": "Horizon",
+                    "tag_line": "Adventure game"
+                }
+            ]
         },
         {
-            "thumbnail": "images/projects/project-02/thumbnail.png"
+            "area": "HTML5 Game Development",
+            "list": [
+                {
+                    "thumbnail": "images/projects/project-06/thumbnail.png",
+                    "title": "Cassino Rumble",
+                    "tag_line": "Online slot machine"
+                },
+                {
+                    "thumbnail": "images/projects/project-07/thumbnail.png",
+                    "title": "Need for Speed",
+                    "tag_line": "Multiplayer game"
+                }
+            ]
         },
         {
-            "thumbnail": "images/projects/project-03/thumbnail.png"
+            "area": "Web Application Development",
+            "list": [
+                {
+                    "thumbnail": "images/projects/project-08/thumbnail.png",
+                    "title": "Burger House",
+                    "tag_line": "Restaurant website"
+                },
+                {
+                    "thumbnail": "images/projects/project-09/thumbnail.png",
+                    "title": "E-Wallet",
+                    "tag_line": "Payment gateway"
+                },
+                {
+                    "thumbnail": "images/projects/project-10/thumbnail.png",
+                    "title": "Marketing guru",
+                    "tag_line": "Marketing agency website"
+                }
+            ]
         },
         {
-            "thumbnail": "images/projects/project-04/thumbnail.png"
-        },
-        {
-            "thumbnail": "images/projects/project-05/thumbnail.png"
-        },
-        {
-            "thumbnail": "images/projects/project-06/thumbnail.png"
-        },
-        {
-            "thumbnail": "images/projects/project-07/thumbnail.png"
+            "area": "Mobile Application Development",
+            "list": [
+                {
+                    "thumbnail": "images/projects/project-11/thumbnail.png",
+                    "title": "Pickme",
+                    "tag_line": "Food order app"
+                }
+            ]
         }
     ],
     "languages": [

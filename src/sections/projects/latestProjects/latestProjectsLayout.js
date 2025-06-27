@@ -1,8 +1,8 @@
 import { Stack } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import TitleComponent from "../../components/titleComponent";
+import TitleComponent from "../../../components/titleComponent";
 import LatestProjectsCardList from "./latestProjectsCardList";
-import ButtonComponent from '../../components/buttonComponent';
+import ButtonComponent from '../../../components/buttonComponent';
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 

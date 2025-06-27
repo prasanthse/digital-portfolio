@@ -6,7 +6,7 @@ import AboutMeLayout from "../sections/aboutMe/aboutMeLayout";
 import AcademicLayout from "../sections/academic/academicLayout";
 import ExpertiseLayout from "../sections/expertise/expertiseLayout";
 import WorkExperienceLayout from "../sections/workExperience/workExperienceLayout";
-import LatestProjectsLayout from "../sections/projects/latestProjectsLayout";
+import LatestProjectsLayout from "../sections/projects/latestProjects/latestProjectsLayout";
 import SoftSkillsNLanguagesLayout from "../sections/softSkillsNLanguages/softSkillsNLanguagesLayout";
 import ReviewsNPublicationsLayout from "../sections/reviewsNPublications/reviewsNPublicationsLayout";
 import TheEnd from "../sections/theEnd/theEndLayout";
@@ -59,7 +59,7 @@ const LandingPage = () => {
             }
 
             {
-                content.projects.length > 0
+                content.projects.latest.length > 0
                 ?
                 <LatestProjectsLayout />
                 :

@@ -2,7 +2,7 @@ import { Box, Drawer, IconButton, List, ListItem, ListItemButton, Stack, Typogra
 import { Link } from "react-router-dom";
 import ButtonComponent from "../../components/buttonComponent";
 import { useTranslation } from "react-i18next";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import content from '../../data/profile.json';
 
@@ -17,10 +17,23 @@ const TopNavigationBar = () => {
 
     const [drawerState, setDrawerState] = useState(false);
 
-    const [activeHash, setActiveHash] = useState('/');
+    const [activePage, setActivePage] = useState('/');
+
+    useEffect(() => {
+        const location = window.location.href;
+
+        // Projects page
+        if(location.endsWith('/project')){
+            setActivePage(navOptions[1].to);
+        }
+        // Landing page
+        else{
+            setActivePage(navOptions[0].to);
+        }
+    }, []);
 
     const clickNavigate = useCallback((redirect) => {
-        setActiveHash(redirect);
+        setActivePage(redirect);
     }, []);
 
     const contactMe = useCallback(() => {
@@ -88,7 +101,7 @@ const TopNavigationBar = () => {
                                         <Typography 
                                             px={3}
                                             className="onMouseOver"
-                                            fontWeight={activeHash == item.to ? 600 : 300}
+                                            fontWeight={activePage == item.to ? 600 : 300}
                                             style={{
                                                 cursor: 'pointer'
                                             }}
@@ -138,7 +151,7 @@ const TopNavigationBar = () => {
                                                 py={2}
                                                 px={5}
                                                 className="onMouseOver"
-                                                fontWeight={activeHash == item.to ? 600 : 300}
+                                                fontWeight={activePage == item.to ? 600 : 300}
                                                 textAlign='center'
                                                 style={{
                                                     cursor: 'pointer'

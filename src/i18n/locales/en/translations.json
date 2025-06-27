@@ -17,7 +17,8 @@
     "work_experience": "My Work Experience",
     "projects": {
         "latest_projects": "My Latest Projects",
-        "see_all": "See All Projects"
+        "see_all": "See All Projects",
+        "start_new_project": "Let's start a Project"
     },
     "languages": "Languages",
     "soft_skills": "My Soft Skills",
