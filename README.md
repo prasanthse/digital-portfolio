@@ -7,8 +7,9 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 2. [Personalization](#PERSONALIZATION)
 3. [Tips](#TIPS)
 4. [Deploy](#DEPLOY)
-4. [Author](#AUTHOR)
-5. [Support](#SUPPORT)
+5. [Install as a Mobile App](#PWA)
+6. [Author](#AUTHOR)
+7. [Support](#SUPPORT)
 
 
 ## SETUP
@@ -74,6 +75,13 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
     * You can find you site URL in your ```github repository -> Settings -> Pages -> Under GitHub Pages section (Top section)```
 <br />
 NOTE: It may take few minutes to reflect your new changes in the live site
+
+
+## PWA
+This is developed as a Progressive Web App (PWA), a type of web application that uses modern web technologies to deliver a native app-like experience to you, including features like offline access, and the ability to be installed on your mobile device.
+1. Open your live site in your mobile browser
+2. Inside the browser options find the option named ```Add to home screen```
+3. Install the site
 
 
 ## AUTHOR
