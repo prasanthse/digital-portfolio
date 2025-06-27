@@ -55,14 +55,17 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 2. Set your remote origin via ```git remote add origin https://github.com/<your-username>/<your-repo>.git```. (Only for the first time)
 3. Update the homepage value in your package.json file with your repository url (Only for the first time)
     * Ex: "homepage": "https://<your-username>.github.io/<your-repo>"
-4. Push your code to GitHub
+4. Update your repository name in the ```BrowserRouter basename```, in the App.js file 
+5. Push your code to GitHub
     * ```git add .```
     * ```git commit -m "Initial commit"```
     * ```git push -u origin main```
-5. Deploy to GitHub Pages
+6. Deploy to GitHub Pages
     * ```npm run deploy```
-6. Access Your Portfolio
+7. Access Your Portfolio
     * After successful deployment, your site will be live at: ```https://<your-username>.github.io/<your-repo>```.
+    * You can find you site URL in your github repository -> Settings -> Pages -> Under GitHub Pages section (Top section) 
+NOTE: It may take few minutes to reflect your new changes in the live site
 
 ## AUTHOR
 ![Prasanth Logo](public/readme/author.png)<br />

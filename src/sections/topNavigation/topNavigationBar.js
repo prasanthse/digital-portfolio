@@ -51,7 +51,7 @@ const TopNavigationBar = () => {
                 >
                     <Link to='/'>
                         <img 
-                            src="/logo.png" 
+                            src={`${process.env.PUBLIC_URL}/logo.png`}
                             alt="Logo" 
                             width={80}
                             style={{
