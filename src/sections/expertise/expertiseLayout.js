@@ -15,7 +15,7 @@ const ExpertiseLayout = () => {
         for(let i = 0; i < content.expertise.length; i++){
             array.push(
                 <ExpertiseLogo 
-                    logo={content.expertise[i].path}
+                    logo={`${process.env.PUBLIC_URL}/${content.expertise[i].path}`}
                     label={content.expertise[i].label}
                 />
             )

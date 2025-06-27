@@ -104,7 +104,7 @@ const TopNavigationBar = () => {
                             label={t(`${topNavigationLocale}.contact`)}
                             onClick={contactMe}
                             sx={{
-                                ml: {md: 5, lg: 10}
+                                ml: 5
                             }}
                         />
                     </Stack>

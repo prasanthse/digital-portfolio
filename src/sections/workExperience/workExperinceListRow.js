@@ -116,7 +116,7 @@ const WorkExperienceListRow = ({item, lastItem}) => {
                                         }}
                                     >
                                         <img 
-                                            src={logoItem.path}
+                                            src={`${process.env.PUBLIC_URL}/${logoItem.path}`}
                                             alt={logoItem.label}
                                             style={{
                                                 width: '70%',
@@ -162,7 +162,7 @@ const WorkExperienceListRow = ({item, lastItem}) => {
                                     >
                                         <img 
                                             alt='Working still'
-                                            src={item.company.images[0]} 
+                                            src={`${process.env.PUBLIC_URL}/${item.company.images[0]}`} 
                                             width='100%'
                                             style={{
                                                 borderRadius: '16px'
@@ -185,7 +185,7 @@ const WorkExperienceListRow = ({item, lastItem}) => {
                                                             <Box>
                                                                 <img 
                                                                     alt={`Working still ` + index} 
-                                                                    src={companyImg} 
+                                                                    src={`${process.env.PUBLIC_URL}/${companyImg}`} 
                                                                     width='100%'
                                                                     style={{
                                                                         borderRadius: '16px'
@@ -311,7 +311,7 @@ const WorkExperienceListRow = ({item, lastItem}) => {
                                     }}
                                 >
                                     <img 
-                                        src={logoItem.path}
+                                        src={`${process.env.PUBLIC_URL}/${logoItem.path}`}
                                         alt={logoItem.label}
                                         style={{
                                             width: '70%',

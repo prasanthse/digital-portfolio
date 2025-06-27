@@ -7,7 +7,7 @@ const LatestProjectCard = ({item, index}) => {
             <Link to={`/project/${index + 1}`}>
                 <Box 
                     sx={{
-                        backgroundImage:`url(${item.thumbnail})`,
+                        backgroundImage:`url(${process.env.PUBLIC_URL}/${item.thumbnail})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
                         width: "100%",

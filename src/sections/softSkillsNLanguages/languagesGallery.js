@@ -17,16 +17,16 @@ const LanguagesGallery = () => {
             >
                 {/* My Image */}
                 <img 
-                    src="/images/my photos/other.png" 
+                    src={`${process.env.PUBLIC_URL}/${content.my_images.languages_section}`}
                     alt="My image"
                     style={{
                         width: '100%'
                     }}
                 />
 
-                {/* Job Role */}
+                {/* Language */}
                 <LanguagesCard 
-                    logo="/images/icons/languages.png"
+                    logo={`${process.env.PUBLIC_URL}/images/icons/languages.png`}
                     label={t(`languages`)}
                     list={content.languages}
                     cardSX={{

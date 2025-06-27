@@ -60,7 +60,7 @@ const ConnectWithMeLogos = () => {
                 {
                     content.connect_me.map((item, index) => {
                         return <div key={index}>
-                            {getLogos(item.label, item.path, 20 + (index * logoSizeOffset), item.link)}
+                            {getLogos(item.label, `${process.env.PUBLIC_URL}/${item.path}`, 20 + (index * logoSizeOffset), item.link)}
                         </div>
                     })
                 }

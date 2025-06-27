@@ -25,7 +25,7 @@ const AboutMeInfo = () => {
                                 key={index}
                                 label={item.label}
                                 value={item.value}
-                                logo={item.path}
+                                logo={`${process.env.PUBLIC_URL}/${item.path}`}
                                 width='100%'
                                 elevation={0}
                                 index={index}

@@ -16,7 +16,7 @@ const ReviewCard = ({item}) => {
                 {/* Icon */}
                 <Avatar 
                     alt="avatar"
-                    src={item.icon}
+                    src={`${process.env.PUBLIC_URL}/${item.icon}`}
                     sx={{
                         width: {xs: 50, md: 75},
                         height: {xs: 50, md: 75},

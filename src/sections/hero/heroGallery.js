@@ -16,7 +16,7 @@ const HeroGallery = () => {
             >
                 {/* Tech stack 01 */}
                 <img 
-                    src="/images/icons/tech-stack-01.png" 
+                    src={`${process.env.PUBLIC_URL}/${content.hero.tech_stacks.primary}`}
                     alt="Tech stack"
                     className="techStackOne"
                     style={{
@@ -30,7 +30,7 @@ const HeroGallery = () => {
 
                 {/* Tech stack 02 */}
                 <img 
-                    src="/images/icons/tech-stack-02.png" 
+                    src={`${process.env.PUBLIC_URL}/${content.hero.tech_stacks.secondary}`}
                     alt="Tech stack"
                     className="techStackTwo"
                     style={{
@@ -43,7 +43,7 @@ const HeroGallery = () => {
 
                 {/* Tech stack 03 */}
                 <img 
-                    src="/images/icons/tech-stack-03.png" 
+                    src={`${process.env.PUBLIC_URL}/${content.hero.tech_stacks.tertiary}`}
                     alt="Tech stack"
                     className="techStackThree"
                     style={{
@@ -56,7 +56,7 @@ const HeroGallery = () => {
 
                 {/* My Image */}
                 <img 
-                    src="/images/my photos/hero.png" 
+                    src={`${process.env.PUBLIC_URL}/${content.my_images.hero_section}`}
                     alt="My image"
                     style={{
                         width: '100%'
@@ -65,7 +65,7 @@ const HeroGallery = () => {
 
                 {/* Degree */}
                 <HeroCard 
-                    logo="/images/icons/graduation.png"
+                    logo={`${process.env.PUBLIC_URL}/images/icons/graduation.png`}
                     label={t(`${heroLocale}.degree`)}
                     value={content.hero.degree}
                     cardSX={{
@@ -77,7 +77,7 @@ const HeroGallery = () => {
 
                 {/* Job Role */}
                 <HeroCard 
-                    logo="/images/icons/role-model.png"
+                    logo={`${process.env.PUBLIC_URL}/images/icons/role-model.png`}
                     label={t(`${heroLocale}.job_role`)}
                     value={content.hero.job_role}
                     cardSX={{

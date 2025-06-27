@@ -2,8 +2,8 @@
 This project is a fully responsive digital CV built with ReactJS, designed to showcase the professional journey, skills, experience, and projects in a clean and interactive format. The main purpose of this project is not only to present the resume online but also to serve as an open-source template that others can clone, customize, and use to build their own professional portfolios.
 
 ## TABLE OF CONTENTS
-1. [Setup in your local machine](#SETUP)
-2. [Areas to personalize](#PERSONALIZATION)
+1. [Setup](#SETUP)
+2. [Personalization](#PERSONALIZATION)
 3. [Tips](#TIPS)
 4. [Deploy](#DEPLOY)
 4. [Author](#AUTHOR)
@@ -39,12 +39,14 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
     * Meta keywords
     * Title
 2. Replace the logo.png, logo192.png, logo512.png, favicon.ico and maskable.png files inside the public folder with your preferences
-    * To create a favicon: https://favicon.io/favicon-converter
-    * To create a maskable icon: https://maskable.app/editor
-3. Replace the existing images or Add new images inside the public/images folder. Ensure that the new images have the same names, extensions when you replace, and dimensions as the originals to prevent any scaling issues.
-4. Enter all your personal information in the profile.json file located in the src/data folder. This file controls the content displayed on your portfolio site, so updating it will dynamically reflect your personal details on the site.
-5. To change sections' titles or labels, edit the translations.json file found in src/i18n/locales/en. This file handles the textual content of your site and supports localization.
-6. To change your theme color, modify the theme.js file inside src/theme folder.
+    * To create a favicon [click here](https://favicon.io/favicon-converter)
+    * To create a maskable icon [click here](https://maskable.app/editor)
+3. Replace the existing images inside the public/images/icons folder if you want, But ensure that the new images have the same names, extensions (.png) when you replace, and dimensions (512x512) as the originals to prevent any scaling issues.
+    * You can find more Icons in [Flaticon](https://www.flaticon.com) site
+4. Add all the necessary images inside public/images folder with your preferred hierarchy and remove the existing images except public/images/icons folder
+5. Enter all your personal information in the profile.json file located in the src/data folder with your correct images path. This file controls the content displayed on your portfolio site, so updating it will dynamically reflect your personal details on the site.
+6. To change sections' titles or labels, edit the translations.json file found in src/i18n/locales/en. This file handles the textual content of your site and supports localization.
+7. To change your theme color, modify the theme.js file inside src/theme folder.
 
 ## TIPS
 1. Optimize Your Images
