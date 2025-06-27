@@ -184,27 +184,32 @@
                 {
                     "thumbnail": "images/projects/project-01/thumbnail.png",
                     "title": "Minecraft",
-                    "tag_line": "3D game"
+                    "tag_line": "3D game",
+                    "featured": true
                 },
                 {
                     "thumbnail": "images/projects/project-02/thumbnail.png",
                     "title": "Dragon BallZ",
-                    "tag_line": "Puzzle game"
+                    "tag_line": "Puzzle game",
+                    "featured": false
                 },
                 {
                     "thumbnail": "images/projects/project-03/thumbnail.png",
                     "title": "Fortnite Cauchemars",
-                    "tag_line": "Multiplayer game"
+                    "tag_line": "Multiplayer game",
+                    "featured": false
                 },
                 {
                     "thumbnail": "images/projects/project-04/thumbnail.png",
                     "title": "Call of Duty",
-                    "tag_line": "Shooting game"
+                    "tag_line": "Shooting game",
+                    "featured": false
                 },
                 {
                     "thumbnail": "images/projects/project-05/thumbnail.png",
                     "title": "Horizon",
-                    "tag_line": "Adventure game"
+                    "tag_line": "Adventure game",
+                    "featured": false
                 }
             ]
         },
@@ -214,12 +219,14 @@
                 {
                     "thumbnail": "images/projects/project-06/thumbnail.png",
                     "title": "Cassino Rumble",
-                    "tag_line": "Online slot machine"
+                    "tag_line": "Online slot machine",
+                    "featured": true
                 },
                 {
                     "thumbnail": "images/projects/project-07/thumbnail.png",
                     "title": "Need for Speed",
-                    "tag_line": "Multiplayer game"
+                    "tag_line": "Multiplayer game",
+                    "featured": false
                 }
             ]
         },
@@ -229,17 +236,20 @@
                 {
                     "thumbnail": "images/projects/project-08/thumbnail.png",
                     "title": "Burger House",
-                    "tag_line": "Restaurant website"
+                    "tag_line": "Restaurant website",
+                    "featured": true
                 },
                 {
                     "thumbnail": "images/projects/project-09/thumbnail.png",
                     "title": "E-Wallet",
-                    "tag_line": "Payment gateway"
+                    "tag_line": "Payment gateway",
+                    "featured": false
                 },
                 {
                     "thumbnail": "images/projects/project-10/thumbnail.png",
                     "title": "Marketing guru",
-                    "tag_line": "Marketing agency website"
+                    "tag_line": "Marketing agency website",
+                    "featured": false
                 }
             ]
         },
@@ -249,7 +259,8 @@
                 {
                     "thumbnail": "images/projects/project-11/thumbnail.png",
                     "title": "Pickme",
-                    "tag_line": "Food order app"
+                    "tag_line": "Food order app",
+                    "featured": false
                 }
             ]
         }

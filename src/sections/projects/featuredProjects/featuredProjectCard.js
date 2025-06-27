@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { Link } from "react-router-dom";
 
-const LatestProjectCard = ({item, index}) => {
+const FeaturedProjectCard = ({item, index}) => {
     return(
         <>
             <Link to={`/project/${index + 1}`}>
@@ -23,4 +23,4 @@ const LatestProjectCard = ({item, index}) => {
     );
 }
 
-export default LatestProjectCard;
+export default FeaturedProjectCard;

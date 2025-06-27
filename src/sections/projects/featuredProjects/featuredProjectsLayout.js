@@ -1,12 +1,12 @@
 import { Stack } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import TitleComponent from "../../../components/titleComponent";
-import LatestProjectsCardList from "./latestProjectsCardList";
+import FeaturedProjectsCardList from "./featuredProjectsCardList";
 import ButtonComponent from '../../../components/buttonComponent';
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
-const LatestProjectsLayout = () => {
+const FeaturedProjectsLayout = () => {
     const {t} = useTranslation();
 
     const navigate = useNavigate();
@@ -20,7 +20,7 @@ const LatestProjectsLayout = () => {
             <div className="layoutPaddingTop"></div>
 
             <TitleComponent 
-                title={t('projects.latest_projects')}
+                title={t('projects.featured_projects')}
                 px={1}
                 pb={5}
             />
@@ -33,7 +33,7 @@ const LatestProjectsLayout = () => {
                     width='100%'
                     spacing={5}
                 > 
-                    <LatestProjectsCardList />
+                    <FeaturedProjectsCardList />
                     
                     <ButtonComponent 
                         label={t(`projects.see_all`)}
@@ -49,4 +49,4 @@ const LatestProjectsLayout = () => {
     );
 }
 
-export default LatestProjectsLayout;
+export default FeaturedProjectsLayout;

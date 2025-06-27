@@ -16,7 +16,7 @@
     "expertise": "My Expertise",
     "work_experience": "My Work Experience",
     "projects": {
-        "latest_projects": "My Latest Projects",
+        "featured_projects": "My Featured Projects",
         "see_all": "See All Projects",
         "start_new_project": "Let's start a Project"
     },

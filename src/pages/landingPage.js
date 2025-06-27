@@ -6,12 +6,13 @@ import AboutMeLayout from "../sections/aboutMe/aboutMeLayout";
 import AcademicLayout from "../sections/academic/academicLayout";
 import ExpertiseLayout from "../sections/expertise/expertiseLayout";
 import WorkExperienceLayout from "../sections/workExperience/workExperienceLayout";
-import LatestProjectsLayout from "../sections/projects/latestProjects/latestProjectsLayout";
+import FeaturedProjectsLayout from "../sections/projects/featuredProjects/featuredProjectsLayout";
 import SoftSkillsNLanguagesLayout from "../sections/softSkillsNLanguages/softSkillsNLanguagesLayout";
 import ReviewsNPublicationsLayout from "../sections/reviewsNPublications/reviewsNPublicationsLayout";
 import TheEnd from "../sections/theEnd/theEndLayout";
 import FooterLayout from "../sections/footer/footerLayout";
 import content from '../data/profile.json';
+import { getFeaturedProjects } from "../utils/utils";
 
 const LandingPage = () => {
     <Helmet>
@@ -59,9 +60,9 @@ const LandingPage = () => {
             }
 
             {
-                content.projects.latest.length > 0
+                getFeaturedProjects(content.projects).length > 0
                 ?
-                <LatestProjectsLayout />
+                <FeaturedProjectsLayout />
                 :
                 <></>
             }

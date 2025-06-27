@@ -1,8 +1,9 @@
-import { Grid, Stack } from "@mui/material";
+import { Grid } from "@mui/material";
 import content from '../../../data/profile.json';
-import LatestProjectCard from "./latestProjectCard";
+import FeaturedProjectCard from "./featuredProjectCard";
+import { getFeaturedProjects } from "../../../utils/utils";
 
-const LatestProjectsCardList = () => {
+const FeaturedProjectsCardList = () => {
     return(
         <>
             <Grid
@@ -14,12 +15,12 @@ const LatestProjectsCardList = () => {
                 container
             >
                 {
-                    content.projects.latest.slice(0, 3).map((item, index) => {
+                    getFeaturedProjects(content.projects).slice(0, 3).map((item, index) => {
                         return <Grid
                             key={index}
                             size={{ xs: 12, md: 4 }}
                         >
-                            <LatestProjectCard 
+                            <FeaturedProjectCard 
                                 item={item}
                                 index={index}
                             />
@@ -31,4 +32,4 @@ const LatestProjectsCardList = () => {
     );
 }
 
-export default LatestProjectsCardList;
+export default FeaturedProjectsCardList;
