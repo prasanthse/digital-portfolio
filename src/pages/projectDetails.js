@@ -1,26 +1,17 @@
-import { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import { useNavigate, useParams } from "react-router-dom";
-import content from '../data/profile.json';
+import { useParams } from "react-router-dom";
+import ProjectDetailsLayout from "../sections/projects/projectDetails/projectDetailsLayout";
 
 const ProjectDetailsPage = () => {
     <Helmet>
         <title>Project Details</title>
     </Helmet>
 
-    let { id } = useParams();
-
-    const navigate = useNavigate();
-
-    useEffect(() => {
-        if(id <= 0 || id > content.projects.length){
-            navigate('/not-found');
-        }
-    }, [id]);
+    let { area, id } = useParams();
 
     return (
         <>
-        
+            <ProjectDetailsLayout area={area} projectID={id}/>
         </>
     );
 }

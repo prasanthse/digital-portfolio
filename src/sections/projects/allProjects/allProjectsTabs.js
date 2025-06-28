@@ -79,6 +79,7 @@ const AllProjectsTabs = () => {
                         index={index}
                     >
                         <AllProjectsList 
+                            area={item.area}
                             imgList={item.list}
                         />
                     </CustomTabPanel>

@@ -22,5 +22,21 @@
     },
     "languages": "Languages",
     "soft_skills": "My Soft Skills",
-    "publications": "Publications"
+    "publications": "Publications",
+    "errors": {
+        "project_not_found": {
+            "title": "Project Not Found",
+            "description": "Sorry, the project you’re looking for doesn’t exist or may have been removed. Please check the URL or return to the Projects page to explore my other work.",
+            "action": "Check other Projects"
+        },
+        "page_not_found": {
+            "title": "Page Not Found",
+            "description": "Oops! The page you’re looking for doesn’t exist or has been moved. Please check the URL or go back to the homepage.",
+            "action": "Back to Home"
+        },
+        "general": {
+            "title": "Something went wrong",
+            "description": "Oops! Something went wrong on our end. Please refresh and try again."
+        }
+    }
 }

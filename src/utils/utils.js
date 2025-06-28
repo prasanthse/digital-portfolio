@@ -4,7 +4,11 @@ export function getFeaturedProjects(projects){
     for(let i = 0; i < projects.length; i++){
         for(let j = 0; j < projects[i].list.length; j++){
             if(projects[i].list[j].featured){
-                projectsArray.push(projects[i].list[j]);
+                projectsArray.push({
+                    area: projects[i].area,
+                    id: j,
+                    thumbnail: projects[i].list[j].thumbnail
+                });
             }
         }
     }

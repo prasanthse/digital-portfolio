@@ -185,31 +185,145 @@
                     "thumbnail": "images/projects/project-01/thumbnail.png",
                     "title": "Minecraft",
                     "tag_line": "3D game",
-                    "featured": true
+                    "featured": true,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Freelancing",
+                    "released_date": "June 2025",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": [
+                            "images/projects/project-01/thumbnail.png",
+                            "images/projects/project-01/1.jpg",
+                            "images/projects/project-01/2.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "https://www.minecraft.net/en-us",
+                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
+                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
+                        "other": ""
+                    },
+                    "skills": [
+                        {"label": "Unity", "path": "images/tech-stacks/unity.png"},
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"}
+                    ],
+                    "client": "Mojang Studios",
+                    "client_review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "client_rating": 4
                 },
                 {
                     "thumbnail": "images/projects/project-02/thumbnail.png",
                     "title": "Dragon BallZ",
                     "tag_line": "Puzzle game",
-                    "featured": false
+                    "featured": false,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "March 2025",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": [
+                            "images/projects/project-02/1.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "https://www.minecraft.net/en-us",
+                        "playstore": "",
+                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
+                        "other": ""
+                    },
+                    "skills": [
+                        {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"}
+                    ],
+                    "client": "",
+                    "client_review": "",
+                    "client_rating": 0
                 },
                 {
                     "thumbnail": "images/projects/project-03/thumbnail.png",
                     "title": "Fortnite Cauchemars",
                     "tag_line": "Multiplayer game",
-                    "featured": false
+                    "featured": false,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Fiverr",
+                    "released_date": "December 2024",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": [
+                            "images/projects/project-03/thumbnail.png",
+                            "images/projects/project-03/1.jpg"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": "https://agar.io"
+                    },
+                    "skills": [
+                        {"label": "Java", "path": "images/tech-stacks/java.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"}
+                    ],
+                    "client": "",
+                    "client_review": "",
+                    "client_rating": 0
                 },
                 {
                     "thumbnail": "images/projects/project-04/thumbnail.png",
                     "title": "Call of Duty",
                     "tag_line": "Shooting game",
-                    "featured": false
+                    "featured": false,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Freelancing",
+                    "released_date": "October 2024",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": [
+                            "images/projects/project-04/thumbnail.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "skills": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                    ],
+                    "client": "Dialog",
+                    "client_review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "client_rating": 5
                 },
                 {
                     "thumbnail": "images/projects/project-05/thumbnail.png",
                     "title": "Horizon",
                     "tag_line": "Adventure game",
-                    "featured": false
+                    "featured": false,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Self Learning",
+                    "released_date": "May 2024",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": []
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
+                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
+                        "other": ""
+                    },
+                    "skills": [
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                    ],
+                    "client": "Techserw Labs (Pvt) Ltd",
+                    "client_review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "client_rating": 0
                 }
             ]
         },
@@ -220,13 +334,54 @@
                     "thumbnail": "images/projects/project-06/thumbnail.png",
                     "title": "Cassino Rumble",
                     "tag_line": "Online slot machine",
-                    "featured": true
+                    "featured": true,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Upwork",
+                    "released_date": "January 2024",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": [
+                            "images/projects/project-06/thumbnail.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "https://www.minecraft.net/en-us",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "skills": [
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"}
+                    ],
+                    "client": "Super Sonic Games",
+                    "client_review": "",
+                    "client_rating": 0
                 },
                 {
                     "thumbnail": "images/projects/project-07/thumbnail.png",
                     "title": "Need for Speed",
                     "tag_line": "Multiplayer game",
-                    "featured": false
+                    "featured": false,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Academic",
+                    "released_date": "February 2023",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": []
+                    },
+                    "links": {
+                        "webURL": "https://www.minecraft.net/en-us",
+                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "skills": [
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                    ],
+                    "client": "",
+                    "client_review": "",
+                    "client_rating": 4.5
                 }
             ]
         },
@@ -237,19 +392,89 @@
                     "thumbnail": "images/projects/project-08/thumbnail.png",
                     "title": "Burger House",
                     "tag_line": "Restaurant website",
-                    "featured": true
+                    "featured": true,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Freelancing",
+                    "released_date": "February 2023",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": [
+                            "images/projects/project-08/1.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
+                        "other": "https://agar.io"
+                    },
+                    "skills": [
+                        {"label": "Unity", "path": "images/tech-stacks/unity.png"},
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                    ],
+                    "client": "",
+                    "client_review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "client_rating": 0
                 },
                 {
                     "thumbnail": "images/projects/project-09/thumbnail.png",
                     "title": "E-Wallet",
                     "tag_line": "Payment gateway",
-                    "featured": false
+                    "featured": false,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "November 2022",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": [
+                            "images/projects/project-09/thumbnail.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "https://www.minecraft.net/en-us",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "skills": [
+                        {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"}
+                    ],
+                    "client": "Arbitary lab (Pvt) Ltd",
+                    "client_review": "",
+                    "client_rating": 0
                 },
                 {
                     "thumbnail": "images/projects/project-10/thumbnail.png",
                     "title": "Marketing guru",
                     "tag_line": "Marketing agency website",
-                    "featured": false
+                    "featured": false,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Freelancing",
+                    "released_date": "August 2022",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": [
+                            "images/projects/project-10/thumbnail.png",
+                            "images/projects/project-10/1.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "skills": [
+                        {"label": "Java", "path": "images/tech-stacks/java.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                    ],
+                    "client": "",
+                    "client_review": "",
+                    "client_rating": 5
                 }
             ]
         },
@@ -260,7 +485,34 @@
                     "thumbnail": "images/projects/project-11/thumbnail.png",
                     "title": "Pickme",
                     "tag_line": "Food order app",
-                    "featured": false
+                    "featured": false,
+                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "associated_with": "Fiverr",
+                    "released_date": "April 2022",
+                    "gallery": {
+                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "images": [
+                            "images/projects/project-11/thumbnail.png",
+                            "images/projects/project-11/1.png",
+                            "images/projects/project-11/2.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
+                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
+                        "other": "https://agar.io"
+                    },
+                    "skills": [
+                        {"label": "Unity", "path": "images/tech-stacks/unity.png"},
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                    ],
+                    "client": "Atlas",
+                    "client_review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "client_rating": 4
                 }
             ]
         }

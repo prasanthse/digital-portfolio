@@ -20,10 +20,7 @@ const FeaturedProjectsCardList = () => {
                             key={index}
                             size={{ xs: 12, md: 4 }}
                         >
-                            <FeaturedProjectCard 
-                                item={item}
-                                index={index}
-                            />
+                            <FeaturedProjectCard item={item}/>
                         </Grid>
                     })
                 }

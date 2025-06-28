@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const AllProjectsList = ({imgList}) => {
+const AllProjectsList = ({area, imgList}) => {
     useEffect(() => {
         AOS.init({ duration: 500 });
     }, []);
@@ -20,7 +20,7 @@ const AllProjectsList = ({imgList}) => {
                 {
                     imgList.map((item, index) => (
                         <Link 
-                            to={`/project/${index + 1}`}
+                            to={`/project/${area}/${index + 1}`}
                         >
                             <ImageListItem 
                                 key={index} 

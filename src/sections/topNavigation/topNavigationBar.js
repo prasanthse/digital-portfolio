@@ -1,5 +1,5 @@
 import { Box, Drawer, IconButton, List, ListItem, ListItemButton, Stack, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ButtonComponent from "../../components/buttonComponent";
 import { useTranslation } from "react-i18next";
 import { useCallback, useEffect, useState } from "react";
@@ -18,6 +18,8 @@ const TopNavigationBar = () => {
     const [drawerState, setDrawerState] = useState(false);
 
     const [activePage, setActivePage] = useState('/');
+
+    const navigate = useNavigate();
 
     useEffect(() => {
         const location = window.location.href;
@@ -44,9 +46,11 @@ const TopNavigationBar = () => {
         setDrawerState(status);
     }, []);
 
-    const selectNavOptionInMobile = useCallback((hash) => {
+    const selectNavOptionInMobile = useCallback((redirect) => {
         toggleDrawer(false);
-        clickNavigate(hash);
+        clickNavigate(redirect);
+
+        navigate(redirect);
     }, []);
 
     return (
