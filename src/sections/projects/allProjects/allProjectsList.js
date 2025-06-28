@@ -21,9 +21,9 @@ const AllProjectsList = ({area, imgList}) => {
                     imgList.map((item, index) => (
                         <Link 
                             to={`/project/${area}/${index + 1}`}
+                            key={index} 
                         >
                             <ImageListItem 
-                                key={index} 
                                 data-aos="zoom-in"
                                 data-aos-once={true}
                             >

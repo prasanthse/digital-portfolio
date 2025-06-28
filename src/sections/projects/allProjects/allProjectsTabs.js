@@ -54,7 +54,6 @@ const AllProjectsTabs = () => {
                     variant="scrollable"
                     scrollButtons="auto"
                     aria-label="scrollable auto tabs example"
-                    centered
                     textColor="primary"
                     indicatorColor="primary"
                     className="layoutMarginX"
