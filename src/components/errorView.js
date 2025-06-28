@@ -1,6 +1,9 @@
 import { Box, Stack, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import ButtonComponent from '../components/buttonComponent';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const ErrorView = ({
     icon=null, 
@@ -10,6 +13,10 @@ const ErrorView = ({
     action=null
 }) => {
     const {t} = useTranslation();
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
 
     return (
         <>
@@ -27,6 +34,7 @@ const ErrorView = ({
                     ?
                     <Box
                         width={{xs: 200, md: 300}}
+                        data-aos="zoom-in"
                     >
                         <img 
                             src={icon} 
@@ -46,6 +54,7 @@ const ErrorView = ({
                     textAlign='center'
                     lineHeight={1.25}
                     width='90%'
+                    data-aos="slide-up"
                 >
                     {errorTitle ?? t(`errors.general.title`)}
                 </Typography>
@@ -58,6 +67,7 @@ const ErrorView = ({
                     textAlign='center'
                     lineHeight={1.5}
                     width={{xs: '90%', md: '75%', lg: '50%'}}
+                    data-aos="fade-down"
                 >
                     {errorDescription ?? t(`errors.general.description`)}
                 </Typography>
@@ -66,7 +76,7 @@ const ErrorView = ({
                 {
                     action
                     ?
-                    <Box pt={5}>
+                    <Box pt={5} data-aos="fade-up">
                         <ButtonComponent 
                             label={actionTxt}
                             onClick={action}

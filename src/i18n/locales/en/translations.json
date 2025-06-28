@@ -36,7 +36,8 @@
         },
         "general": {
             "title": "Something went wrong",
-            "description": "Oops! Something went wrong on our end. Please refresh and try again."
+            "description": "Oops! Something went wrong on our end. Please refresh and try again.",
+            "action": "Back to Home"
         }
     }
 }
