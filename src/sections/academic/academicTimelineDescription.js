@@ -1,11 +1,19 @@
-import { Card, Stack, Typography, useTheme } from "@mui/material";
+import { Card, Stack, useTheme } from "@mui/material";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const AcademicTimelineDescription = ({
     major,
     school,
-    description
+    description,
+    index
 }) => {
     const theme = useTheme();
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
 
     return (
         <>
@@ -15,6 +23,7 @@ const AcademicTimelineDescription = ({
                     borderRadius: '16px',
                     p: 5
                 }}
+                data-aos={index %2 === 0 ? "flip-left" : "flip-right"}
             >
                 <Stack
                     direction='column'

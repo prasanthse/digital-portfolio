@@ -1,4 +1,10 @@
 @keyframes endCircleAnimation {
-    50% {scale: 0.75}
-    100% {scale: 1}
+    50% {
+        scale: 0.75;
+        opacity: 0.5;
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
 }

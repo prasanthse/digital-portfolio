@@ -16,7 +16,7 @@ const ConnectWithMeLayout = () => {
                 pt={3}
                 width='100%'
                 sx={{
-                    background: `linear-gradient(90deg,rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, ${theme.palette.primary.main})`
+                    background: `linear-gradient(90deg,rgb(255, 255, 255) 0%, rgb(255, 255, 255) 40%, ${theme.palette.primary.main})`
                 }}
             >
                 <div className="layoutMarginX">

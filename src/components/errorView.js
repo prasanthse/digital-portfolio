@@ -10,13 +10,17 @@ const ErrorView = ({
     errorTitle="",
     errorDescription="",
     actionTxt="",
-    action=null
+    height="100vh",
+    action=null,
+    needAnimations=true
 }) => {
     const {t} = useTranslation();
 
     useEffect(() => {
-        AOS.init({ duration: 1000 });
-    }, []);
+        if(needAnimations){
+            AOS.init({ duration: 1000 });
+        }
+    }, [needAnimations]);
 
     return (
         <>
@@ -25,7 +29,7 @@ const ErrorView = ({
                 justifyContent='center'
                 alignItems='center'
                 width='100%'
-                height='100vh'
+                height={height}
                 spacing={2}
             >
                 {/* Icon */}
@@ -34,7 +38,7 @@ const ErrorView = ({
                     ?
                     <Box
                         width={{xs: 200, md: 300}}
-                        data-aos="zoom-in"
+                        data-aos={needAnimations ? "zoom-in" : "none"}
                     >
                         <img 
                             src={icon} 
@@ -54,7 +58,7 @@ const ErrorView = ({
                     textAlign='center'
                     lineHeight={1.25}
                     width='90%'
-                    data-aos="slide-up"
+                    data-aos={needAnimations ? "slide-up" : "none"}
                 >
                     {errorTitle ?? t(`errors.general.title`)}
                 </Typography>
@@ -67,7 +71,7 @@ const ErrorView = ({
                     textAlign='center'
                     lineHeight={1.5}
                     width={{xs: '90%', md: '75%', lg: '50%'}}
-                    data-aos="fade-down"
+                    data-aos={needAnimations ? "fade-down" : "none"}
                 >
                     {errorDescription ?? t(`errors.general.description`)}
                 </Typography>
@@ -76,7 +80,10 @@ const ErrorView = ({
                 {
                     action
                     ?
-                    <Box pt={5} data-aos="fade-up">
+                    <Box 
+                        pt={5} 
+                        data-aos={needAnimations ? "fade-up" : "none"}
+                    >
                         <ButtonComponent 
                             label={actionTxt}
                             onClick={action}

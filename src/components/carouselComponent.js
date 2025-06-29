@@ -7,16 +7,18 @@ const CarouselComponent = ({
   autoplay=true,
   vertical=false,
   centerMode=true,
+  dots=false,
   speed=500,
   slidesToShow=5,
   breakpointXsBreakpoint=2,
   breakpointSmBreakpoint=2,
   breakpointMdBreakpoint=3,
   breakpointLgBreakpoint=5,
-  breakpointXlBreakpoint=6
+  breakpointXlBreakpoint=6,
+  width="100%"
 }) => {
   const settings = {
-    dots: false,
+    dots: dots,
     infinite: true,
     arrows: true,
     centerMode: centerMode,
@@ -69,7 +71,7 @@ const CarouselComponent = ({
       <div 
         className="slider-container" 
         style={{
-          width: '90%',
+          width: width,
           margin: 'auto'
         }}
       >

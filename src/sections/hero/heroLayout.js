@@ -13,6 +13,7 @@ const HeroLayout = () => {
                 alignItems='center'
                 container
                 bgcolor={theme.palette.secondary.main}
+                pt={20}
             >
                 <Grid size={{ xs: 12, md: 6 }}>
                     <HeroWelcome />

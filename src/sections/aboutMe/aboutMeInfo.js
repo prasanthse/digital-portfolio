@@ -17,7 +17,7 @@ const AboutMeInfo = () => {
                 <Stack
                     direction='column'
                     spacing={2}
-                    p={5}
+                    p={{xs: 3, md: 5}}
                 >
                     {
                         content.about_me.info.map((item, index) => {

@@ -3,6 +3,7 @@ import TopNavigationLayout from "../sections/topNavigation/topNavigationLayout";
 import ProjectsHero from "../sections/projects/allProjects/projectsHero";
 import AllProjectsTabs from "../sections/projects/allProjects/allProjectsTabs";
 import FooterLayout from "../sections/footer/footerLayout";
+import SpeedScroll from "../components/speedScroll";
 
 const ProjectsPage = () => {
     <Helmet>
@@ -18,6 +19,8 @@ const ProjectsPage = () => {
             <AllProjectsTabs />
 
             <FooterLayout />
+
+            <SpeedScroll />
         </>
     );
 }

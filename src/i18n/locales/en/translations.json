@@ -18,7 +18,26 @@
     "projects": {
         "featured_projects": "My Featured Projects",
         "see_all": "See All Projects",
-        "start_new_project": "Let's start a Project"
+        "start_new_project": "Let's start a Project",
+        "projectDetails": {
+            "breadcrumb": {
+                "home": "Home",
+                "projects": "Projects"
+            },
+            "associated": "Associated With",
+            "completion": "Completion Date",
+            "about": "About this Project",
+            "features": "Features",
+            "available": "Available On",
+            "tech_stacks": "Technology Stacks",
+            "platforms": {
+                "playstore": "Playstore",
+                "appstore": "Appstore",
+                "webURL": "Web",
+                "other": "Others"
+            },
+            "client": "Client"
+        }
     },
     "languages": "Languages",
     "soft_skills": "My Soft Skills",
@@ -38,6 +57,14 @@
             "title": "Something went wrong",
             "description": "Oops! Something went wrong on our end. Please refresh and try again.",
             "action": "Back to Home"
-        }
+        },
+        "youtube_video": {
+            "invalid": "Invalid video ID or URL",
+            "player_error": "HTML5 player error. The requested content cannot be played in an HTML5 player",
+            "not_found": "Video not found. It may have been removed or set to private",
+            "restricted": "The video owner has restricted playback on certain sites",
+            "unknown": "An unknown error occurred"
+        },
+        "unknown": "Unknown"
     }
 }

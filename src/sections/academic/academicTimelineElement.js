@@ -51,6 +51,7 @@ const AcademicTimelineElement = ({
                     major={major}
                     school={school}
                     description={description}
+                    index={index}
                 />
             </VerticalTimelineElement>
         </>

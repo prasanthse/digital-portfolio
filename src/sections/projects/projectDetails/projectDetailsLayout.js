@@ -4,6 +4,7 @@ import ProjectDetails from "./projectDetails";
 import ErrorView from "../../../components/errorView";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import ProjectsDetailsHero from "./projectDetailsHero";
 
 const ProjectDetailsLayout = ({area, projectID}) => {
     const {t} = useTranslation();
@@ -55,7 +56,15 @@ const ProjectDetailsLayout = ({area, projectID}) => {
         />
     }
     else{
-        body = <ProjectDetails project={projectDetails.project} />
+        body = <>
+            <ProjectsDetailsHero 
+                title={projectDetails.project.title}
+                area={area}
+                tagLine={projectDetails.project.tag_line}
+            />
+
+            <ProjectDetails project={projectDetails.project} />
+        </>
     }
 
     return (

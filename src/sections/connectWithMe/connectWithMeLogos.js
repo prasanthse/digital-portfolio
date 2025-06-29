@@ -37,7 +37,8 @@ const ConnectWithMeLogos = () => {
                     width: width,
                     height: width,
                     boxShadow: '0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);',
-                    bgcolor: 'white'
+                    bgcolor: 'white',
+                    p: {xs: 1, md: 1.5}
                 }}
             />
         </Tooltip>
@@ -60,7 +61,7 @@ const ConnectWithMeLogos = () => {
                 {
                     content.connect_me.map((item, index) => {
                         return <div key={index}>
-                            {getLogos(item.label, `${process.env.PUBLIC_URL}/${item.path}`, 20 + (index * logoSizeOffset), item.link)}
+                            {getLogos(item.label, `${process.env.PUBLIC_URL}/${item.path}`, 50, item.link)}
                         </div>
                     })
                 }

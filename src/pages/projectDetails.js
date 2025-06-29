@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
 import ProjectDetailsLayout from "../sections/projects/projectDetails/projectDetailsLayout";
+import SpeedScroll from "../components/speedScroll";
 
 const ProjectDetailsPage = () => {
     <Helmet>
@@ -12,6 +13,8 @@ const ProjectDetailsPage = () => {
     return (
         <>
             <ProjectDetailsLayout area={area} projectID={id}/>
+
+            <SpeedScroll />
         </>
     );
 }

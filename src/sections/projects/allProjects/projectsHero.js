@@ -38,7 +38,8 @@ const ProjectsHero = () => {
             <Box
                 sx={{
                     width: '100%',
-                    backgroundColor: theme.palette.secondary.main
+                    backgroundColor: theme.palette.secondary.main,
+                    pt: 15
                 }}
             >
                 <Stack
@@ -53,7 +54,7 @@ const ProjectsHero = () => {
                     <Typography
                         fontWeight={700}
                         fontSize={{xs: 40, md: 60, lg: 90}}
-                        lineHeight={1.25}
+                        lineHeight={1}
                         textAlign="center"
                         data-aos="zoom-in"
                     >

@@ -35,6 +35,7 @@ const AcademicLayout = () => {
                 >
                     <VerticalTimeline
                         lineColor='white'
+                        animate={false}
                     >
                         {
                             content.academic.map((item, index) => {

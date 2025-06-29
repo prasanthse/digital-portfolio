@@ -21,7 +21,8 @@ const TheEnd = () => {
                         zIndex: -1,
                         width: 200,
                         height: 200,
-                        animation: 'endCircleAnimation 1s infinite'
+                        animation: 'endCircleAnimation 1s infinite',
+                        opacity: 1
                     }}
                 />
 

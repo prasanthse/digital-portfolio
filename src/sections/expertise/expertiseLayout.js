@@ -45,6 +45,7 @@ const ExpertiseLayout = () => {
             >
                 <CarouselComponent 
                     list={getLogoArray()}
+                    width="90%"
                 />
             </Stack>
         </>

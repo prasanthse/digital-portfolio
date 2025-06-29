@@ -48,6 +48,7 @@ const AboutMeInfoCard = ({
                         <Typography 
                             fontWeight={600}
                             fontSize={{xs: 16, md: 12, lg: 18}}
+                            lineHeight={1.25}
                         >
                             {label}
                         </Typography>

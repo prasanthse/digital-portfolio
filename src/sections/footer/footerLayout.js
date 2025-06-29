@@ -1,4 +1,4 @@
-import { Stack, Typography, useTheme } from "@mui/material";
+import { Box, Stack, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const FooterLayout = () => {
@@ -7,30 +7,54 @@ const FooterLayout = () => {
     return (
         <>
             <Stack
-                direction='row'
-                justifyContent={{xs: 'center', md: 'end'}}
+                direction={{xs: 'column-reverse', md: 'row'}}
+                justifyContent={{xs: 'center', md: 'space-between'}}
                 alignItems='center'
                 width='100%'
-                py={3}
+                pt={10}
+                pb={2}
                 sx={{
-                    backgroundColor: theme.palette.primary.main
+                    background: `linear-gradient(180deg, rgb(255, 255, 255) 1%, ${theme.palette.primary.main})`
                 }}
             >
+                <Typography
+                    fontWeight={900}
+                    fontSize={12}
+                    textAlign={{xs: 'center', md: 'right'}}
+                    color="white"
+                    textTransform='uppercase'
+                    pl={{xs: 0, md: 10}}
+                >
+                    © 2025. Open source and reusable.
+                </Typography>
+
+                <Typography
+                    fontWeight={900}
+                    fontSize={60}
+                    textAlign='center'
+                    color="white"
+                    textTransform='uppercase'
+                    ml={{xs: 0, md: -10}}
+                >
+                    RESUME
+                </Typography>
+
                 {/* Developer */}
                 <Stack
                     direction='column'
                     justifyContent='center'
                     alignItems={{xs: 'center', md: 'end'}}
                     pr={{xs: 0, md: 10}}
+                    pb={{xs: 3, md: 0}}
                 >
                     <Typography
                         fontWeight={900}
-                        fontSize={14}
+                        fontSize={12}
                         textAlign={{xs: 'center', md: 'right'}}
                         color="white"
                         textTransform='uppercase'
                     >
-                        Credits to
+                        Developer
                     </Typography>
 
                     <Link
@@ -41,7 +65,7 @@ const FooterLayout = () => {
                     >
                         <Typography
                             fontWeight={600}
-                            fontSize={14}
+                            fontSize={12}
                             textAlign={{xs: 'center', md: 'right'}}
                             color="white"
                             sx={{
@@ -53,15 +77,6 @@ const FooterLayout = () => {
                             Sivakumar Prasanth
                         </Typography>
                     </Link>
-
-                    <Typography
-                        fontWeight={400}
-                        fontSize={10}
-                        textAlign={{xs: 'center', md: 'right'}}
-                        color="white"
-                    >
-                        Developer
-                    </Typography>
                 </Stack>
             </Stack>
         </>

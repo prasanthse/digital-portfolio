@@ -8,8 +8,9 @@ const TopNavigationLayout = () => {
         <>
             <Grid 
                 width='100%' 
-                bgcolor={theme.palette.secondary.main}
                 py={2}
+                position='fixed'
+                zIndex={1000}
             >
                 <TopNavigationBar />
             </Grid>

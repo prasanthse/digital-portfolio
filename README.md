@@ -47,7 +47,7 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
     * To create a maskable icon [click here](https://maskable.app/editor)
 3. Replace the existing images inside the ```public/images/icons``` folder if you want, But ensure that the new images have the same names, extensions ```(.png)``` when you replace, and dimensions ```(512x512)``` as the originals to prevent any scaling issues.
     * You can find more Icons in [Flaticon](https://www.flaticon.com) site
-4. Add all the necessary images inside ```public/images``` folder with your preferred hierarchy and remove the existing images except ```public/images/icons``` folder
+4. Add all the necessary images inside ```public/images``` folder with your preferred hierarchy and remove the existing images except ```public/images/icons``` and ```public/images/utils``` folder
 5. Enter all your personal information in the ```profile.json``` file located in the ```src/data``` folder with your correct images path. This file controls the content displayed on your portfolio site, so updating it will dynamically reflect your personal details on the site.
 6. To change sections' titles or labels, edit the ```translations.json``` file found in ```src/i18n/locales/en```. This file handles the textual content of your site and supports localization.
 7. To change your theme color, modify the theme.js file inside ```src/theme``` folder.

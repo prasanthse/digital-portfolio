@@ -19,6 +19,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.3",
     "react-vertical-timeline-component": "^3.5.3",
+    "react-youtube": "^10.1.0",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
