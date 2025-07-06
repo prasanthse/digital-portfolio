@@ -67,14 +67,20 @@ const TopNavigationBar = () => {
                     className="layoutMarginX"
                 >
                     <Link to='/'>
-                        <img 
-                            src={`${process.env.PUBLIC_URL}/logo.png`}
-                            alt="Logo" 
-                            width={80}
-                            style={{
-                                cursor: 'pointer'
+                        <Box
+                            sx={{
+                                width: {xs: 60, md: 80}
                             }}
-                        />
+                        >
+                            <img 
+                                src={`${process.env.PUBLIC_URL}/logo.png`}
+                                alt="Logo" 
+                                width='100%'
+                                style={{
+                                    cursor: 'pointer'
+                                }}
+                            />
+                        </Box>
                     </Link>
 
                     {/* PC View */}
