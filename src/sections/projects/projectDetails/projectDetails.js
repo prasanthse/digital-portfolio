@@ -119,14 +119,26 @@ const ProjectDetails = ({project}) => {
     }, []);
 
     const hasYoutubeVideo = useCallback(() => {
-        return project.gallery.youtube_link.trim().length > 0;
+        const url = project.gallery.youtube_link;
+
+        return url != undefined && url.trim().length > 0;
     }, [project]);
 
     const getYoutubeVideoID = useCallback(() => {
         const url = project.gallery.youtube_link;
-        const urlIndex = url.lastIndexOf("v=");
-       
-        return url.substring(urlIndex + 2);
+
+        var regExp = /^(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)[\w\-]{11}(?:[&?][^\s]*)?$/;
+        var match = url.match(regExp);
+
+        if (match) {
+            const regExp = /(youtu.*be.*)\/(watch\?v=|embed\/|v|shorts|)(.*?((?=[&#?])|$))/gm;
+            return regExp.exec(project.gallery.youtube_link)[3];
+        }
+        else {
+            setYoutubeVideoError(t(`errors.youtube_video.invalid`));
+
+            return null;
+        }
     }, [project]);
 
     const scrollRef = useRef(null);
@@ -302,8 +314,8 @@ const ProjectDetails = ({project}) => {
                                 >
                                     {
                                         [
-                                            {label: t(`projects.projectDetails.associated`), value: project.associated_with, path: "images/icons/freelancer.png"},
-                                            {label: t(`projects.projectDetails.completion`), value: project.released_date, path: "images/icons/calendar.png"}
+                                            {label: t(`projects.projectDetails.associated`), value: project.associated_with, path: "images/icons/collaboration.png"},
+                                            {label: t(`projects.projectDetails.completion`), value: project.released_date, path: "images/icons/completion.png"}
                                         ].map((item, index) => {
                                             return <AboutMeInfoCard 
                                                 key={index}
@@ -526,7 +538,7 @@ const ProjectDetails = ({project}) => {
                                             width='100%'
                                             spacing={2}
                                             sx={{
-                                                overflow: 'scroll',
+                                                overflowX: 'scroll',
                                                 borderRadius: '16px'
                                             }}
                                             className="hideScrollBar"
@@ -567,7 +579,7 @@ const ProjectDetails = ({project}) => {
                     {
                         project.client.avatar === "" 
                         && project.client.name.trim().length === 0 
-                        && project.client.rating > 0 
+                        && project.client.rating === 0 
                         && project.client.review.trim().length === 0
                         ?
                         <></>
