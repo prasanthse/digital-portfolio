@@ -25,6 +25,7 @@ const BreadCrumbLink = (action, text) => {
         variant="text"
         onClick={action}
         size="medium"
+        textColor="black"
         sx={{
             textTransform: 'none',
             p: 0,
@@ -87,6 +88,7 @@ const ProjectsDetailsHero = ({title, area, tagLine}) => {
                         fontSize={{xs: 14, md: 12, lg: 14}}
                         lineHeight={2}
                         textAlign='center'
+                        pt={2}
                     >
                         {tagLine}
                     </Typography>

@@ -17,16 +17,28 @@ const FooterLayout = () => {
                     background: `linear-gradient(180deg, rgb(255, 255, 255) 1%, ${theme.palette.primary.main})`
                 }}
             >
-                <Typography
-                    fontWeight={900}
-                    fontSize={12}
-                    textAlign={{xs: 'center', md: 'right'}}
-                    color="white"
-                    textTransform='uppercase'
-                    pl={{xs: 0, md: 10}}
+                <Link
+                    to="https://github.com/prasanthse/digital-portfolio.git"
+                    style={{ 
+                        textDecoration: 'none'
+                    }}
                 >
-                    © 2025. Open source and reusable.
-                </Typography>
+                    <Typography
+                        fontWeight={900}
+                        fontSize={12}
+                        textAlign={{xs: 'center', md: 'right'}}
+                        color="white"
+                        textTransform='uppercase'
+                        pl={{xs: 0, md: 10}}
+                        sx={{
+                            '&: hover': {
+                                transform: 'scale(1.1)'
+                            }
+                        }}
+                    >
+                        © 2025 Prasanth. Open source and reusable.
+                    </Typography>
+                </Link>
 
                 <Typography
                     fontWeight={900}
@@ -54,7 +66,7 @@ const FooterLayout = () => {
                         color="white"
                         textTransform='uppercase'
                     >
-                        Developer
+                        Proudly Developed by
                     </Typography>
 
                     <Link

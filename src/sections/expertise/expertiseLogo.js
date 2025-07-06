@@ -24,6 +24,7 @@ const ExpertiseLogo = ({
                     lineHeight={1.25}
                     pt={2}
                     color="#888888"
+                    textAlign='center'
                 >
                     {label}
                 </Typography>

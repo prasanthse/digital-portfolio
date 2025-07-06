@@ -4,8 +4,8 @@
         "languages_section": "images/my photos/other.png"
     },
     "hero": {
-        "name": "Peter Parker",
-        "about": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet.",
+        "name": "Prasanth",
+        "about": "Game developer and software engineer dedicated to building interactive worlds and impactful digital solutions.",
         "job_role": "Senior Game Developer",
         "degree": "B.Sc in Software Engineering",
         "tech_stacks": {
@@ -14,43 +14,43 @@
             "tertiary": "images/icons/tech-stack-03.png"
         }
     },
-    "hire_me": "mailto:abc@gmail.com",
-    "contact_me": "https://wa.link/ateauh",
-    "lets_start_a_project": "https://wa.link/ateauh",
+    "hire_me": "https://wa.link/uxiahr",
+    "contact_me": "https://wa.link/uxiahr",
+    "lets_start_a_project": "https://wa.link/uxiahr",
     "connect_me": [
         {
-            "label": "Email",
-            "link": "mailto:abc@gmail.com",
-            "path": "images/connect me/gmail.png"
-        },
-        {
-            "label": "Phone",
-            "link": "https://wa.link/ateauh",
-            "path": "images/connect me/phone-call.png"
-        },
-        {
-            "label": "Upwork",
-            "link": "https://upwork.com",
-            "path": "images/connect me/upwork.png"
-        },
-        {
-            "label": "Github",
-            "link": "https://github.com",
-            "path": "images/connect me/github.png"
+            "label": "Linkedin",
+            "link": "https://www.linkedin.com/in/prasanthse1996",
+            "path": "images/connect me/linkedin.png"
         },
         {
             "label": "Medium",
-            "link": "https://medium.com",
+            "link": "https://medium.com/@sivakumar-prasanth",
             "path": "images/connect me/medium.png"
         },
         {
-            "label": "Linkedin",
-            "link": "https://linkedin.com",
-            "path": "images/connect me/linkedin.png"
+            "label": "Github",
+            "link": "https://github.com/prasanthse",
+            "path": "images/connect me/github.png"
+        },
+        {
+            "label": "Upwork",
+            "link": "https://www.upwork.com/freelancers/~01c13f861ee6a32fdf?mp_source=share",
+            "path": "images/connect me/upwork.png"
+        },
+        {
+            "label": "Whatsapp",
+            "link": "https://wa.link/uxiahr",
+            "path": "images/connect me/phone-call.png"
+        },
+        {
+            "label": "Email",
+            "link": "mailto:prasanth15sp@gmail.com",
+            "path": "images/connect me/gmail.png"
         }
     ],
     "about_me": {
-        "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+        "description": "I hold a Bachelor of Science (Honors) degree in Software Engineering from the University of Kelaniya, graduating with First Class Honors. With over five years of hands-on industry experience, I bring a dynamic, results-driven mindset to every task I undertake, supported by a strong technical foundation and proven leadership skills. I thrive in environments that challenge me to grow both academically and professionally, and I am deeply committed to research, innovation, and knowledge sharing.",
         "info": [
             {
                 "label": "Gender",
@@ -59,235 +59,316 @@
             },
             {
                 "label": "Date of Birth",
-                "value": "1990/01/01",
+                "value": "1996/03/15",
                 "path": "images/icons/birthday.png"
             },
             {
                 "label": "Address",
-                "value": "22/50, Main Street, Negombo, Sri Lanka",
+                "value": "Negombo, Sri Lanka",
                 "path": "images/icons/address.png"
             }
         ]
     },
     "academic": [
         {
-            "major": "M.Sc in Information Technology",
-            "school": "University of Colombo",
-            "date": "2025/01/01",
-            "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "major": "B.Sc in Software Engineering (Honors)",
+            "school": " University of Kelaniya Sri Lanka",
+            "date": "2017 - 2021",
+            "description": "I complete my undergraduate studies with First Class Honors, where I gain strong theoretical and practical knowledge. During my time at university, I actively participated in leadership and organizational roles, including serving on the Organizing Committee of AIESEC. As part of my final year research, I developed a machine learning model to predict and provide a quantitative score for COVID-19 severity using chest X-rays and CT images, contributing to early diagnosis and decision-making support during the pandemic. My academic journey laid the foundation for my career in game and software development."
         },
         {
-            "major": "B.Sc in Information Technology",
-            "school": "University of Moratuwa",
-            "date": "2020/06/12",
-            "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            "major": "Advanced level in Physical science",
-            "school": "Colombo Hindu Collage",
-            "date": "2020/09/14",
-            "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "major": "Primary to Advanced Level (A/L)",
+            "school": "Ng/Wijayaratnam Hindu Central Collage",
+            "date": "2002 - 2015",
+            "description": "I complete my primary and secondary education at Ng/Wijayaratnam Hindu Central College, where I actively participate in leadership roles as a school prefect and secretary of the A/L Union. I sit for the G.C.E. Ordinary Level (O/L) examination in 2012 with a strong academic performance. I then pursue the Physical Science stream for my Advanced Level (A/L) studies and obtain 3 B grades in Combined Mathematics, Physics, and Chemistry in 2015. This academic foundation earns me the opportunity to gain admission to the University of Kelaniya for a B.Sc. (Honors) degree in Software Engineering."
         }
     ],
     "expertise": [
-        {"label": "Unity", "path": "images/tech-stacks/unity.png"},
-        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
-        {"label": "CSS", "path": "images/tech-stacks/css.png"},
-        {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
-        {"label": "HTML", "path": "images/tech-stacks/html.png"},
-        {"label": "Java", "path": "images/tech-stacks/java.png"},
-        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+        {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
         {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
         {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
-        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+        {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
+        {"label": "Springboot", "path": "images/tech-stacks/Spring boot.png"},
+        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+        {"label": "Git", "path": "images/tech-stacks/social.png"},
+        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+        {"label": "Python", "path": "images/tech-stacks/python.png"},
+        {"label": "Java", "path": "images/tech-stacks/java.png"},
+        {"label": "C", "path": "images/tech-stacks/c.png"},
+        {"label": "MySQL", "path": "images/tech-stacks/mysql.png"},
+        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"},
+        {"label": "Office Packages", "path": "images/tech-stacks/office.png"}
     ],
     "work_experience": [
         {
-            "role": "Senior Software Engineer",
-            "duration": "February 2024 - Present",
+            "role": "Chief Executive Officer | Senior Software Engineer - Game Development",
+            "duration": "July 2022 - Present",
             "company": {
-                "name": "Creative Minds. New York. USA",
+                "name": "Techserw Labs (Pvt) Ltd",
                 "images": [
-                    "images/work/1.png",
-                    "images/work/2.png",
-                    "images/work/3.png"
+                    "images/work/ceo-1.png",
+                    "images/work/ceo-2.png",
+                    "images/work/ceo-3.png",
+                    "images/work/ceo-4.png",
+                    "images/work/ceo-5.png",
+                    "images/work/ceo-6.png",
+                    "images/work/ceo-7.png"
                 ],
                 "link": "https://techserw.com"
             },
-            "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "description": "I lead a passionate team dedicated to delivering high-quality digital experiences with a strong focus on game development, web/mobile applications, and interactive solutions. While I oversee business strategy, client relations, and operational leadership, I also remain deeply involved in the technical side as a Senior Software Engineer – Game Development. I architect and develop end-to-end game solutions using Unity 3D and PixiJS, creating engaging, scalable, and cross-platform games. I integrate features such as REST APIs, in-game advertisements, in-app purchases, and Firebase-based services, and ensure successful deployment to the Play Store and App Store. I also drive the company’s innovation efforts, exploring AI applications in games and interactive technologies. Additionally, I design and build responsive web applications using ReactJS and cross-platform mobile apps with Flutter, ensuring seamless user experiences across devices.Under my leadership, Techserw has successfully delivered projects for both local and international clients, combining technical excellence with a deep understanding of user engagement, storytelling, and product-market fit. I am committed to mentoring developers, growing the studio’s capabilities, and building a global presence for Sri Lankan talent in the game development industry.",
             "teck_stacks": [
-                {"label": "Unity", "path": "images/tech-stacks/unity.png"},
-                {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
-                {"label": "CSS", "path": "images/tech-stacks/css.png"},
-                {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
-                {"label": "HTML", "path": "images/tech-stacks/html.png"},
-                {"label": "Java", "path": "images/tech-stacks/java.png"},
-                {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
                 {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
                 {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
-                {"label": "C++", "path": "images/tech-stacks/c++.png"}
-            ]
-        },
-        {
-            "role": "Associate Software Engineer",
-            "duration": "September 2022 - February 2024",
-            "company": {
-                "name": "Creative Minds. New York. USA",
-                "images": [],
-                "link": "https://techserw.com"
-            },
-            "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "teck_stacks": [
+                {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
+                {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                {"label": "Git", "path": "images/tech-stacks/social.png"},
+                {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
                 {"label": "HTML", "path": "images/tech-stacks/html.png"},
-                {"label": "Java", "path": "images/tech-stacks/java.png"},
-                {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"},
+                {"label": "Office Packages", "path": "images/tech-stacks/office.png"}
             ]
         },
         {
-            "role": "Intern Software Engineer",
-            "duration": "February 2022 - August 2022",
+            "role": "Visiting Lecturer",
+            "duration": "May 2025 - July 2025",
             "company": {
-                "name": "Creative Minds. New York. USA",
+                "name": "University of Sri Jayewardenepura Sri lanka",
                 "images": [
-                    "images/work/1.png"
+                    "images/work/visiting lecturer.png"
+                ],
+                "link": "https://computing.sjp.ac.lk/index.php/bachelor-of-computing-honours-in-information-systems"
+            },
+            "description": "As a Visiting Lecturer for Level 3 students in the Game Designing and Development module, I deliver comprehensive lectures and hands-on sessions covering key areas of game development, including game mechanics, storytelling, level design, prototyping, and Unity-based implementation. My role focuses on blending theoretical knowledge with industry-relevant practices to equip students with the skills needed to excel in game development. I also mentor students on their project work, fostering creativity, critical thinking, and collaboration in a studio-like learning environment.",
+            "teck_stacks": [
+                {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                {"label": "Git", "path": "images/tech-stacks/social.png"},
+                {"label": "C#", "path": "images/tech-stacks/c-sharp.png"}
+            ]
+        },
+        {
+            "role": "Senior Software Engineer - Game Development",
+            "duration": "March 2020 - January 2024",
+            "company": {
+                "name": "Arimac Lanka (Pvt) Ltd",
+                "images": [
+                    "images/work/intern-1.png",
+                    "images/work/intern-2.png",
+                    "images/work/intern-3.png"
+                ],
+                "link": "https://arimac.digital"
+            },
+            "description": "I lead a game development team at Arimac Lanka, Sri Lanka’s premier digital solutions provider. With over 4 years of hands-on experience in mobile game development, I design and build complete game solutions from concept to deployment. My core expertise lies in using Unity 3D and PixiJS to develop engaging, cross-platform games.I implement advanced features such as REST API integrations, in-game advertisements, in-app purchases, push notifications, and real-time analytics using Firebase. I manage the full deployment lifecycle across both the Play Store and App Store.Beyond game development, I contribute to projects built in Flutter and ReactJS whenever the team requires, maintaining flexibility and cross-functional collaboration. My role also involves mentoring junior developers, conducting code reviews, and ensuring high-quality, scalable code delivery within agile workflows.",
+            "teck_stacks": [
+                {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
+                {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                {"label": "Git", "path": "images/tech-stacks/social.png"},
+                {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                {"label": "Javascript", "path": "images/tech-stacks/javascript.png"}
+            ]
+        },
+        {
+            "role": "Visiting Lecturer",
+            "duration": "July 2023 - September 2023",
+            "company": {
+                "name": "University of Kelaniya Sri lanka",
+                "images": [],
+                "link": "https://science.kln.ac.lk/tunits/setu"
+            },
+            "description": "I teach the Game Development Technology module for Level 3 students, focusing on core concepts such as game architecture, interactive mechanics, graphics programming, and real-time deployment. I conduct both lectures and hands-on sessions using industry-standard tools like Unity, guiding students through real-world development workflows. I also mentor students in building playable prototypes and portfolio-quality projects, fostering creativity, technical skills, and collaborative thinking.",
+            "teck_stacks": [
+                {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                {"label": "C#", "path": "images/tech-stacks/c-sharp.png"}
+            ]
+        },
+        {
+            "role": "Intern Game Developer",
+            "duration": "September 2019 - March 2020",
+            "company": {
+                "name": "Arimac Lanka (Pvt) Ltd",
+                "images": [
+                    "images/projects/project-12/p3.png",
+                    "images/projects/project-12/p4.png",
+                    "images/projects/project-12/p5.png"
+                ],
+                "link": "https://arimac.digital"
+            },
+            "description": "I begin my career as a Game Development Intern at Arimac Lanka, Sri Lanka's leading provider of digital solutions specializing in Game Design and Development, AI/ML, Mobile and Enterprise Solutions, and Immersive Technologies. During this internship, I work primarily with Unity 3D and PixiJS to build interactive gameplay features and user experiences. I also gain hands-on experience integrating Firebase for backend services and deploying applications to both the Play Store and App Store. This role helps me build a strong foundation in game development, version control, and cross-platform deployment, while immersing me in a fast-paced, professional development environment that shapes my technical discipline and creative thinking.",
+            "teck_stacks": [
+                {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                {"label": "Git", "path": "images/tech-stacks/social.png"},
+                {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                {"label": "Javascript", "path": "images/tech-stacks/javascript.png"}
+            ]
+        },
+        {
+            "role": "Freelancing Web application, Mobile application and Game development",
+            "duration": "2018 - March 2020",
+            "company": {
+                "name": "Self Employed",
+                "images": [
+                    "images/work/freelance-1.png",
+                    "images/work/freelance-2.png"
                 ],
                 "link": ""
             },
-            "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "description": "I work as a freelance developer specializing in web applications, mobile applications, and game development. I collaborate with clients to design and build user-centric solutions using modern technologies such as AngularJS, Flutter, Springboot and Unity. My responsibilities include full-cycle development, from requirement gathering and design to coding, testing, and deployment. Through freelancing, I continue to sharpen my technical skills, adapt to diverse project needs, and deliver high-quality digital experiences.",
             "teck_stacks": [
-                {"label": "Javascript", "path": "images/tech-stacks/javascript.png"}
+                {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                {"label": "Springboot", "path": "images/tech-stacks/Spring boot.png"},
+                {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                {"label": "Git", "path": "images/tech-stacks/social.png"},
+                {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                {"label": "MySQL", "path": "images/tech-stacks/mysql.png"},
+                {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                {"label": "CSS", "path": "images/tech-stacks/css.png"}
             ]
+        },
+        {
+            "role": "Life & Health Insurance Agent",
+            "duration": "January 2016 - April 2016",
+            "company": {
+                "name": "Softlogic Life",
+                "images": [],
+                "link": ""
+            },
+            "description": "I work as a Life & Health Insurance Agent, helping clients understand and choose the right insurance solutions for their needs. This role strengthens my communication, negotiation, and interpersonal skills—crucial for client interactions and collaboration in my current tech career. It also sharpens my ability to explain complex information clearly, build trust, and manage time effectively. These experiences have helped me approach game development and software engineering with a user-first mindset, empathy, and a strong sense of responsibility.",
+            "teck_stacks": []
+        },
+        {
+            "role": "Machine Operator",
+            "duration": "August 2015 - December 2015",
+            "company": {
+                "name": "Katunayake Export Processing Zone",
+                "images": [],
+                "link": ""
+            },
+            "description": "I work as a Machine Operator, managing and maintaining production machinery with a strong focus on precision, efficiency, and safety. This experience has taught me the value of discipline, attention to detail, and the importance of process optimization—skills that continue to support my work in software and game development. Working in a high-pressure, fast-paced environment helped me develop a strong work ethic, problem-solving mindset, and a deep appreciation for teamwork and reliability, all of which I carry into my tech career today.I work as a Machine Operator, managing and maintaining production machinery with a strong focus on precision, efficiency, and safety. This experience has taught me the value of discipline, attention to detail, and the importance of process optimization—skills that continue to support my work in software and game development. Working in a high-pressure, fast-paced environment helped me develop a strong work ethic, problem-solving mindset, and a deep appreciation for teamwork and reliability, all of which I carry into my tech career today.",
+            "teck_stacks": []
         }
     ],
     "projects_overview": {
-        "title": "Things I’ve Built",
-        "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+        "title": "The Lab of My Builds",
+        "description": "Dive into the diverse projects I’ve brought to life from concept to deployment, showcasing my skills, creativity, and dedication that reflect my growth as a developer and my commitment to delivering impact.",
         "insights": [
             {
-                "label": "Years of experience",
+                "label": "Years of industry experience",
                 "value": "05+"
             },
             {
                 "label": "Industry projects",
-                "value": "20+"
+                "value": "30+"
             },
             {
                 "label": "Freelancing projects",
-                "value": "05+"
+                "value": "07+"
             }
         ]
     },
     "projects": [
         {
-            "area": "Mobile Game Development",
+            "area": "Unity Games",
             "list": [
                 {
-                    "thumbnail": "images/projects/project-01/thumbnail.png",
-                    "title": "Minecraft",
-                    "tag_line": "3D game",
+                    "thumbnail": "images/projects/project-02/p1.png",
+                    "title": "Dialog Super Cricket",
+                    "tag_line": "Telco Game for Dialog Axiata PLC",
                     "featured": true,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "description": "Dialog Super Cricket is an exciting, fast-paced mobile cricket game that brings the thrill of the pitch to players’ fingertips. Developed with Unity, this game combines smooth gameplay, responsive controls, and vibrant graphics to deliver an immersive cricket experience. Players can bat, bowl, and compete in quick matches, aiming for high scores and big wins.",
                     "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
+                        "Secure Firebase Authentication",
+                        "OneSignal Push Notification",
+                        "Monthly Subscription Integration",
+                        "Fun and Engaging Gameplay",
+                        "Real-Time Leaderboard System",
+                        "Integrated Firebase Analytics",
+                        "Head-to-Head Duels"
                     ],
-                    "associated_with": "Freelancing",
-                    "released_date": "June 2025",
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "December 2021",
                     "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=N6icxAC7sIA",
+                        "youtube_link": "https://www.youtube.com/shorts/D-q4jwGvchQ",
                         "images": [
-                            "images/projects/project-01/thumbnail.png",
-                            "images/projects/project-01/1.jpg",
-                            "images/projects/project-01/2.png"
+                            "images/projects/project-02/p1.png",
+                            "images/projects/project-02/p2.png",
+                            "images/projects/project-02/p3.png"
                         ]
                     },
                     "links": {
-                        "webURL": "https://www.minecraft.net/en-us",
-                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
-                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
-                        "other": "https://google.com"
-                    },
-                    "tech_stacks": [
-                        {"label": "Unity", "path": "images/tech-stacks/unity.png"},
-                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
-                        {"label": "CSS", "path": "images/tech-stacks/css.png"}
-                    ],
-                    "client": {
-                        "name": "Mojang Studios",
-                        "avatar": "images/reviewers/reviewer-01.png",
-                        "link": "https://techserw.com",
-                        "review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "rating": 4
-                    }
-                },
-                {
-                    "thumbnail": "images/projects/project-02/thumbnail.png",
-                    "title": "Dragon BallZ",
-                    "tag_line": "Puzzle game",
-                    "featured": false,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
-                    "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
-                    ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
-                    "released_date": "March 2025",
-                    "gallery": {
-                        "youtube_link": "",
-                        "images": [
-                            "images/projects/project-02/1.png"
-                        ]
-                    },
-                    "links": {
-                        "webURL": "https://www.minecraft.net/en-us",
-                        "playstore": "",
-                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
+                        "webURL": "",
+                        "playstore": "https://play.google.com/store/apps/details?id=com.imigames.cricketbash&hl=en",
+                        "appstore": "https://apps.apple.com/lk/app/dialog-super-cricket/id1598863946",
                         "other": ""
                     },
                     "tech_stacks": [
-                        {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
-                        {"label": "HTML", "path": "images/tech-stacks/html.png"}
+                        {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                        {"label": "Onesignal", "path": "images/tech-stacks/onesignal.png"}
                     ],
                     "client": {
-                        "name": "",
-                        "avatar": "",
-                        "link": "",
+                        "name": "Dialog Axiata PLC",
+                        "avatar": "images/projects/project-02/dialog.png",
+                        "link": "https://www.dialog.lk/games",
                         "review": "",
                         "rating": 0
                     }
                 },
                 {
-                    "thumbnail": "images/projects/project-03/thumbnail.png",
-                    "title": "Fortnite Cauchemars",
-                    "tag_line": "Multiplayer game",
-                    "featured": false,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "thumbnail": "images/projects/project-03/p1.png",
+                    "title": "TechieSays Junior",
+                    "tag_line": "Edutech Game for Language Learning",
+                    "featured": true,
+                    "description": "TechieSays Junior is an engaging educational game designed to introduce young learners to the fundamentals of technology through interactive play. Built with a focus on kids, it combines fun mini-games, quizzes, and guided lessons to help children develop logical thinking and digital literacy skills in a safe and entertaining environment. The game features vibrant visuals, child-friendly navigation, and rewarding challenges that keep young minds curious and motivated. Parents and educators can track progress, making TechieSays Junior a trusted companion for early tech education.",
                     "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
+                        "Secure Firebase Authentication",
+                        "OneSignal Push Notification",
+                        "Fun and Engaging Gameplay",
+                        "Integrated Firebase Analytics",
+                        "In App Purchases",
+                        "Dynamic Content Delivery",
+                        "Parental control",
+                        "Mini Game Library"
                     ],
-                    "associated_with": "Fiverr",
-                    "released_date": "December 2024",
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "January 2024",
                     "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "youtube_link": "https://youtu.be/7IAN92BE_cU",
                         "images": [
-                            "images/projects/project-03/thumbnail.png",
-                            "images/projects/project-03/1.jpg"
+                            "images/projects/project-03/p1.png",
+                            "images/projects/project-03/p2.png",
+                            "images/projects/project-03/p3.png",
+                            "images/projects/project-03/p4.png",
+                            "images/projects/project-03/p5.png",
+                            "images/projects/project-03/p6.png",
+                            "images/projects/project-03/p7.png"
                         ]
                     },
                     "links": {
                         "webURL": "",
-                        "playstore": "",
-                        "appstore": "",
-                        "other": "https://agar.io"
+                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.techieSays&hl=en",
+                        "appstore": "https://apps.apple.com/us/app/techiesays-kids-language-app/id6474207562",
+                        "other": ""
                     },
                     "tech_stacks": [
-                        {"label": "Java", "path": "images/tech-stacks/java.png"},
-                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"}
+                        {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                        {"label": "Onesignal", "path": "images/tech-stacks/onesignal.png"}
                     ],
                     "client": {
                         "name": "",
@@ -298,269 +379,1194 @@
                     }
                 },
                 {
-                    "thumbnail": "images/projects/project-04/thumbnail.png",
-                    "title": "Call of Duty",
-                    "tag_line": "Shooting game",
-                    "featured": false,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "thumbnail": "images/projects/project-01/p1-1.png",
+                    "title": "SLT Kimaki",
+                    "tag_line": "Telco Game for Sri Lankan Telecom PLC",
+                    "featured": true,
+                    "description": "I developed this interactive game for the SLT, built with Unity. The game provides users with an engaging, gamified experience to enhance brand interaction and user retention. My role covered the full cycle from prototyping game mechanics to implementation, and optimization for performance on Android and IOS devices.",
                     "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
+                        "Secure Firebase Authentication",
+                        "OneSignal Push Notification",
+                        "Monthly Subscription Integration",
+                        "Data Redeem Functionality",
+                        "Fun and Engaging Gameplay",
+                        "Real-Time Leaderboard System",
+                        "Integrated Firebase Analytics",
+                        "Reward Slot Machine"
                     ],
-                    "associated_with": "Freelancing",
-                    "released_date": "October 2024",
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "September 2020",
                     "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "youtube_link": "https://www.youtube.com/watch?v=iA04D0MRVV8",
                         "images": [
-                            "images/projects/project-04/thumbnail.png"
+                            "images/projects/project-01/p1-1.png",
+                            "images/projects/project-01/p1-2.png",
+                            "images/projects/project-01/p1-3.png",
+                            "images/projects/project-01/p1-4.png"
                         ]
                     },
                     "links": {
                         "webURL": "",
+                        "playstore": "https://play.google.com/store/apps/details?id=com.arimac.slt&hl=en",
+                        "appstore": "https://apps.apple.com/lk/app/slt-kimaki/id1528316348",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                        {"label": "Onesignal", "path": "images/tech-stacks/onesignal.png"}
+                    ],
+                    "client": {
+                        "name": "Sri Lankan Telecom PLC",
+                        "avatar": "images/projects/project-01/slt.png",
+                        "link": "https://www.slt.lk",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-04/p1.png",
+                    "title": "OMI Card Game",
+                    "tag_line": "Sri Lanka's Traditional Casual Card Game",
+                    "featured": true,
+                    "description": "OMI Game is a modern digital adaptation of the beloved Sri Lankan card game Omi, bringing friends and families together for endless rounds of strategy and fun. Designed with an intuitive interface and smooth gameplay, this version stays true to the classic rules while adding user-friendly features that make playing online as engaging as playing around a table. Whether you’re a seasoned Omi player or new to the game, you can enjoy quick matches, multiplayer mode, and a vibrant community that celebrates this cultural favourite.",
+                    "features": [
+                        "Secure Authentication using Unity services",
+                        "OneSignal Push Notification",
+                        "Fun and Engaging Gameplay",
+                        "Integrated Firebase Analytics",
+                        "In App Purchases",
+                        "Game monetization"
+                    ],
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "April 2025",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/WLcbzwjock4",
+                        "images": [
+                            "images/projects/project-04/p1.png",
+                            "images/projects/project-04/p2.png",
+                            "images/projects/project-04/p3.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
+                        {"label": "Onesignal", "path": "images/tech-stacks/onesignal.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                }
+            ]
+        },
+        {
+            "area": "Browser Games",
+            "list": [
+                {
+                    "thumbnail": "images/projects/project-11/p1.png",
+                    "title": "Typing Titans",
+                    "tag_line": "Defeat with Words. Win with Skill.",
+                    "featured": true,
+                    "description": "Typing Titans is an engaging browser-based action game designed to help kids improve their typing skills in a fun and adventurous way. Set in an enchanting forest, players battle playful enemy creatures by typing the letters or words that appear above them, turning learning into an exciting quest. With colorful visuals and kid-friendly gameplay, Typing Titans transforms typing practice into an immersive gaming experience.",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "May 2025",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/iedHqrfK1vA",
+                        "images": [
+                            "images/projects/project-11/p1.png",
+                            "images/projects/project-11/p2.png",
+                            "images/projects/project-11/p3.png",
+                            "images/projects/project-11/p4.png",
+                            "images/projects/project-11/p5.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "https://techserw.s3.us-west-2.amazonaws.com/games/kidz-type-proj-01/v7/index.html",
                         "playstore": "",
                         "appstore": "",
                         "other": ""
                     },
                     "tech_stacks": [
                         {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
-                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
-                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
                     ],
                     "client": {
-                        "name": "Dialog",
-                        "avatar": "images/reviewers/reviewer-01.png",
+                        "name": "",
+                        "avatar": "",
                         "link": "",
-                        "review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "review": "",
                         "rating": 5
                     }
                 },
                 {
-                    "thumbnail": "images/projects/project-05/thumbnail.png",
-                    "title": "Horizon",
-                    "tag_line": "Adventure game",
-                    "featured": false,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
-                    "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
-                    ],
-                    "associated_with": "Self Learning",
-                    "released_date": "May 2024",
-                    "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
-                        "images": []
-                    },
-                    "links": {
-                        "webURL": "",
-                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
-                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
-                        "other": ""
-                    },
-                    "tech_stacks": [
-                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
-                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
-                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
-                    ],
-                    "client": {
-                        "name": "techserw Labs (Pvt) Ltd",
-                        "avatar": "",
-                        "link": "https://techserw.com",
-                        "review": "",
-                        "rating": 4
-                    }
-                }
-            ]
-        },
-        {
-            "area": "HTML5 Game Development",
-            "list": [
-                {
-                    "thumbnail": "images/projects/project-06/thumbnail.png",
-                    "title": "Cassino Rumble",
-                    "tag_line": "Online slot machine",
+                    "thumbnail": "images/projects/project-13/p1.png",
+                    "title": "The Legend Saradiel",
+                    "tag_line": "Sri Lanka’s Robin Hood",
                     "featured": true,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "description": "The Legend Saradiel is a captivating browser-based action game built with PixiJS, bringing to life the folklore of Sri Lanka’s legendary outlaw hero, Saradiel. Players step into the role of Saradiel, navigating lush forest environments and colonial landscapes while battling enemies, collecting coins, and avoiding obstacles. The game combines classic side-scrolling mechanics with vibrant 2D graphics and intuitive controls, making it accessible and fun for all ages. Designed to be lightweight and easily playable on any modern browser, The Legend Saradiel offers an engaging way to connect with local history through fast-paced gameplay and educational storytelling.",
                     "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
                     ],
-                    "associated_with": "Upwork",
-                    "released_date": "January 2024",
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
                     "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "youtube_link": "https://youtu.be/EAI2mo7Algw",
                         "images": [
-                            "images/projects/project-06/thumbnail.png"
+                            "images/projects/project-13/p1.png",
+                            "images/projects/project-13/p2.png",
+                            "images/projects/project-13/p3.png",
+                            "images/projects/project-13/p4.png"
                         ]
                     },
                     "links": {
-                        "webURL": "https://www.minecraft.net/en-us",
+                        "webURL": "",
                         "playstore": "",
                         "appstore": "",
                         "other": ""
                     },
                     "tech_stacks": [
-                        {"label": "HTML", "path": "images/tech-stacks/html.png"}
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
                     ],
                     "client": {
-                        "name": "Mojang Studios",
-                        "avatar": "",
-                        "link": "",
+                        "name": "Dialog Axiata PLC",
+                        "avatar": "images/projects/project-02/dialog.png",
+                        "link": "https://www.dialog.lk/games",
                         "review": "",
                         "rating": 0
                     }
                 },
                 {
-                    "thumbnail": "images/projects/project-07/thumbnail.png",
-                    "title": "Need for Speed",
-                    "tag_line": "Multiplayer game",
-                    "featured": false,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "thumbnail": "images/projects/project-14/p1.png",
+                    "title": "Candy Escape",
+                    "tag_line": "Dash through sweet chaos",
+                    "featured": true,
+                    "description": "Candy Escape is a fun, fast-paced browser game developed with PixiJS where players dive into a colorful candy world filled with obstacles and treats. Navigate your character through an endless sugary maze, dodging candy monsters and barriers while collecting bonuses to boost your score. With its vibrant visuals, intuitive controls, and addictive arcade-style gameplay, Candy Escape is designed to deliver bite-sized entertainment right from your browser — perfect for kids and casual players alike!",
                     "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
                     ],
-                    "associated_with": "Academic",
-                    "released_date": "February 2023",
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
                     "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
-                        "images": []
+                        "youtube_link": "https://youtube.com/shorts/_YnOqsfBAa8",
+                        "images": [
+                            "images/projects/project-14/p1.png",
+                            "images/projects/project-14/p2.png",
+                            "images/projects/project-14/p3.png"
+                        ]
                     },
                     "links": {
-                        "webURL": "https://www.minecraft.net/en-us",
-                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
+                        "webURL": "",
+                        "playstore": "",
                         "appstore": "",
                         "other": ""
                     },
                     "tech_stacks": [
-                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
-                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
                     ],
                     "client": {
                         "name": "",
-                        "avatar": "images/reviewers/reviewer-01.png",
-                        "link": "https://techserw.com",
-                        "review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "rating": 4
-                    }
-                }
-            ]
-        },
-        {
-            "area": "Web Application Development",
-            "list": [
-                {
-                    "thumbnail": "images/projects/project-08/thumbnail.png",
-                    "title": "Burger House",
-                    "tag_line": "Restaurant website",
-                    "featured": true,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
-                    "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
-                    ],
-                    "associated_with": "Freelancing",
-                    "released_date": "February 2023",
-                    "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
-                        "images": [
-                            "images/projects/project-08/1.png"
-                        ]
-                    },
-                    "links": {
-                        "webURL": "",
-                        "playstore": "",
-                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
-                        "other": "https://agar.io"
-                    },
-                    "tech_stacks": [
-                        {"label": "Unity", "path": "images/tech-stacks/unity.png"},
-                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
-                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
-                    ],
-                    "client": {
-                        "name": "Mojang Studios",
-                        "avatar": "images/reviewers/reviewer-01.png",
+                        "avatar": "",
                         "link": "",
                         "review": "",
                         "rating": 0
                     }
                 },
                 {
-                    "thumbnail": "images/projects/project-09/thumbnail.png",
-                    "title": "E-Wallet",
-                    "tag_line": "Payment gateway",
-                    "featured": false,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "thumbnail": "images/projects/project-15/p1.png",
+                    "title": "Crappy Puppy",
+                    "tag_line": "Puppy through a messy steps",
+                    "featured": true,
+                    "description": "Crappy Puppy is a quirky, lighthearted browser game built with PixiJS where players help an adorable but mischievous puppy navigate through tricky obstacles. With simple controls and endless scrolling mechanics, the goal is to dodge obstacles and survive as long as possible while racking up points. Its cartoonish visuals, catchy vibe, and pick-up-and-play nature make Crappy Puppy a fun time-killer for players of all ages, playable instantly on any device.",
                     "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
-                    "released_date": "November 2022",
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
                     "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "youtube_link": "https://youtube.com/shorts/gVkV1GjiZko",
                         "images": [
-                            "images/projects/project-09/thumbnail.png"
+                            "images/projects/project-15/p1.png",
+                            "images/projects/project-15/p2.png",
+                            "images/projects/project-15/p3.png"
                         ]
                     },
                     "links": {
-                        "webURL": "https://www.minecraft.net/en-us",
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-16/p1.png",
+                    "title": "Turbo Snake",
+                    "tag_line": "Slither fast. Eat more",
+                    "featured": false,
+                    "description": "Turbo Snake is a fast-paced browser game developed with PixiJS that puts a modern twist on the classic snake gameplay. Players control a colorful, turbo-charged snake that must gobble up food while avoiding obstacles. With smooth animations, responsive controls, and an addictive loop of speed and strategy, Turbo Snake delivers bite-sized fun that players can enjoy anywhere, anytime, on any device.",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/-sA66xmEYnU",
+                        "images": [
+                            "images/projects/project-16/p1.png",
+                            "images/projects/project-16/p2.png",
+                            "images/projects/project-16/p3.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-17/p1.png",
+                    "title": "Pug's Pen",
+                    "tag_line": "Guide the playful pug",
+                    "featured": true,
+                    "description": "Pug’s Pen is a sweet and engaging match-3 puzzle game built with PixiJS, starring an adorable pug! Players swap and match colorful treats to clear levels, earn points, and keep the pug happy and playful. With its vibrant visuals, rewarding combos, and cheerful theme, Pug’s Pen offers a relaxing yet addictive experience for puzzle lovers of all ages.",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/KGcZMYlJLlA",
+                        "images": [
+                            "images/projects/project-17/p1.png",
+                            "images/projects/project-17/p2.png",
+                            "images/projects/project-17/p3.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-18/p1.png",
+                    "title": "Ostrich Run",
+                    "tag_line": "Dash, dodge, and outrun the wild!",
+                    "featured": false,
+                    "description": "Ostrich Run is a fast-paced endless runner game built with PixiJS, where you guide a quirky ostrich through a lively environment full of obstacles and surprises. Players must react quickly to dodge hurdles, collect power-ups, and see how far they can run before the wild catches up! Bright visuals, smooth animations, and simple yet engaging mechanics make Ostrich Run a fun adventure for players seeking a casual yet thrilling challenge.",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/yF--VyzD3_Y",
+                        "images": [
+                            "images/projects/project-18/p1.png",
+                            "images/projects/project-18/p2.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-19/p1.png",
+                    "title": "Hunter",
+                    "tag_line": "Aim true. Hunt fast. Survive the wild.",
+                    "featured": true,
+                    "description": "Hunter is an action-packed game developed using PixiJS, where players take on the role of a skilled hunter in a vibrant wilderness. The goal is to attack, aim and shoot at moving opponents and staying alert for sudden threats. With its quick reflex gameplay, charming 2D visuals, and satisfying shooting mechanics, Hunter delivers an exciting test of precision and timing for casual gamers and action fans alike.",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/he_EkwUOaSI",
+                        "images": [
+                            "images/projects/project-19/p1.png",
+                            "images/projects/project-19/p2.png",
+                            "images/projects/project-19/p3.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-20/p1.png",
+                    "title": "Hunter 3",
+                    "tag_line": "Stay sharp. Strike fast. Master the hunt.",
+                    "featured": true,
+                    "description": "This game challenges players to test their reflexes and accuracy in a dynamic wild setting filled with multiple moving targets and sudden obstacles. With faster gameplay, crisp 2D graphics, and improved mechanics, Hunter 3 keeps players on the edge of their seat as they aim to rack up high scores and prove their hunting prowess.",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/k_IvIpHnq3c",
+                        "images": [
+                            "images/projects/project-20/p1.png",
+                            "images/projects/project-20/p2.png",
+                            "images/projects/project-20/p3.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-21/p1.png",
+                    "title": "Light",
+                    "tag_line": "Aim. Release. Connect the circles.",
+                    "featured": true,
+                    "description": "Light is a simple yet addictive arcade game built with PixiJS. A central circle rotates with a pointer, and players must time their taps perfectly to shoot the circle outward and attach it to the rotating ring of other circles. It’s all about precision, timing, and rhythm — making it a fun and challenging experience for players of all ages.",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/uyGJJVj5Cqs",
+                        "images": [
+                            "images/projects/project-21/p1.png",
+                            "images/projects/project-21/p2.png",
+                            "images/projects/project-21/p3.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-22/p1.png",
+                    "title": "Tikiri",
+                    "tag_line": "Spin to Survive",
+                    "featured": true,
+                    "description": "Tikiri is a reflex-based arcade game built with PixiJS that tests your timing and coordination. Players control a circle with two attached squares that continuously rotate at the bottom of the screen. As different patterns of rectangles descend from above, you must spin the circle to maneuver the squares through gaps and avoid collisions. Simple to play yet challenging to master, Tikiri keeps you hooked with its dynamic patterns and addictive dodge-and-rotate gameplay.",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/TO3gevLW5MI",
+                        "images": [
+                            "images/projects/project-22/p1.png",
+                            "images/projects/project-22/p2.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-23/p1.png",
+                    "title": "Dodgy Devil",
+                    "tag_line": "Dodge, Dash, and Outsmart the Onslaught!",
+                    "featured": true,
+                    "description": "Dodgy Devil is a fast-paced arcade dodging game built with PixiJS where quick reflexes are your best defense. Take control of your mischievous devil character and slide left or right to evade an endless stream of obstacles descending from above. With simple controls and increasingly challenging patterns, Dodgy Devil keeps you on your toes as you aim for your longest survival streak yet!",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/sbQogX0rFSc",
+                        "images": [
+                            "images/projects/project-23/p1.png",
+                            "images/projects/project-23/p2.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-24/p1.png",
+                    "title": "Space Boogie",
+                    "tag_line": "Groove Through the Galaxy",
+                    "featured": true,
+                    "description": "Space Boogie is a fun, hyper-casual dodging game built with PixiJS. Take control of your spaceship and boogie through the galaxy, skillfully avoiding incoming asteroids and cosmic obstacles. With simple one-touch controls and an endless space to explore, this game challenges your reflexes and keeps you grooving as you aim for the highest score in the stars.",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/4C-YKng3OZQ",
+                        "images": [
+                            "images/projects/project-24/p1.png",
+                            "images/projects/project-24/p2.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-25/p1.png",
+                    "title": "Jaffna Boy",
+                    "tag_line": "Aim, Catch, and Feast!",
+                    "featured": true,
+                    "description": "Jaffna Boy is a fun and simple skill game built with PixiJS, inspired by local Sri Lankan village life. Play as a cheerful boy standing with a spoon, ready to catch delicious food falling from above. Tap at just the right moment to aim and catch each treat. It’s all about timing, precision, and a bit of island flavor — perfect for quick, casual play!",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/0AQnnUWm0J0",
+                        "images": [
+                            "images/projects/project-25/p1.png",
+                            "images/projects/project-25/p2.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-26/p1.png",
+                    "title": "Upside Down",
+                    "tag_line": "Flip, Dash, and Defy Gravity!",
+                    "featured": true,
+                    "description": "Upside Down is a fast-paced endless runner where you guide two quirky birds — one short and one tall, in bright green and blue — along a gravity-flipping path. Tap to switch your birds between the top and bottom lanes to dodge incoming obstacles. With quick reflexes and simple mechanics, this PixiJS game puts your focus and timing to the test in a colorful, gravity-defying adventure!",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/GXseWcCAIWk",
+                        "images": [
+                            "images/projects/project-26/p1.png",
+                            "images/projects/project-26/p4.png",
+                            "images/projects/project-26/p2.png",
+                            "images/projects/project-26/p3.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-27/p1.png",
+                    "title": "Vivo Little V",
+                    "tag_line": "New Look, Same Thrill!",
+                    "featured": true,
+                    "description": "Vivo Little V is a vibrant reskin of the classic Hunter 3, giving the beloved arrow-shooting gameplay a playful new style. Step into a colorful forest adventure where you tap to aim and fire arrows at moving targets, testing your precision and timing skills. With its refreshed visuals and the same addictive mechanics, this PixiJS game keeps players hooked, one shot at a time!",
+                    "features": [
+                        "Runs smoothly in any modern web browsers",
+                        "Optimized performance",
+                        "Engaging 2D graphics with smooth animations",
+                        "Flexible game architecture",
+                        "Immersive audio experience",
+                        "Real-Time Leaderboard System"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Date Unavailable",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/dVBZzaD5Pho",
+                        "images": [
+                            "images/projects/project-27/p1.png",
+                            "images/projects/project-27/p2.png",
+                            "images/projects/project-27/p3.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "Vivo",
+                        "avatar": "images/projects/project-27/vivo.png",
+                        "link": "https://www.vivo.com/en",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-28/p1.png",
+                    "title": "Kasikili Bergmann Roulette",
+                    "tag_line": "Spin the Wheel, Test Your Luck!",
+                    "featured": true,
+                    "description": "Kasikili Bergmann Roulette is a simple yet captivating PixiJS mini-game inspired by the timeless game of chance — but with a unique twist. The entire game theme is thoughtfully designed to reflect the style of traditional African roulette machines and the cultural vibrance surrounding them. Players spin the wheel, place their bets, and watch the ball settle while enjoying visuals and sounds that celebrate African heritage. With its fast-paced, tap-to-play mechanics, it’s perfect for quick rounds of casual fun — anytime, anywhere.",
+                    "features": [
+                        "Classic Roulette Gameplay",
+                        "Instant Play",
+                        "African-Themed Design",
+                        "Lightweight & Fast",
+                        "Casual Fun",
+                        "Responsive Design"
+                    ],
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "January 2024",
+                    "gallery": {
+                        "youtube_link": "https://youtube.com/shorts/c1WTXdPqLHo",
+                        "images": [
+                            "images/projects/project-28/p1.png",
+                            "images/projects/project-28/p2.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "",
+                        "avatar": "images/projects/project-28/kasikili.png",
+                        "link": "",
+                        "review": "Working with Techserw, particularly Rama, Prasanth, and Pradeepa, has been an absolute pleasure. Their dedication to excellence shines through in every aspect of our collaboration. The team's communication, led by Prasanth, is unparalleled - clear, prompt, and always accommodating. Rama and Pradeepa were always patient and understanding, providing good alternatives to better my app. Their responsiveness is remarkable, ensuring any queries or concerns are addressed swiftly. Their overall approach to working together is nothing short of exceptional, delivering a stunning app that exceeds expectations. I have no hesitation in recommending their services to anyone seeking top-notch solutions. Keep up the fantastic work, Techserw!",
+                        "rating": 5
+                    }
+                }
+            ]
+        },
+        {
+            "area": "Interactive Systems",
+            "list": [
+                {
+                    "thumbnail": "images/work/intern-1.png",
+                    "title": "Sri Lanka Parliament Election (2020) Broadcasting System",
+                    "tag_line": "Live Election Insights",
+                    "featured": true,
+                    "description": "Designed and developed a real-time broadcasting system for a major Sri Lankan TV channel to present the 2020 Parliamentary Election results.Built with Unity, the system processed incoming vote counts and displayed dynamic visual graphics, including seat allocations, winning parties, and trends.The platform supported high-pressure live broadcasts with seamless updates, ensuring viewers received accurate, engaging election coverage as results unfolded.This project highlights my capability to engineer reliable broadcast solutions that handle live data and deliver mission-critical information to large audiences.",
+                    "features": [
+                        "Live election result broadcasting",
+                        "Real-time seat allocation and Party comparison visuals",
+                        "Continuous data streams",
+                        "On-brand graphics optimized for TV screens",
+                        "Clear, engaging election coverage trusted by millions"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "August 2020",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/WAkJ9zTs7xY",
+                        "images": [
+                            "images/work/intern-1.png",
+                            "images/work/intern-2.png",
+                            "images/work/intern-3.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"}
+                    ],
+                    "client": {
+                        "name": "Hiru TV Sri lanka",
+                        "avatar": "images/projects/project-12/hirutv.png",
+                        "link": "https://www.hirutv.lk",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-12/p1.png",
+                    "title": "Sri Lanka Presidential Election (2019) Broadcasting System",
+                    "tag_line": "Real-time election results to millions",
+                    "featured": true,
+                    "description": "Developed a robust real-time election broadcasting system for a leading Sri Lankan TV channel during the 2019 Presidential Election.The solution was built using Unity to display live election results, vote counts, and winner predictions in visually engaging formats.The system handled large-scale data integration, real-time updates, and broadcast-ready graphics to ensure accurate and dynamic on-air presentation throughout the election night.This project showcased my ability to create high-performance, mission-critical broadcast applications under tight timelines and national visibility.",
+                    "features": [
+                        "Real-time vote counting",
+                        "Real-time results visualization",
+                        "Dynamic on-air graphics for live TV broadcasting",
+                        "Live data feeds for instant updates",
+                        "Accuracy and reliability during high-pressure election coverage"
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "November 2019",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/0JQYQWHRMP4",
+                        "images": [
+                            "images/projects/project-12/p1.png",
+                            "images/projects/project-12/p2.png",
+                            "images/projects/project-12/p3.png",
+                            "images/projects/project-12/p4.png",
+                            "images/projects/project-12/p5.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"}
+                    ],
+                    "client": {
+                        "name": "Hiru TV Sri lanka",
+                        "avatar": "images/projects/project-12/hirutv.png",
+                        "link": "https://www.hirutv.lk",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-29/p1.png",
+                    "title": "Keells Millionaire – Customer Reward Slot Machine",
+                    "tag_line": "Spin. Win. Celebrate.",
+                    "featured": true,
+                    "description": "Keells Millionaire is a digital reward platform I developed for Keells Supermarket’s annual gift program. Shoppers who make qualifying purchases receive an SMS with a unique link to an online slot machine. By spinning the slot, customers stand a chance to instantly win exciting prizes, including cash rewards up to LKR 1 million. The system drives customer loyalty and repeat purchases through an engaging, gamified experience.",
+                    "features": [
+                        "Fully responsive web-based slot machine.",
+                        "Real-time prize allocation and winner tracking.",
+                        "Secure transaction management for cash prize distribution.",
+                        "Annual scalability for thousands of participants."
+                    ],
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "2020 to 2024",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/H6rlhIws054",
+                        "images": [
+                            "images/projects/project-29/p1.png",
+                            "images/projects/project-29/p2.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Photoshop", "path": "images/tech-stacks/adobe-photoshop.png"}
+                    ],
+                    "client": {
+                        "name": "Keells Super",
+                        "avatar": "images/projects/project-29/keells.png",
+                        "link": "https://www.keellssuper.com",
+                        "review": "",
+                        "rating": 0
+                    }
+                }
+            ]
+        },
+        {
+            "area": "Web Apps",
+            "list": [
+                {
+                    "thumbnail": "images/projects/project-05/p1.png",
+                    "title": "Eelam Maangalyam",
+                    "tag_line": "Tamil Matrimony Site",
+                    "featured": true,
+                    "description": "Eelam Maangalyam is a dedicated matchmaking platform designed to help the Tamil community find compatible life partners. The platform brings together modern technology and cultural values, offering a trusted space for individuals and families to connect meaningfully.",
+                    "features": [
+                        "Secure Firebase Authentication",
+                        "OneSignal Push Notification",
+                        "Real-Time Chat System",
+                        "Integrated Firebase Analytics",
+                        "Real-Time Match Making"
+                    ],
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "December 2024",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/lLMD45tShYs",
+                        "images": [
+                            "images/projects/project-05/p1.png",
+                            "images/projects/project-05/p2.png",
+                            "images/projects/project-05/p3.png",
+                            "images/projects/project-05/p4.png",
+                            "images/projects/project-05/p5.png",
+                            "images/projects/project-05/p6.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "https://stag-matrimonial-pwa.firebaseapp.com",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"}
+                    ],
+                    "client": {
+                        "name": "Individual Client",
+                        "avatar": "",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-06/p1.png",
+                    "title": "Tour Cost Estimator",
+                    "tag_line": "Effortless Distance & Cost Calculation for Every Journey",
+                    "featured": false,
+                    "description": "I developed this solution for a travel tech company to simplify tour planning by integrating Google Maps. The tool calculates the total distance and estimated travel time between multiple destinations and automatically computes a detailed tour fee based on customized pricing rules. This streamlines itinerary planning for travel agents and provides travelers with accurate, transparent cost estimates.",
+                    "features": [
+                        "Secure Authentication",
+                        "Integrated Google Map with Directions API",
+                        "Tour Fee Calculation"
+                    ],
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "July 2025",
+                    "gallery": {
+                        "youtube_link": "",
+                        "images": [
+                            "images/projects/project-06/p1.png",
+                            "images/projects/project-06/p2.png",
+                            "images/projects/project-06/p3.png",
+                            "images/projects/project-06/p4.png",
+                            "images/projects/project-06/p5.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"}
+                    ],
+                    "client": {
+                        "name": "Extreme Digital Tourism (Pvt) Ltd",
+                        "avatar": "images/projects/project-06/dt.png",
+                        "link": "https://srilankadriverguide.com",
+                        "review": "",
+                        "rating": 0
+                    }
+                }
+            ]
+        },
+        {
+            "area": "Mobile Apps",
+            "list": [
+                {
+                    "thumbnail": "images/projects/project-07/p1.png",
+                    "title": "Sri Lanka Driver Guide",
+                    "tag_line": "Food order app",
+                    "featured": true,
+                    "description": "I developed a user-friendly mobile application for a travel tech company, designed specifically for their registered drivers. The app enables drivers to easily browse and find new tour opportunities, apply for available trips, and manage their bookings seamlessly. This solution streamlines the connection between drivers and tourists, ensuring smooth operations and an enhanced travel experience for everyone involved.",
+                    "features": [
+                        "Secure Authentication",
+                        "Onesignal Push Notification",
+                        "Tour Bookings",
+                        "Driver Tour Insights"
+                    ],
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "August 2023",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/I1xY4Pw5oqE",
+                        "images": [
+                            "images/projects/project-07/p1.png",
+                            "images/projects/project-07/p2.png",
+                            "images/projects/project-07/p3.png",
+                            "images/projects/project-07/p4.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
                         "playstore": "",
                         "appstore": "",
                         "other": ""
                     },
                     "tech_stacks": [
                         {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
-                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"}
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Onesignal", "path": "images/tech-stacks/onesignal.png"}
                     ],
                     "client": {
-                        "name": "Mojang Studios",
-                        "avatar": "images/reviewers/reviewer-01.png",
-                        "link": "https://techserw.com",
+                        "name": "Extreme Digital Tourism (Pvt) Ltd",
+                        "avatar": "images/projects/project-06/dt.png",
+                        "link": "https://srilankadriverguide.com",
                         "review": "",
                         "rating": 0
                     }
                 },
                 {
-                    "thumbnail": "images/projects/project-10/thumbnail.png",
-                    "title": "Marketing guru",
-                    "tag_line": "Marketing agency website",
+                    "thumbnail": "images/projects/project-08/p1.png",
+                    "title": "IMI Games",
+                    "tag_line": "Hyper Casual Games Portal",
                     "featured": false,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "description": "I contributed to the development and maintenance of a hyper-casual games portal mobile app, focusing on bug fixes, new feature implementation, and overall performance enhancements. The app allows users to explore and play from a diverse collection of hundreds of mini-games, offering seamless access to their favorite hyper-casual gaming experiences in one place.",
                     "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
+                        "Secure Authentication",
+                        "Onesignal Push Notification",
+                        "Hyper Casual Mini Games Portal",
+                        "Integrated Firebase Analytics"
                     ],
-                    "associated_with": "Freelancing",
-                    "released_date": "August 2022",
+                    "associated_with": "Arimac Lanka (Pvt) Ltd",
+                    "released_date": "Continuous Development",
                     "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "youtube_link": "https://youtube.com/shorts/brEFGv7v4dw",
                         "images": [
-                            "images/projects/project-10/thumbnail.png",
-                            "images/projects/project-10/1.png"
+                            "images/projects/project-08/p1.png",
+                            "images/projects/project-08/p2.png"
                         ]
                     },
                     "links": {
                         "webURL": "",
-                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
+                        "playstore": "",
                         "appstore": "",
                         "other": ""
                     },
                     "tech_stacks": [
-                        {"label": "Java", "path": "images/tech-stacks/java.png"},
-                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
-                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
-                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                        {"label": "Flutter", "path": "images/tech-stacks/flutter.png"},
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Onesignal", "path": "images/tech-stacks/onesignal.png"}
                     ],
                     "client": {
                         "name": "",
@@ -573,49 +1579,99 @@
             ]
         },
         {
-            "area": "Mobile Application Development",
+            "area": "Dashboards",
             "list": [
                 {
-                    "thumbnail": "images/projects/project-11/thumbnail.png",
-                    "title": "Pickme",
-                    "tag_line": "Food order app",
+                    "thumbnail": "images/projects/project-09/p1.png",
+                    "title": "OKE",
+                    "tag_line": "Smart Retail Management",
                     "featured": false,
-                    "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+                    "description": "I developed a web-based administrative dashboard for OKE Supermarket, enabling the management team to efficiently handle products, track customer orders, manage customer profiles, and gain valuable business insights. The dashboard provides real-time data visualization, inventory control, and intuitive tools that simplify daily operations and support data-driven decision-making",
                     "features": [
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry",
-                        "Lorem ipsum dummy text are usually use print and website industry. Lorem ipsum dummy text are usually use print and website industry"
+                        "Secure User Authentication",
+                        "Customer Management",
+                        "Customer Credit & Purchase Tracking",
+                        "Product Inventory Management",
+                        "Order Processing & Management",
+                        "QuickBooks Integration"
                     ],
-                    "associated_with": "Fiverr",
-                    "released_date": "April 2022",
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "May 2025",
                     "gallery": {
-                        "youtube_link": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+                        "youtube_link": "",
                         "images": [
-                            "images/projects/project-11/thumbnail.png",
-                            "images/projects/project-11/1.png",
-                            "images/projects/project-11/2.png"
+                            "images/projects/project-09/p1.png",
+                            "images/projects/project-09/p2.png",
+                            "images/projects/project-09/p3.png"
                         ]
                     },
                     "links": {
                         "webURL": "",
-                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.omi",
-                        "appstore": "https://apps.apple.com/in/app/techiesays-kids-language-app/id6474207562",
-                        "other": "https://agar.io"
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
                     },
                     "tech_stacks": [
-                        {"label": "Unity", "path": "images/tech-stacks/unity.png"},
-                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"},
-                        {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
                         {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
-                        {"label": "C++", "path": "images/tech-stacks/c++.png"}
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"},
+                        {"label": "Onesignal", "path": "images/tech-stacks/onesignal.png"}
                     ],
                     "client": {
-                        "name": "Mojang Studios",
-                        "avatar": "images/reviewers/reviewer-01.png",
-                        "link": "https://techserw.com",
-                        "review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "rating": 4
+                        "name": "OKE Produce",
+                        "avatar": "images/projects/project-09/oke.png",
+                        "link": "",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
+                    "thumbnail": "images/projects/project-10/p1.png",
+                    "title": "Sri Lanka Driver Guide",
+                    "tag_line": "Digital Control Tower for Smarter Tours",
+                    "featured": false,
+                    "description": "It centralizes the management of customer inquiries, tour bookings, driver profiles, driver availability, payments, and performance metrics like leaderboards.  With this solution, the team can seamlessly track and assign drivers, monitor tour statuses, and manage payments — all while ensuring data accuracy and faster decision-making. It empowers the Digital Tourism team to deliver exceptional travel experiences with streamlined back-office operations.",
+                    "features": [
+                        "Secure User Authentication",
+                        "Customer Inquiry Management",
+                        "Tour Management",
+                        "Drivers' Leaderboard",
+                        "Driver Management"
+                    ],
+                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "released_date": "February 2024",
+                    "gallery": {
+                        "youtube_link": "",
+                        "images": [
+                            "images/projects/project-10/p1.png",
+                            "images/projects/project-10/p2.png",
+                            "images/projects/project-10/p3.png",
+                            "images/projects/project-10/p4.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"}
+                    ],
+                    "client": {
+                        "name": "Extreme Digital Tourism (Pvt) Ltd",
+                        "avatar": "images/projects/project-06/dt.png",
+                        "link": "https://srilankadriverguide.com",
+                        "review": "",
+                        "rating": 0
                     }
                 }
             ]
@@ -624,7 +1680,7 @@
     "languages": [
         {
             "language": "English",
-            "proficiency": "Fluent"
+            "proficiency": "Professional"
         },
         {
             "language": "Tamil",
@@ -632,66 +1688,263 @@
         },
         {
             "language": "Sinhala",
-            "proficiency": "Fluent"
+            "proficiency": "Professional"
         }
     ],
     "soft_skills": {
-        "description": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+        "description": "Beyond my technical expertise, I believe strong soft skills are essential to grow, lead, and collaborate effectively. My ability to adapt, communicate clearly, and solve problems creatively has helped me navigate diverse roles in both academia and industry. I strive to cultivate a growth mindset, empathy, and leadership qualities that add value to every team and project I am part of.",
         "list": [
-            "Commitments",
-            "Time management",
-            "Problem solving skills",
-            "Decision making"
+            "Leadership",
+            "Critical Thinking",
+            "Adaptability",
+            "Communication",
+            "Time Management"
         ]
     },
     "reviews": [
         {
-            "icon": "images/reviewers/reviewer-01.png",
-            "reviewer_name": "Don Bradman",
+            "icon": "images/reviewers/1751267405872.jpg",
+            "reviewer_name": "Minoltan Issack",
             "source": "LinkedIn",
-            "review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus. Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ligula tristique, faucibus sem non Tinibus lorem. suspenaisse vel graviaa mauris. se tempus aolor la placerat vestioulum. Donec commode metus",
+            "review": "I highly recommend Prasanth Sivakumar as an exceptional Software Engineer. During our collaboration, Prasanth consistently demonstrated his ability to tackle complex problems with effective solutions. He is a remarkable team player, always contributing positively and learning new technologies at an impressive pace. Furthermore, Prasanth's strong focus on time management and commitment to deadlines makes him an incredibly reliable and valuable asset to any team.",
             "rating": 0
         },
         {
-            "icon": "images/connect me/linkedin.png",
-            "reviewer_name": "Sivalingam",
+            "icon": "images/connect me/upwork.png",
+            "reviewer_name": "Jaboatao dos Guararapes (Brazil)",
             "source": "Upwork",
-            "review": "Lorem ipsum dummy text are usually use print and website industry.",
-            "rating": 4.5
+            "review": "He delivers good result. I will hire him again.",
+            "rating": 5
         },
         {
-            "icon": "images/reviewers/reviewer-02.png",
-            "reviewer_name": "Sara",
-            "source": "LinkedIn",
-            "review": "Lorem ipsum dummy text are usually use print and website industry. So l used their also Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "icon": "images/connect me/upwork.png",
+            "reviewer_name": "Steinkjer (Norway)",
+            "source": "Upwork",
+            "review": "Siva has delivered high-quality work, followed up throughout the process, and met all deadlines. He provides clear guidance and offers great solutions. Highly recommended!",
             "rating": 5
+        },
+        {
+            "icon": "images/reviewers/1719034796373.jpg",
+            "reviewer_name": "Ravichandran Abilash",
+            "source": "LinkedIn",
+            "review": "I've had the pleasure of working with Prasanth Sivakumar during our freelancing days, and I can't recommend him highly enough. As developer, Prasanth brought an unmatched level of dedication and expertise to every project we tackled. Prasanth’s ability to manage projects was nothing short of impressive. He has a unique talent for breaking down complex tasks and ensuring every team member understands their role, leading to efficient and successful project completions. His contributions consistently exceeded expectations, showcasing his deep technical knowledge and creative problem-solving skills.What sets Prasanth apart is his passion for gaming development. He doesn’t just see it as a job but as a craft he is continually honing. His innovative ideas and attention to detail have resulted in some of the most engaging and immersive gaming experiences I've seen.Moreover, Prasanth is a fantastic team player. He’s always ready to lend a hand, share his knowledge, and go the extra mile to ensure the success of the project. His positive attitude and commitment to excellence make him an invaluable asset to any team.",
+            "rating": 0
+        },
+        {
+            "icon": "images/connect me/upwork.png",
+            "reviewer_name": "Krysten (USA)",
+            "source": "Upwork",
+            "review": "I would absolutely work with Siva again. I am very happy with my website, he did an amazing job!",
+            "rating": 5
+        },
+        {
+            "icon": "images/reviewers/1659809327330.jpg",
+            "reviewer_name": "Sharmila Pararajasingam",
+            "source": "LinkedIn",
+            "review": "Prasanth was a fantastic person to work with and is not only a multi-skilled and insightful colleague. He gives his 100% effort to any working part of the project, he can manage a team with very strong problem-solving skills and he is a great person to any software company.",
+            "rating": 0
+        },
+        {
+            "icon": "images/reviewers/1744172517044.jpg",
+            "reviewer_name": "Powsikan Kanthasamy",
+            "source": "LinkedIn",
+            "review": "Prasanth is a hard working individual, who can solve any kind of problems. he was my senior, during those period he taught me a lot. i will definitely recommend him for any entity.",
+            "rating": 0
+        },
+        {
+            "icon": "images/reviewers/1610912843167.jpg",
+            "reviewer_name": "Ramakrishnan Ravichandran",
+            "source": "LinkedIn",
+            "review": "I had worked with Prashanth sivakumar directly in some projects. He is multi-skilled person able to do any sort of work in IT. His skill was not restricted within particular domain. He was good at game development able to see from his profile and i have directly worked with him. Great employee with very strong problem solving skills. Prasanth is an asset to any company.",
+            "rating": 0
+        },
+        {
+            "icon": "images/reviewers/1734007993689.jpg",
+            "reviewer_name": "Isuru Ranaweera",
+            "source": "LinkedIn",
+            "review": "I've seen Prasanth go above and beyond in web developing and gaming. I rarely come across real talents who stand out like Prasanth. I had the pleasure of working with him for three years at the university, collaborating on several project teams.",
+            "rating": 0
+        },
+        {
+            "icon": "images/reviewers/1570708434037.jpg",
+            "reviewer_name": "Kanishdan Yogarasa",
+            "source": "LinkedIn",
+            "review": "Prashanth sivakumar is very hardworking and extremely talented individual. He is good at web development(Front End & Back End) and also has interest in gaming part. He has a lot of deep technical background.",
+            "rating": 0
+        },
+        {
+            "icon": "images/reviewers/1659071991923.jpg",
+            "reviewer_name": "Aashik Ahamed",
+            "source": "LinkedIn",
+            "review": "Prasanth is a skilled and hard working individual. He is one of my colleague at University of Kelaniya. I had the pleasure of working with Prasanth in several projects. He is capable of managing any kind of projects and his team members. He motivates people. I would recommend Prasanth as first-rate.",
+            "rating": 0
+        },
+        {
+            "icon": "images/reviewers/1664423056770.jpg",
+            "reviewer_name": "Ragulan Gopalapillai",
+            "source": "LinkedIn",
+            "review": "Prasanth was a fantastic person to work with, and is not only a multi-skilled and insightful colleague, but also an inspiring strategist. Very good person. Great employee with a very strong problem solving skills. Prasanth is an asset to any company.",
+            "rating": 0
+        },
+        {
+            "icon": "images/reviewers/1667109998889.jpg",
+            "reviewer_name": "Thanusan Sachchithananthan",
+            "source": "LinkedIn",
+            "review": "Prasanth Sivakumar is a very intelligent and technical advocate. He has the ability to work as a team, under any pressure and also has a problem solving skills. Would recommend his style and methods of working. He deserves all the credits.",
+            "rating": 0
         }
     ],
     "publications": [
         {
-            "title": "How to Connect to an API in Unity 3D",
+            "title": "Predict and Give a Quantitative Score For COVID-19 Using Chest X-Rays and CT Images",
+            "type": "Final Academic Research",
+            "date": "Mar 13, 2021",
+            "link": "https://zenodo.org/records/15779171"
+        },
+        {
+            "title": "The Game Art Pipeline: A Step by Step Guide for Creating Stunning Game Assets",
+            "type": "Blog",
+            "date": "Jun 8, 2025",
+            "link": "https://sivakumar-prasanth.medium.com/the-game-art-pipeline-a-step-by-step-guide-for-creating-stunning-game-assets-61ea006145ea"
+        },
+        {
+            "title": "The Great Debate: Rigidbody vs Character Controller for Player Movement in Unity",
             "type": "Blog",
             "date": "May 25, 2025",
-            "link": "https://sivakumar-prasanth.medium.com/how-to-connect-to-an-api-in-unity-3d-f3f626482507"
+            "link": "https://sivakumar-prasanth.medium.com/the-great-debate-rigidbody-vs-character-controller-for-player-movement-in-unity-c551a52ff340"
         },
         {
-            "title": "Kafka: The Distributed System",
-            "type": "Article",
-            "date": "February 01, 2025",
-            "link": "https://sivakumar-prasanth.medium.com/kafka-the-distributed-system-a68bf24b43e9"
-        },
-        {
-            "title": "External Data Representation and Marshalling",
+            "title": "Unity for Animators: A Step-by-Step Breakdown of the Film Production Pipeline",
             "type": "Blog",
-            "date": "January 12, 2025",
-            "link": "https://sivakumar-prasanth.medium.com/external-data-representation-and-marshalling-adad85a0789f"
+            "date": "May 23, 2025",
+            "link": "https://sivakumar-prasanth.medium.com/unity-for-animators-a-step-by-step-breakdown-of-the-film-production-pipeline-dac3ea61daf6"
+        },
+        {
+            "title": "Unity Physics Body Types",
+            "type": "Blog",
+            "date": "May 10, 2025",
+            "link": "https://sivakumar-prasanth.medium.com/unity-physics-body-types-ee91f5dd51f3"
+        },
+        {
+            "title": "From Code to Shape: A Beginner’s Guide to Unity Mesh Generation",
+            "type": "Blog",
+            "date": "May 3, 2025",
+            "link": "https://sivakumar-prasanth.medium.com/from-code-to-shape-a-beginners-guide-to-unity-mesh-generation-225cc994e5a6"
+        },
+        {
+            "title": "A* Algorithm vs Unity NavMesh: Choosing the Right Pathfinding for Your Game",
+            "type": "Blog",
+            "date": "Apr 11, 2025",
+            "link": "https://sivakumar-prasanth.medium.com/a-algorithm-vs-unity-navmesh-choosing-the-right-pathfinding-for-your-game-202a5c776385"
+        },
+        {
+            "title": "Cinemachine in Unity: Elevate Your Game’s Camera System Like a Pro",
+            "type": "Blog",
+            "date": "Feb 2, 2025",
+            "link": "https://sivakumar-prasanth.medium.com/cinemachine-in-unity-elevate-your-games-camera-system-like-a-pro-ed95bccb1081"
+        },
+        {
+            "title": "Mastering State Machines in Unity: A Comprehensive Guide",
+            "type": "Blog",
+            "date": "Mar 4, 2024",
+            "link": "https://sivakumar-prasanth.medium.com/mastering-state-machines-in-unity-a-comprehensive-guide-a55d726cc471"
+        },
+        {
+            "title": "Demystifying HTML5 Game Development: Exploring Core Elements with PIXI.js for Seamless 2D Experiences",
+            "type": "Blog",
+            "date": "Dec 7, 2023",
+            "link": "https://sivakumar-prasanth.medium.com/demystifying-html5-game-development-exploring-core-elements-with-pixi-js-5a9c28e82242"
+        },
+        {
+            "title": "Getting Started with Unity Multiplayer using Photon PUN: A Beginner’s Guide",
+            "type": "Blog",
+            "date": "Sep 30, 2023",
+            "link": "https://sivakumar-prasanth.medium.com/getting-started-with-unity-multiplayer-using-photon-pun-a-beginners-guide-5fc6fe747e1"
+        },
+        {
+            "title": "Boosting Unity Game Performance: Exploring Asset Management and Loading",
+            "type": "Blog",
+            "date": "May 15, 2023",
+            "link": "https://sivakumar-prasanth.medium.com/boosting-unity-game-performance-exploring-asset-management-and-loading-d3be4c25c071"
+        },
+        {
+            "title": "ES5 vs ES6",
+            "type": "Blog",
+            "date": "Oct 10, 2022",
+            "link": "https://sivakumar-prasanth.medium.com/es5-vs-es6-6b673defb2d4"
+        },
+        {
+            "title": "Flutter Bloc Pattern",
+            "type": "Blog",
+            "date": "Dec 30, 2021",
+            "link": "https://sivakumar-prasanth.medium.com/flutter-bloc-pattern-bdb9a8ddd296"
+        },
+        {
+            "title": "Webpack",
+            "type": "Blog",
+            "date": "Oct 8, 2021",
+            "link": "https://sivakumar-prasanth.medium.com/webpack-c5d844c5ab85"
+        },
+        {
+            "title": "Swoogle",
+            "type": "Blog",
+            "date": "Dec 29, 2020",
+            "link": "https://sivakumar-prasanth.medium.com/swoogle-32a9a8547e98"
+        },
+        {
+            "title": "Web APIs",
+            "type": "Blog",
+            "date": "Oct 25, 2020",
+            "link": "https://sivakumar-prasanth.medium.com/web-apis-3e22cd075e94"
+        },
+        {
+            "title": "Azure Cloud Platform Based on the Shared Cloud Architecture",
+            "type": "Blog",
+            "date": "Aug 14, 2020",
+            "link": "https://sivakumar-prasanth.medium.com/azure-cloud-platform-based-on-the-shared-cloud-architecture-article-01-a893a614fc5c"
+        },
+        {
+            "title": "Cryptography Algorithms",
+            "type": "Blog",
+            "date": "Jul 28, 2020",
+            "link": "https://sivakumar-prasanth.medium.com/cryptography-algorithms-34e0d3b5e90e"
+        },
+        {
+            "title": "RabbitMQ — Work Queue",
+            "type": "Blog",
+            "date": "Jul 22, 2020",
+            "link": "https://sivakumar-prasanth.medium.com/rabbitmq-work-queue-8a09c44b2c12"
+        },
+        {
+            "title": "RMI (Remote Method Invocation)",
+            "type": "Blog",
+            "date": "Jul 17, 2020",
+            "link": "https://sivakumar-prasanth.medium.com/rmi-remote-method-invocation-823220bc938"
         },
         {
             "title": "JAVA RPC (Remote Procedure Call)",
             "type": "Blog",
-            "date": "December 30, 2024",
+            "date": "Jul 14, 2020",
             "link": "https://sivakumar-prasanth.medium.com/java-rpc-remote-procedure-call-99cfaca34c36"
+        },
+        {
+            "title": "External Data Representation and Marshalling",
+            "type": "Blog",
+            "date": "Jun 21, 2020",
+            "link": "https://sivakumar-prasanth.medium.com/external-data-representation-and-marshalling-adad85a0789f"
+        },
+        {
+            "title": "Kafka: The Distributed System",
+            "type": "Blog",
+            "date": "May 20, 2020",
+            "link": "https://sivakumar-prasanth.medium.com/kafka-the-distributed-system-a68bf24b43e9"
+        },
+        {
+            "title": "Blog on How to Connect to an API in Unity 3D",
+            "type": "Blog",
+            "date": "Jan 18, 2020",
+            "link": "https://sivakumar-prasanth.medium.com/how-to-connect-to-an-api-in-unity-3d-f3f626482507"
         }
     ],
-    "end": "Thank you for exploring my journey. The best is yet to come."
+    "end": "Thank you for being part of my story so far. The best is yet to come."
 }

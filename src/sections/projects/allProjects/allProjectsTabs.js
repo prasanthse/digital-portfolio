@@ -62,7 +62,7 @@ const AllProjectsTabs = () => {
                         content.projects.map((item, index) => {
                             return <Tab 
                                 key={index}
-                                label={item.area}
+                                label={`${item.area} (${content.projects[index].list.length})`}
                                 value={index}
                             />
                         })

@@ -2,61 +2,61 @@
     "top_navigation": {
         "home": "Home",
         "projects": "Projects",
-        "contact": "Contact Me"
+        "contact": "Let’s Talk"
     },
     "hero": {
-        "welcome": "Hy! I Am",
-        "hireMe": "Hire Me",
-        "job_role": "Profession",
-        "degree": "Academic"
+        "welcome": "Hello! I Am",
+        "hireMe": "Available for Hire",
+        "job_role": "What I Do",
+        "degree": "Scholarly Path"
     },
-    "connect_with_me": "My Online Footprint",
-    "about_me": "My Professional Summary",
-    "academic": "My Academic Career",
-    "expertise": "My Expertise",
-    "work_experience": "My Work Experience",
+    "connect_with_me": "Find Me Around",
+    "about_me": "The Person Behind the Code",
+    "academic": "Academic Highlights",
+    "expertise": "Where I Excel",
+    "work_experience": "My Career Journey",
     "projects": {
-        "featured_projects": "My Featured Projects",
-        "see_all": "See All Projects",
-        "start_new_project": "Let's start a Project",
+        "featured_projects": "Spotlight Projects",
+        "see_all": "Explore All Projects",
+        "start_new_project": "Let’s Create Together",
         "projectDetails": {
             "breadcrumb": {
                 "home": "Home",
                 "projects": "Projects"
             },
-            "associated": "Associated With",
-            "completion": "Completion Date",
-            "about": "About this Project",
-            "features": "Features",
+            "associated": "Collaboration With",
+            "completion": "Date of Completion",
+            "about": "Project Overview",
+            "features": "Highlights",
             "available": "Available On",
-            "tech_stacks": "Technology Stacks",
+            "tech_stacks": "Built With",
             "platforms": {
-                "playstore": "Playstore",
-                "appstore": "Appstore",
-                "webURL": "Web",
-                "other": "Others"
+                "playstore": "PlayStore",
+                "appstore": "AppStore",
+                "webURL": "Website",
+                "other": "Alternatives"
             },
-            "client": "Client"
+            "client": "Partner Client"
         }
     },
-    "languages": "Languages",
-    "soft_skills": "My Soft Skills",
-    "publications": "Publications",
+    "languages": "My Languages",
+    "soft_skills": "Personal Strengths",
+    "publications": "Published Works",
     "errors": {
         "project_not_found": {
-            "title": "Project Not Found",
+            "title": "Can’t Find This Project",
             "description": "Sorry, the project you’re looking for doesn’t exist or may have been removed. Please check the URL or return to the Projects page to explore my other work.",
-            "action": "Check other Projects"
+            "action": "Back to Projects"
         },
         "page_not_found": {
-            "title": "Page Not Found",
-            "description": "Oops! The page you’re looking for doesn’t exist or has been moved. Please check the URL or go back to the homepage.",
-            "action": "Back to Home"
+            "title": "Oops! Page Not Found",
+            "description": "The page you’re looking for doesn’t exist or has been moved. Please check the URL or go back to the homepage.",
+            "action": "Go Home"
         },
         "general": {
-            "title": "Something went wrong",
-            "description": "Oops! Something went wrong on our end. Please refresh and try again.",
-            "action": "Back to Home"
+            "title": "Unexpected Error",
+            "description": "We hit a snag. Please refresh and try again.",
+            "action": "Go Home"
         },
         "youtube_video": {
             "invalid": "Invalid video ID or URL",

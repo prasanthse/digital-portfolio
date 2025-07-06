@@ -42,6 +42,7 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
     * Meta description
     * Meta keywords
     * Title
+    * Meta theme-color
 2. Replace the ```logo.png```, ```logo192.png```, ```logo512.png```, ```favicon.ico``` and ```maskable.png``` files inside the public folder with your preferences
     * To create a favicon [click here](https://favicon.io/favicon-converter)
     * To create a maskable icon [click here](https://maskable.app/editor)
@@ -51,6 +52,7 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 5. Enter all your personal information in the ```profile.json``` file located in the ```src/data``` folder with your correct images path. This file controls the content displayed on your portfolio site, so updating it will dynamically reflect your personal details on the site.
 6. To change sections' titles or labels, edit the ```translations.json``` file found in ```src/i18n/locales/en```. This file handles the textual content of your site and supports localization.
 7. To change your theme color, modify the theme.js file inside ```src/theme``` folder.
+8. To change your your app name, modify ```short_name``` and ```name``` properties in ```public/manifest.json```
 
 
 ## TIPS

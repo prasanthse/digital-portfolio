@@ -12,7 +12,7 @@ const SpeedScroll = () => {
                     right: 30,
                     zIndex: 999
                 }}
-                icon={<ArrowUpwardIcon />}
+                icon={<ArrowUpwardIcon sx={{color: 'white'}}/>}
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             />
         </>
