@@ -40,16 +40,37 @@ const FooterLayout = () => {
                     </Typography>
                 </Link>
 
-                <Typography
-                    fontWeight={900}
-                    fontSize={60}
-                    textAlign='center'
-                    color="white"
-                    textTransform='uppercase'
-                    ml={{xs: 0, md: -10}}
+                {/* Resume and Version*/}
+                <Stack
+                    direction='column'
+                    justifyContent='center'
+                    alignItems='center'
                 >
-                    RESUME
-                </Typography>
+                    {/* Resume */}
+                    <Typography
+                        fontWeight={900}
+                        fontSize={60}
+                        textAlign='center'
+                        color="white"
+                        textTransform='uppercase'
+                        ml={{xs: 0, md: -10}}
+                    >
+                        RESUME
+                    </Typography>
+
+                    {/* Version */}
+                    <Typography
+                        fontWeight={600}
+                        fontSize={12}
+                        textAlign='center'
+                        color="white"
+                        ml={{xs: 0, md: -10}}
+                        mt={-1.5}
+                        mb={{xs: 4, md: 0}}
+                    >
+                        {process.env.REACT_APP_APP_VERSION}
+                    </Typography>
+                </Stack>
 
                 {/* Developer */}
                 <Stack

@@ -4,7 +4,6 @@ const ButtonComponent = ({
     label,
     variant="contained",
     onClick,
-    textColor="white",
     sx,
     ...other
 }) => {
@@ -14,7 +13,6 @@ const ButtonComponent = ({
                 variant={variant}
                 onClick={onClick}
                 sx={{
-                    color: textColor,
                     ...sx
                 }}
                 {...other}
