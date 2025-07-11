@@ -53,18 +53,8 @@
         "description": "I hold a Bachelor of Science (Honors) degree in Software Engineering from the University of Kelaniya, graduating with First Class Honors. With over five years of hands-on industry experience, I bring a dynamic, results-driven mindset to every task I undertake, supported by a strong technical foundation and proven leadership skills. I thrive in environments that challenge me to grow both academically and professionally, and I am deeply committed to research, innovation, and knowledge sharing.",
         "info": [
             {
-                "label": "Gender",
-                "value": "Male",
-                "path": "images/icons/gender.png"
-            },
-            {
-                "label": "Date of Birth",
-                "value": "1996/03/15",
-                "path": "images/icons/birthday.png"
-            },
-            {
-                "label": "Address",
-                "value": "Negombo, Sri Lanka",
+                "label": "Country",
+                "value": "Sri Lanka",
                 "path": "images/icons/address.png"
             }
         ]
