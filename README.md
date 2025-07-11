@@ -31,9 +31,12 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
 7. Initialize a Git Repository with ```git init```.
 8. Install Project Dependencies (Only for the first time)
     * Install all required dependencies by running ```npm install``` in your code editor's terminal.
-9. Start the Development Server
+9. Create environment file
+    * Create a file named ```.env``` in your project root directory
+    * Paste the following line ```REACT_APP_APP_VERSION="v1.0.0"```
+10. Start the Development Server
     * Once the installation is complete, start the development server using ```npm run start```.
-10. You're All Set🎉!
+11. You're All Set🎉!
     * The project should now be run in your browser.
 
 
@@ -71,6 +74,7 @@ This project is a fully responsive digital CV built with ReactJS, designed to sh
     * ```git commit -m "Initial commit"```
     * ```git push -u origin main```
 6. Deploy to GitHub Pages
+    * Make sure you're deploying a new version (Optional) for better practice. Update your new version in your ```.env``` file
     * ```npm run deploy```
 7. Access Your Portfolio
     * After successful deployment, your site will be live at: ```https://<your-username>.github.io/<your-repo>```.
