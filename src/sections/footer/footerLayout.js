@@ -70,7 +70,7 @@ const FooterLayout = () => {
                     </Typography>
 
                     <Link
-                        to="mailto:prasanth@techserw.com"
+                        to="mailto:prasanth15sp@gmail.com"
                         style={{ 
                             textDecoration: 'none'
                         }}

@@ -15,7 +15,8 @@ const CarouselComponent = ({
   breakpointMdBreakpoint=3,
   breakpointLgBreakpoint=5,
   breakpointXlBreakpoint=6,
-  width="100%"
+  width="100%",
+  rtl=false
 }) => {
   const settings = {
     dots: dots,
@@ -31,6 +32,7 @@ const CarouselComponent = ({
     slidesToShow: slidesToShow,
     slidesToScroll: 1,
     rows: 1,
+    rtl: rtl,
     className: "slider variable-width",
     responsive: [
       {

@@ -31,6 +31,7 @@ const ReviewsList = () => {
                     breakpointMdBreakpoint={1}
                     breakpointLgBreakpoint={1}
                     breakpointXlBreakpoint={1}
+                    rtl
                 />
                 :
                 <CarouselComponent 
@@ -43,6 +44,7 @@ const ReviewsList = () => {
                     breakpointMdBreakpoint={1}
                     breakpointLgBreakpoint={1}
                     breakpointXlBreakpoint={1}
+                    rtl
                 />
             }
         </>

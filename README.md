@@ -90,7 +90,7 @@ This is developed as a Progressive Web App (PWA), a type of web application that
 ![Prasanth Logo](public/readme/author.png)<br />
 [Sivakumar Prasanth](www.linkedin.com/in/prasanthse1996)<br />
 Co-Founder & CEO<br /> 
-[Techserw Labs (PVT) Ltd](https://techserw.com)<br />
+[code3x](https://code3x.tech)<br />
 Senior Game Developer<br />
 B.Sc. (Hons) in Software Engineering (First Class)<br />
 University of Kelaniya

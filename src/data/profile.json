@@ -34,6 +34,11 @@
             "path": "images/connect me/github.png"
         },
         {
+            "label": "LeetCode",
+            "link": "https://leetcode.com/u/prasanth_se",
+            "path": "images/connect me/Leetcode.png"
+        },
+        {
             "label": "Upwork",
             "link": "https://www.upwork.com/freelancers/~01c13f861ee6a32fdf?mp_source=share",
             "path": "images/connect me/upwork.png"
@@ -97,7 +102,7 @@
             "role": "Chief Executive Officer | Senior Software Engineer - Game Development",
             "duration": "July 2022 - Present",
             "company": {
-                "name": "Techserw Labs (Pvt) Ltd",
+                "name": "code3x",
                 "images": [
                     "images/work/ceo-1.png",
                     "images/work/ceo-2.png",
@@ -107,9 +112,9 @@
                     "images/work/ceo-6.png",
                     "images/work/ceo-7.png"
                 ],
-                "link": "https://techserw.com"
+                "link": "https://code3x.tech"
             },
-            "description": "I lead a passionate team dedicated to delivering high-quality digital experiences with a strong focus on game development, web/mobile applications, and interactive solutions. While I oversee business strategy, client relations, and operational leadership, I also remain deeply involved in the technical side as a Senior Software Engineer – Game Development. I architect and develop end-to-end game solutions using Unity 3D and PixiJS, creating engaging, scalable, and cross-platform games. I integrate features such as REST APIs, in-game advertisements, in-app purchases, and Firebase-based services, and ensure successful deployment to the Play Store and App Store. I also drive the company’s innovation efforts, exploring AI applications in games and interactive technologies. Additionally, I design and build responsive web applications using ReactJS and cross-platform mobile apps with Flutter, ensuring seamless user experiences across devices.Under my leadership, Techserw has successfully delivered projects for both local and international clients, combining technical excellence with a deep understanding of user engagement, storytelling, and product-market fit. I am committed to mentoring developers, growing the studio’s capabilities, and building a global presence for Sri Lankan talent in the game development industry.",
+            "description": "I lead a passionate team dedicated to delivering high-quality digital experiences with a strong focus on game development, web/mobile applications, and interactive solutions. While I oversee business strategy, client relations, and operational leadership, I also remain deeply involved in the technical side as a Senior Software Engineer – Game Development. I architect and develop end-to-end game solutions using Unity 3D and PixiJS, creating engaging, scalable, and cross-platform games. I integrate features such as REST APIs, in-game advertisements, in-app purchases, and Firebase-based services, and ensure successful deployment to the Play Store and App Store. I also drive the company’s innovation efforts, exploring AI applications in games and interactive technologies. Additionally, I design and build responsive web applications using ReactJS and cross-platform mobile apps with Flutter, ensuring seamless user experiences across devices.Under my leadership, code3x has successfully delivered projects for both local and international clients, combining technical excellence with a deep understanding of user engagement, storytelling, and product-market fit. I am committed to mentoring developers, growing the studio’s capabilities, and building a global presence for Sri Lankan talent in the game development industry.",
             "teck_stacks": [
                 {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
                 {"label": "PixiJS", "path": "images/tech-stacks/pixijs.png"},
@@ -270,7 +275,7 @@
     "projects": [
         {
             "area": "Unity Games",
-            "list": [
+            "list": [                
                 {
                     "thumbnail": "images/projects/project-02/p1.png",
                     "title": "Dialog Super Cricket",
@@ -318,6 +323,51 @@
                     }
                 },
                 {
+                    "thumbnail": "images/projects/project-30/5.jpg",
+                    "title": "Learn With Cuddles",
+                    "tag_line": "Edutech Game for little learners",
+                    "featured": true,
+                    "description": "A cute and child-friendly penguin teaches numbers from 0 to 10. Extended activities will teach children to recognize numbers, the names of numbers, and the correct sequence of numbers. The levels are broken up into easy steps and are designed for kids to learn slowly and effectively. Each stage can be revisited if the parent or teacher feels that the child needs to reinforce the lesson. This game is designed to learn through fun and has built-in positive verbal cues to keep the child happy and interested!",
+                    "features": [
+                        "Fun and Engaging Gameplay",
+                        "Integrated Firebase Analytics",
+                        "Number Tracing",
+                        "Level based gameplay"
+                    ],
+                    "associated_with": "code3x",
+                    "released_date": "October 2025",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/deh7oPLP5Hk",
+                        "images": [
+                            "images/projects/project-30/1.jpg",
+                            "images/projects/project-30/2.jpg",
+                            "images/projects/project-30/3.jpg",
+                            "images/projects/project-30/4.jpg",
+                            "images/projects/project-30/5.jpg",
+                            "images/projects/project-30/6.jpg"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "https://cuddles.edliena.com",
+                        "playstore": "https://play.google.com/store/apps/details?id=com.techserw.countWithPingo",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "Unity 3D", "path": "images/tech-stacks/unity.png"},
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "C#", "path": "images/tech-stacks/c-sharp.png"}
+                    ],
+                    "client": {
+                        "name": "Edliena",
+                        "avatar": "images/projects/project-30/logo.png",
+                        "link": "https://cuddles.edliena.com",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
                     "thumbnail": "images/projects/project-03/p1.png",
                     "title": "TechieSays Junior",
                     "tag_line": "Edutech Game for Language Learning",
@@ -333,7 +383,7 @@
                         "Parental control",
                         "Mini Game Library"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "associated_with": "code3x",
                     "released_date": "January 2024",
                     "gallery": {
                         "youtube_link": "https://youtu.be/7IAN92BE_cU",
@@ -430,7 +480,7 @@
                         "In App Purchases",
                         "Game monetization"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "associated_with": "code3x",
                     "released_date": "April 2025",
                     "gallery": {
                         "youtube_link": "https://youtu.be/WLcbzwjock4",
@@ -480,7 +530,7 @@
                         "Immersive audio experience",
                         "Real-Time Leaderboard System"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "associated_with": "code3x",
                     "released_date": "May 2025",
                     "gallery": {
                         "youtube_link": "https://youtu.be/iedHqrfK1vA",
@@ -1215,7 +1265,7 @@
                         "Casual Fun",
                         "Responsive Design"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "associated_with": "code3x",
                     "released_date": "January 2024",
                     "gallery": {
                         "youtube_link": "https://youtube.com/shorts/c1WTXdPqLHo",
@@ -1242,7 +1292,7 @@
                         "name": "",
                         "avatar": "images/projects/project-28/kasikili.png",
                         "link": "",
-                        "review": "Working with Techserw, particularly Rama, Prasanth, and Pradeepa, has been an absolute pleasure. Their dedication to excellence shines through in every aspect of our collaboration. The team's communication, led by Prasanth, is unparalleled - clear, prompt, and always accommodating. Rama and Pradeepa were always patient and understanding, providing good alternatives to better my app. Their responsiveness is remarkable, ensuring any queries or concerns are addressed swiftly. Their overall approach to working together is nothing short of exceptional, delivering a stunning app that exceeds expectations. I have no hesitation in recommending their services to anyone seeking top-notch solutions. Keep up the fantastic work, Techserw!",
+                        "review": "Working with code3x, particularly Rama, Prasanth, and Pradeepa, has been an absolute pleasure. Their dedication to excellence shines through in every aspect of our collaboration. The team's communication, led by Prasanth, is unparalleled - clear, prompt, and always accommodating. Rama and Pradeepa were always patient and understanding, providing good alternatives to better my app. Their responsiveness is remarkable, ensuring any queries or concerns are addressed swiftly. Their overall approach to working together is nothing short of exceptional, delivering a stunning app that exceeds expectations. I have no hesitation in recommending their services to anyone seeking top-notch solutions. Keep up the fantastic work, code3x!",
                         "rating": 5
                     }
                 }
@@ -1386,6 +1436,55 @@
             "area": "Web Apps",
             "list": [
                 {
+                    "thumbnail": "images/projects/project-31/1.png",
+                    "title": "Edliena",
+                    "tag_line": "A website for Edliena team",
+                    "featured": true,
+                    "description": "A modern educational website. Featuring interactive gameplay, responsive design, and seamless browser integration of Learn with Cuddles, it delivers a safe, engaging, and child-friendly learning experience.",
+                    "features": [
+                        "Seamless browser integration of Learn with Cuddles game",
+                        "Fast-loading, optimized for performance",
+                        "SEO-friendly routing and structured metadata",
+                        "Cross-device compatibility",
+                        "Real-Time Match Making",
+                        "Smooth gameplay experience without downloads",
+                        "Accessibility-focused design for inclusive learning"
+                    ],
+                    "associated_with": "code3x",
+                    "released_date": "November 2025",
+                    "gallery": {
+                        "youtube_link": "https://youtu.be/t7e6IpWp198",
+                        "images": [
+                            "images/projects/project-31/1.png",
+                            "images/projects/project-31/2.png",
+                            "images/projects/project-31/3.png",
+                            "images/projects/project-31/4.png",
+                            "images/projects/project-31/5.png"
+                        ]
+                    },
+                    "links": {
+                        "webURL": "https://cuddles.edliena.com",
+                        "playstore": "",
+                        "appstore": "",
+                        "other": ""
+                    },
+                    "tech_stacks": [
+                        {"label": "ReactJS", "path": "images/tech-stacks/reactjs.png"},
+                        {"label": "Firebase", "path": "images/tech-stacks/Firebase.png"},
+                        {"label": "Git", "path": "images/tech-stacks/social.png"},
+                        {"label": "Javascript", "path": "images/tech-stacks/javascript.png"},
+                        {"label": "HTML", "path": "images/tech-stacks/html.png"},
+                        {"label": "CSS", "path": "images/tech-stacks/css.png"}
+                    ],
+                    "client": {
+                        "name": "Edliena",
+                        "avatar": "images/projects/project-30/logo.png",
+                        "link": "https://cuddles.edliena.com",
+                        "review": "",
+                        "rating": 0
+                    }
+                },
+                {
                     "thumbnail": "images/projects/project-05/p1.png",
                     "title": "Eelam Maangalyam",
                     "tag_line": "Tamil Matrimony Site",
@@ -1398,7 +1497,7 @@
                         "Integrated Firebase Analytics",
                         "Real-Time Match Making"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "associated_with": "code3x",
                     "released_date": "December 2024",
                     "gallery": {
                         "youtube_link": "https://youtu.be/lLMD45tShYs",
@@ -1444,7 +1543,7 @@
                         "Integrated Google Map with Directions API",
                         "Tour Fee Calculation"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "associated_with": "code3x",
                     "released_date": "July 2025",
                     "gallery": {
                         "youtube_link": "",
@@ -1494,7 +1593,7 @@
                         "Tour Bookings",
                         "Driver Tour Insights"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "associated_with": "code3x",
                     "released_date": "August 2023",
                     "gallery": {
                         "youtube_link": "https://youtu.be/I1xY4Pw5oqE",
@@ -1585,7 +1684,7 @@
                         "Order Processing & Management",
                         "QuickBooks Integration"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "associated_with": "code3x",
                     "released_date": "May 2025",
                     "gallery": {
                         "youtube_link": "",
@@ -1631,7 +1730,7 @@
                         "Drivers' Leaderboard",
                         "Driver Management"
                     ],
-                    "associated_with": "Techserw Labs (Pvt) Ltd",
+                    "associated_with": "code3x",
                     "released_date": "February 2024",
                     "gallery": {
                         "youtube_link": "",
